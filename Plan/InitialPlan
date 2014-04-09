@@ -1,0 +1,78 @@
+Goal: Produce a VC ranking system that will help Scott see where NAV falls relative to other VC firms.
+
+Sub Goal: Create two rankings- one historical and one predictive (forward looking)
+
+Approach:
+
+Feature Selection:
+1) Find metrics used to assess venture capital firms 
+ - Exits
+	 - Measurements
+	 	 - IRR
+	 	 - CoC
+	 - Factors
+		 - Ability to pick successful start-up companies
+		 - Ability to help portfolio companies succeed
+		 - Ability to convince other VC firms to co-invest
+		 - Forward-looking attitude toward markets (i.e. ability to predict (un)popular industries)
+		 - Team composition
+			- If investors are well-suited to the industries they're investing in
+			- Investors' track record
+2) Find data to scrape for getting these features [py scripts]
+ - CrunchBase
+ 	 - Everything but exit data and investor + company profiles
+ 	 - API + export
+ - AngelList
+ 	 - Investor + company profiles
+ 	 - API
+
+Understanding of features:
+1) Partitioning of venture capital firms into different types (early stage, late stage, etc.) as the prior is
+the conditional distribution of these features with the type of VC will vary greatly
+
+Types:
+ - Fund size
+ 	 - Measurements
+ 	 	 - Size of portfolio (# companies * size of companies)
+ 	 	 - # of venture capitalists
+ - Industries invested in
+
+2) Assess what type of VC NAV is (early stage VC firm investing nationally in cyber security, mobile, ecommerce, digital media, higher education and the business of healthcare)
+
+Read more: http://www.crunchbase.com/financial-organization/new-atlantic-ventures#ixzz2uU8tNb1d 
+
+Processing Features:
+
+1) Binarize or bucket continuous features
+2) Handle missing data
+3) Merge features if more intutive (nonlinear interactions of features)
+
+
+Graphical Learning Approach:
+1) Use PageRank Graphical Schema to construct VCs as nodes
+2) Brainstorm ways to construct edges between different nodes
+3) Communities within overall graph of VCs can be certain types of VCs (early stage, late stage, etc.)
+4) Get stationary distribution rank values
+5) Assess whether they make sense
+6) Construct intuitive graphical model online, similar to Sid's bs correlation stock shit
+
+Statistical Tests:
+1) TBA
+
+Discriminative Learning:
+Now that we have constructed this as a supervised, learning problem, open to a plethora of 
+supervised machine learning models
+
+Of interest:
+1) Interpretable Models (Supersparse Linear Integer Models)
+2) Everything in 4740.
+
+Deliverables:
+ - Ranked list of VCs
+ - VC Graph
+ 	 - Vertices: VC firms
+ 	 - Edges:
+ 	 	 - 
+ 	 - Benefits over list
+ 	 	 - Total ordering of VCs is hard; pairwise comparisons are easy
+ 	 	 - Can generate a list with toposort (but how to do deal with cycles?!)

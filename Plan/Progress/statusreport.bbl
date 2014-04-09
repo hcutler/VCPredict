@@ -1,0 +1,48 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Beeferman \& Berger(2000)Beeferman and Berger]{Beeferman:2000}
+Beeferman, Doug and Berger, Adam.
+\newblock Agglomerative clustering of a search engine query log.
+\newblock In \emph{KDD}, pp.\  407--416, 2000.
+
+\bibitem[Chen et~al.(2012)Chen, Moore, Turnbull, and Joachims]{Chen/etal/12a}
+Chen, Shuo, Moore, J., Turnbull, D., and Joachims, T.
+\newblock Playlist prediction via metric embedding.
+\newblock In \emph{KDD}, pp.\  714--722, 2012.
+
+\bibitem[Chen et~al.(2013)Chen, Xu, and Joachims]{Chen/etal/13a}
+Chen, Shuo, Xu, Jiexun, and Joachims, T.
+\newblock Multi-space probabilistic sequence modeling.
+\newblock In \emph{KDD}, 2013.
+
+\bibitem[Moore et~al.(2012)Moore, Chen, Joachims, and Turnbull]{Moore/etal/12a}
+Moore, J., Chen, Shuo, Joachims, T., and Turnbull, D.
+\newblock Learning to embed songs and tags for playlist prediction.
+\newblock In \emph{ISMIR}, pp.\  349--354, 2012.
+
+\bibitem[Raman et~al.(2011)Raman, Joachims, and Shivaswamy]{Raman/etal/11a}
+Raman, K., Joachims, T., and Shivaswamy, P.
+\newblock Structured learning of two-level dynamic rankings.
+\newblock In \emph{Conference on Information and Knowledge Management (CIKM)},
+  2011.
+
+\bibitem[Raman et~al.(2013{\natexlab{a}})Raman, Joachims, Shivaswamy, and
+  Schnabel]{Raman/etal/13a}
+Raman, K., Joachims, T., Shivaswamy, P., and Schnabel, T.
+\newblock Stable coactive learning via perturbation.
+\newblock In \emph{International Conference on Machine Learning (ICML)},
+  2013{\natexlab{a}}.
+
+\bibitem[Raman et~al.(2013{\natexlab{b}})Raman, Bennett, and
+  Collins-Thompson]{raman_etal_13b}
+Raman, Karthik, Bennett, Paul~N., and Collins-Thompson, Kevyn.
+\newblock Toward whole-session relevance: exploring intrinsic diversity in web
+  search.
+\newblock In \emph{SIGIR}, pp.\  463--472, 2013{\natexlab{b}}.
+
+\end{thebibliography}

@@ -1,0 +1,19 @@
+# Cookies for domains related to cbinsights.com.
+# This content may be pasted into a cookies.txt file and used by wget
+# Example:  wget -x --load-cookies cookies.txt https://www.cbinsights.com/ip-d408f8836601ea1440f17989e8e87483#
+#
+.cbinsights.com	TRUE	/	FALSE	1577145000.512051	__cfduid	df8e04c2009476f56c45b8ddbfea719771394693848420
+www.cbinsights.com	FALSE	/	FALSE	0	_okbk	cd4%3Dtrue%2Cvi5%3D0%2Cvi4%3D1394693858273%2Cvi3%3Dactive%2Cvi2%3Dfalse%2Cvi1%3Dfalse%2Ccd8%3Dchat%2Ccd6%3D0%2Ccd5%3Daway%2Ccd3%3Dfalse%2Ccd2%3D0%2Ccd1%3D0%2C
+www.cbinsights.com	FALSE	/	FALSE	0	_ok	3000-263-10-1705
+www.cbinsights.com	FALSE	/	FALSE	0	_okac	b659f720b61f940fbe5c0cb011f70e1e
+www.cbinsights.com	FALSE	/	FALSE	0	_okla	1
+.cbinsights.com	TRUE	/	FALSE	0	PHPSESSID	5i1hoo1s0dfri69fo6g5s8h9n2
+.cbinsights.com	TRUE	/	FALSE	1457766364	__utma	111676374.1489090508.1394693850.1394693850.1394693850.1
+.cbinsights.com	TRUE	/	FALSE	1394696164	__utmb	111676374.49.9.1394693864931
+.cbinsights.com	TRUE	/	FALSE	0	__utmc	111676374
+.cbinsights.com	TRUE	/	FALSE	1410462364	__utmz	111676374.1394693850.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+.cbinsights.com	TRUE	/	FALSE	1457766364	__utmv	111676374.|1=User%20Type=Free=1^5=User%20ID=36130=1
+www.cbinsights.com	FALSE	/	FALSE	0	_oklv	1394694364164%2CuhanSPUtW8VNS3XU581VQ21ICTHgUVIC
+www.cbinsights.com	FALSE	/	FALSE	1457766364	olfsk	olfsk45749478857032955
+www.cbinsights.com	FALSE	/	FALSE	0	wcsid	uhanSPUtW8VNS3XU581VQ21ICTHgUVIC
+www.cbinsights.com	FALSE	/	FALSE	1457766364	hblid	IgPpVfn37sAZMS6O581VQ21ICTH3IEIV

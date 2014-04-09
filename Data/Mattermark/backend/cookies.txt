@@ -1,0 +1,7 @@
+# Cookies for domains related to mattermark.com.
+# This content may be pasted into a cookies.txt file and used by wget
+# Example:  wget -x --load-cookies cookies.txt https://mattermark.com/app/data?investors=NewAtlantic
+#
+mattermark.com	FALSE	/	FALSE	0	session	9nmfeeebthlli2bp0vf0vmpol0
+.mattermark.com	TRUE	/	FALSE	1426255588.486089	ln	4257af58367fea9285571072bf0b4c4a05505f5d%7E64pG4i%2FVK9vVjOvkxSOy1pR1%2FfWkFOKoRxQX%2F59WvDQ%3D
+.mattermark.com	TRUE	/	FALSE	1457791455	_ga	GA1.2.1467362965.1394698663

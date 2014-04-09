@@ -1,0 +1,1779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/tr/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+	
+			<title>Mattermark - Quantifying Private Company Growth</title>
+		
+	<meta name="viewport" content="width=device-width, initial-scale=0.8">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+			<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.css">
+
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+		
+		 <script type="text/javascript" src="/app/assets_merge/js/5289766d9df67b20f7996ee04c39c25e"></script>		
+		<script type="text/javascript" charset="utf8" src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="//ajax.cdnjs.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+		<script type="text/javascript" src="//ajax.cdnjs.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>				
+	
+	<link type="text/css" href="/app/assets/css/bootstrap-notify.css" rel="stylesheet" /><link type="text/css" href="/app/assets/css/bootstrap.min.css" rel="stylesheet" /><link type="text/css" href="/app/assets/css/bootstrap-responsive.min.css" rel="stylesheet" />
+	<!--[if gt IE 8]> --> <link type="text/css" href="/app/assets/css/style.min.css" rel="stylesheet" /> <!-- <![endif]-->
+	<!--[if IE 8]> <link type="text/css" href="/app/assets/css/ie8.style.css" rel="stylesheet" /> <![endif]-->
+	
+	<link type="text/css" href="/app/assets/css/style-responsive.min.css" rel="stylesheet" /><link type="text/css" href="/app/assets/css/retina.css" rel="stylesheet" /><link type="text/css" href="/app/assets/css/glyphicons.css" rel="stylesheet" /><link type="text/css" href="/app/assets/css/halflings.css" rel="stylesheet" /><link type="text/css" href="/app/assets/css/mm-simpliq.css" rel="stylesheet" />	
+	
+<!-- Google Analytics tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41296794-1', 'mattermark.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script> <script type="text/javascript" src="/app/assets_merge/js/3bf7ee7f08759f856bb8adfc935abb75"></script></head>
+
+<body>
+<input type="hidden" id="mm_csrf" name="csrf" value="529affc91b5801494536924311b64ca70a81d324" />
+     
+
+<div id="popout-list-menu-wrapper" class="hidden-tablet hidden-phone">
+	<div id="popout-list-menu-top">
+	<a id="popout-list-menu-manage" class="btn btn-primary hidden-tablet" href="/app/account/lists"> Manage Lists </a>			
+		<ul class="hidden-tablet" id="popout-list-menu">
+					</ul>
+	</div>
+</div>
+
+	<div class="navbar fixedtop">
+
+<!--             <div class="offset3 span8 ">
+            <p id="expiration-notification"><strong>Welcome back!</strong> Your Mattermark Pro trial account will expire at 11:59pm PDT on April 11, 2014.  
+            <a id="expiration-upsell-btn" class="btn btn-mini" href="/app/subscribe">Upgrade Now</a> </p>
+        </div>
+     -->
+		
+	<! -- / PHONE VERSION OF NAV -->
+		
+		<div class="navbar-inner display-phone hidden-tablet hidden-desktop" style="padding-left:0px; !important; padding-right:0px !important;">
+			<div class="container-fluid">
+				
+				<div class="row-fluid">
+				
+<!-- 					<a class="brand" href="/app/data" style="float:left;">
+						<span><img src="/app/assets/img/mattermark-square-blank.png" style="margin-top:-5px; width:25px;"></span>
+						<span> mattermark</span>
+					</a> -->
+					
+					<span style="float:right;">
+					
+						
+						<!-- <a href class="glyphicons cogwheel">User Settings</span> -->
+							<a class="account dropdown-toggle" data-toggle="dropdown" href="#" style="position:absolute; top:10px; right:10px;">
+								<div class="user">
+									<span style="color:white; opacity:1;">
+										<i class="icon-user"> </i>	
+									</span>
+
+								</div>
+							</a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							  	<li><a href="/app/data/milestones" tabindex="-1"><i class="icon-envelope-alt"></i> Email Alerts</a></li>
+							    							    <li><a href="/app/account/password" tabindex="-1"><i class="icon-cog"></i> Manage Settings</a></li>
+							  	<li class="divider"></li>
+							    <li><a href="/app/account/logout" tabindex="-1"><i class="icon-off"></i> Logout</a></li>
+							</ul>
+						<!-- end: User Dropdown -->
+				
+					</span>
+				</div>		
+
+				<!-- start: Header Menu -->
+				<div class="header-nav header-nav-mobile" style="background-color:#ffcc22 !important;">
+
+					<div class="input-prepend" style="margin-top: 20px;">
+		  				<span class="add-on"><i class="icon-search"></i></span>
+		  				<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+		  				<input class="search hidden-sm nav-company-search ui-autocomplete-input" id="nav-company-search-desktop" type="text" placeholder="Search Mattermark by Company" autocomplete="off" style="min-width:240px !important;" />
+		  			</div>
+
+				</div>			
+			</div>
+		</div>
+		
+		
+	<! -- TABLET AND DESKTOP VERSION OF NAV -->	
+		<div class="navbar-inner hidden-phone display-tablet display-desktop">
+			<div class="container-fluid">
+
+				
+				<div class="row-fluid">
+					<a class="brand span2" href="/app/data">
+
+						<div><img src="/app/assets/img/mattermark-square-blank.png" style="width:25px; float:left; margin-left:10px;">
+							<span style="padding-left: 10px; padding-top:3px;"> mattermark</span>
+						</div>
+					</a>
+					
+				<!-- start: Header Menu -->
+				<div class="header-nav">
+
+					<ul class="nav pull-right">
+						<!-- search bar -->
+						<li class="dropdown">
+							<div class="input-prepend" style="margin-top: 20px;">
+				  				<span class="add-on"><i class="icon-search"></i></span>
+				  				<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+				  				<input class="search hidden-sm nav-company-search ui-autocomplete-input" id="nav-company-search-desktop2" type="text" placeholder="search companies and investors" autocomplete="off" />
+				  			</div>
+			  			</li>
+
+						<!-- start: User Dropdown -->
+
+						<li class="dropdown">
+
+						<!-- <a href class="glyphicons cogwheel">User Settings</span> -->
+							<a class="btn account dropdown-toggle" data-toggle="dropdown" href="#">
+								<div class="user">
+									<span class="hello">
+										<i class="icon-user"> </i>	
+									</span>
+
+								</div>
+							</a>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							  	<li><a href="/app/data/milestones" tabindex="-1"><i class="icon-envelope-alt"></i> Email Alerts</a></li>
+							    							    <li><a href="/app/account/password" tabindex="-1"><i class="icon-cog"></i> Manage Settings</a></li>
+							    							    <li class="divider"></li>
+							    <li><a href="/app/account/logout" tabindex="-1"><i class="icon-off"></i> Logout</a></li>
+							</ul>
+						</li>
+						<!-- end: User Dropdown -->
+					</ul>
+				</div>			
+					
+				</div>		
+
+			</div>
+		</div>
+	</div>
+
+
+<script>
+$('.nav-company-search').each(function(i, item) {
+	$("#" + item.getAttribute('id')).autocomplete({
+		focus: function( event, ui ) {
+			$("#" + item.getAttribute('id')).val( ui.item.company_name );
+			return false;
+		},
+				source: function(request, response) {
+			$.ajax({
+				url: "/app/company/ssearch",
+				data: {
+					term: request.term
+				},
+				success: function(data) {
+					if (data.length == 0) {
+						data.push({
+							type: 'none',
+							label: 'No results found'
+						});
+		 			}
+					response(data);
+				}});
+			},
+				select: function(event, ui) {
+			this.value = ui.item.value;
+			switch (ui.item.type) {
+				case 'company':
+									if (ui.item.company_mattermark_slug != undefined) {
+						window.location = '/app/data/' + encodeURIComponent(ui.item.company_id) + '/' + encodeURIComponent(ui.item.company_mattermark_slug);
+					}
+					else {
+						window.location = '/app/data/' + encodeURIComponent(ui.item.company_id);
+					}
+									break;
+				case 'investor':
+					window.location = '/app/data?investors=' + encodeURIComponent(ui.item.investor_mm_slug);
+					break;
+			}
+		}
+	}).data('ui-autocomplete')._renderItem = function(ul, item) {
+		switch (item.type) {
+			case 'company':
+				$result = $('<li class="company" style="margin-bottom: 5px;"><a href="#"><span class="company-name"></span><br /><span class="domain" style="font-size: 80%;"></span></a></li>');
+				$('.company-name', $result).text(item.company_name);
+				$('.domain', $result).text(item.company_domain);
+				break;
+			case 'investor':
+				$result = $('<li class="investor" style="margin-bottom: 5px;"><a href="#"><span class="investor-name"></span><br /><span class="domain" style="font-size: 80%;">Investor Portfolio</span></a></li>');
+				$('.investor-name', $result).text(item.investor_name);
+				$('li', $result).attr('rel', item.investor_id);
+				break;
+			case 'none':
+				$result = $('<li class="company" style="margin-bottom: 5px; color:#888">' + item.label + '</li>');
+				break;
+		}
+		return $result.appendTo(ul);
+	};
+});
+</script>
+	
+
+	
+	<div class="container-fluid-full">
+	
+		
+		<div class="row-fluid">
+			<!-- start: Main Menu -->
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav collapse navbar-collapse bs-navbar-collapse">
+					<ul class="nav nav-tabs nav-stacked main-menu">					
+							
+						<li><a href="/app/data"><i class="icon-circle-blank "></i><span class="hidden-tablet"> All Companies</span></a></li>	
+						<li><a href="/app/Start"><i class="icon-asterisk "></i><span class="hidden-tablet"> Getting Started</span></a></li>
+						<li><a href="/app/data/portfolios/vc"><i class="icon-folder-close "></i><span class="hidden-tablet"> VC Portfolios</span></a></li>
+						<li><a href="/app/data/portfolios/angel"><i class=" icon-star-empty"></i><span class="hidden-tablet"> Angel Portfolios</span></a></li>
+						<li><a href="/app/data/portfolios/accelerator"><i class="icon-beaker "></i><span class="hidden-tablet"> Accelerators</span></a></li>
+						<li><a href="/app/rounds"><i class="icon-usd"></i><span class="hidden-tablet"> Funding Rounds</span></a></li>
+							<li>
+								<a href="/app/story" class="hidden-tablet"><i class="icon-rss orange"></i><span class="hidden-tablet"> News Mentions</span></a>
+								<a href="/app/story" class="hidden-desktop"><i class="icon-rss orange"></i><span class="hidden-tablet"> News Mentions</span></a>
+								<!-- <ul class="hidden-tablet">
+									<li class="Active news-action-nav"><a href="/app/story">Everything</a></li>
+									<li><a class="news-action-nav" href="#">- Unread</a></li> -->
+									<!-- <li><a class="news-action-nav" href="#">- Shared by Friends</a></li> -->
+									<!-- <li><a class="news-action-nav" href="#">- Favorites</a></li>	  		  -->
+									<!-- <li><a class="news-action-nav" href="#">- Read</a></li> -->
+									<!-- <li><a class="news-types-nav" href="#">+ Large Tech Companies</a></li>
+									<li><a class="news-types-nav" href="#">+ Startups</a></li>
+									<li><a class="news-types-nav" href="#">+ Funding Stories</a></li>
+									<li><a class="news-types-nav" href="#">+ Product Launches</a></li> -->
+								<!-- </ul> -->
+							</li>
+						<li><a href="/app/reports"><i class="icon-bookmark blue"></i><span class="hidden-tablet"> Saved Searches</span></a></li>					
+						<li><a href="/app/data?interested=1"><i class="icon-signal blue"></i><span class="hidden-tablet"> Watch List</span></a></li>
+						<a class="label" href="/app/account/lists" style="margin-top: 10px;">0</a>						<li id="custom-list-menu-handle">
+							<a   class="" href="#"><i class="icon-tasks blue"></i><span class="hidden-tablet"> Custom Lists</span></a>
+						</li>
+
+					</ul>		
+				</div>
+			</div>
+
+
+<!--[if lt IE 10 ]> <span id="ie-below10-sentinel"></span> <![endif]-->
+
+<script>
+var isChartLoaded = false;
+var isTableLoaded = false;
+var portfolioData = null;
+
+google.load("visualization", "1", {packages:["corechart"], "callback":function() {isChartLoaded = true; checkForChart();}});
+google.load('visualization', '1', {packages:['table'], "callback":function() {isTableLoaded = true; checkForChart();}});
+
+var sharingKey = "";
+var sharerEmail = "";
+var queryTitle = "All Companies";
+var queryId = 'null';
+
+var defaultColumns = ["company_name","domain","mattermark_score","momentum_score","is_raising","raising_amount","pre_money_valuation","raised_amount","employees","employees_month_ago","employees_added_in_month","employees_mom","cached_uniques","cached_uniques_week_ago","uniques_wow","cached_uniques_month_ago","uniques_mom","cached_mobile_downloads","cached_mobile_downloads_week_ago","mobile_downloads_wow","cached_mobile_downloads_month_ago","mobile_downloads_mom","cached_mobile_mattermark","est_founding_date","stage","investors","total_funding","last_funding_date","last_funding_amount","location","city","region","state","country","business_models","industries","keywords","interested","alert_hash","user_tags","has_mobile"];
+
+var queryTree = {"boolean":"AND","members":[{"field":"stage","operator":"!=","value":"Exited"},{"field":"interested","operator":"!=","value":"0"}]};
+
+var customList = [];
+
+var company_id = null;
+
+
+var is_paid_plan = 0;
+var is_subscriber = 0;
+
+</script>	
+
+<script type="text/template" id="user-list-member">
+<a role="menuitem" tabindex="-1" href="#"><%- type_code %></a>
+</script>
+		
+<script type="text/template" id="custom-list-membership-template">
+<p class="label label-info">
+	<a style="color: white;" class="custom-list-link" href=""><%- type_code %></a>
+	<a href="#" class="destroy" data-tag=""> x</a>
+</p>
+</script>
+<script src="/app/assets/js/data/tagging.js" type="text/javascript"></script>
+			
+		<!-- start: Content -->
+		<div id="content" class="span10">
+
+			<div class="row-fluid" style="padding-top: 20px;">	
+				
+
+				<!-- ALERT DIV -->
+				<div class="alert alert-warning hide">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<h4 class="alert-heading" style="text-align: center;">Loading</h4>
+				</div>
+
+				<div id="custom-list-banner-area" class="hidden-phone">
+					<div id="query-saved-message" class="alert alert-success" style="display: none;">
+						<span class="close" data-dismiss="alert">&times;</span>
+						Your search has been saved. <a href="/app/reports">Click Here</a> to view your Saved Searches.
+					</div>
+					<div class="tabbable">
+						<div id="portfolio-saved-message" class="alert alert-success" style="display: none;">
+							<span class="close" data-dismiss="alert">&times;</span>
+							You are now following this portfolio. <a href="/app/reports">Click Here</a> to see all Saved Searches.
+						</div> 
+
+					<div id="custom-list-banner"></div>
+
+					</div>
+				</div>
+
+
+				<!-- INVESTOR PORTFOLIO DIV -->	
+				<div id="investor-portfolio" class="hide">
+					<div class="span12"> 
+						<div class="overflow-scroll">
+							<div class="row-fluid" style="padding-top:40px;">
+								<div class="span12" style="z-index:9; background-color: #F5F5F5; padding: 40px 0px 0px 0px;">
+									<h2 id="investor-id">
+									<!-- <img id="investor-logo" src="" style="height: 30px; width: 30px; padding-bottom: 10px; padding-right: 5px; display: inline-block;"/>   -->
+									Investment Portfolio </h2>
+									<button id="follow-portfolio" class="btn btn-success">Follow Portfolio</button>
+								</div>
+							</div>
+							<div class="row-fluid" id="vc-container">
+								<div class="span2">
+									<h4 id="industry_breakdown">Top Industries</h4>
+									<ul id="top-industries"></ul>
+<!-- 									<p class="score-md" id="portfolio_investment_count"><strong>New</strong></p> -->
+<!-- 									<p class="vcheader-labels">Investment Count</p> -->
+<!-- 									<p class="score-lg" id="mean_mm_score"><strong>New</strong></p>
+									<p class="vcheader-labels">Mean Growth Score</p> -->
+								</div>
+								<div id="investment-score" class="span2 text-center"></div>
+								<div id="business-model-breakdown" class="span2 text-center"></div>
+								<div id="stage-dist" class="span2 text-center"></div>
+								<div id="recent-investments" class="span2">
+									<h4>Recent Investments</h4>
+									<ul id="recent-invest" class="unstyled"> 
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="row-fluid">
+				<!-- Table div -->
+			<img id="table-loading" class="hidden" src="/app/assets/img/throbber.gif" />
+			<div id ="all" style="display: none;" class="row-fluid" >	
+
+				<div class="box span12" id="mattermark_wrapper">
+					
+					<div class="display-phone" style="height:20px"></div><!-- / to make pagination show up on mobile -->
+					
+					<div class="box-header boxheadertopright hidden-phone" data-original-title >
+						<div class="box-icon">
+			  				<!-- <a href="#showFilters" id="btnShowFilters" title="Show more filters" ><i class="icon-filter"></i></a> -->
+							<a href="#" id="btnExport" data-rel="tooltip"  title="Export a CSV with the contents of this search"><i class="icon-download"></i></a>
+							<a href="#" id="btnSaveReport" data-rel="tooltip"  class="hide" title="Save this search and get alerts when new companies are added"><i class="icon-save"></i></a>
+							<a href="#" id="btnShare" data-rel="tooltip"  title="Share a link to this search with another Mattermark user"><i class="icon-share"></i></a>
+			  				<a href="#submitCompany" data-rel="tooltip" title="Add a company to Mattermark" data-keyboard="true" data-toggle="modal" ><i class="icon-plus"></i></a>
+						</div>
+					</div>
+					<div class="box-header newsToggleButton hidden-phone" data-original-title >
+						<div class="pull-right" id="btnNews">
+			  				<div><a class="btn btn-warning orange" href="#" id="news-toggle-icon" data-rel="tooltip" title="See News for these companies"><i class="icon-rss orange"></i> News </a></div>
+			  				<div><a class="btn btn-info blue" href="#" id="search-toggle-icon" data-rel="tooltip" title="See original Search results"><i class="icon-search black"></i> Companies </a></div>
+						</div>
+					</div><! -- /box-header -->
+
+					<div id="news-wrapper-header" class="row-fluid">
+						<div id="news-view-header" class="col-sm-12 span12 pull-left" style="margin-left:15px;">
+							<h1>News Stories</h1>
+						</div>
+						<div class="col-sm-12 span12 pull-left" id="" style="margin-left:15px; margin-bottom: 15px;">
+							<div class="col-sm-10 span10 pull-left" style="margin-left:15px;">
+								<ul id="news-wrapper">
+									<!-- Stories -->
+								</ul>
+								<div id="pagination-tabs" class="" style="margin-right: 5px; margin-left:-15px;">
+									<a id="next-page-query-stories" rel="0" style="max-width: 100px;" class="btn btn-large btn-info">Load More</a>
+					  			</div>
+					  		</div>
+						</div>
+					</div>
+
+					<div id="table-wrapper" class="box-content  overflow-scroll" >
+					
+						<table class="table table-striped table-condensed display company-list" id="mattermark">
+							<thead>
+								<tr id="table-filter-row"> <!-- filter row --> </tr>
+								<tr id="table-display-header"> <!-- header row --> </tr>
+							</thead>
+						 </table>  
+					</div>
+				</div><!--/span-->
+			</div><!--/row-->
+ 
+ 
+					
+			</div>
+			<!-- end: Content -->
+				
+		</div><!--/fluid-row-->
+				
+		<!-- MODAL CONFIGURATION HERE -->
+		<div class="modal hide fade" id="myModal">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h3>Settings</h3>
+			</div>
+			<div class="modal-body">
+				<p>Here settings can be configured...</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#" class="btn" data-dismiss="modal">Close</a>
+				<a href="#" class="btn btn-primary">Save changes</a>
+			</div>
+		</div>
+		
+		<div class="clearfix"></div>
+				
+	</div><!--/.fluid-container-->
+
+<!-- Location Modal -->
+<div id="locationModal" class="modal hide fade" tabindex="-1">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3 id="myModalLabel">Filter by Location</h3>
+	</div>
+	<div class="modal-body" style="height: 270px">
+	<fieldset style="margin-bottom:20px;">
+	<p style="font-size:24px; margin-right:20px;">Enter a city, region or country</p>
+	<p>For example: Bay Area, India, Texas, Portland</p>
+	
+	<div id="locationKillArea" style="margin-bottom: 10px"></div>
+	
+	<div class="ui-widget">
+  		<input type="text" id="locationCustomFilter" style="width:400px;" />
+	</div>
+	</fieldset>		
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" style="float: right;" data-dismiss="modal" id="apply-location-filter">Apply Filter</button>
+	</div>
+</div>
+
+<script>
+function doLocationFilter(locations) {
+	var cityFilters = new Array();
+	var regionFilters = new Array();
+	var stateFilters = new Array();
+	var countryFilters = new Array();
+	
+	$.each(locations, function(index, filter) {
+		switch (filter.field) {
+		case 'region':
+			regionFilters.push(filter);
+			break;
+		case 'city':
+			cityFilters.push(filter);
+			break;
+		case 'state':
+			stateFilters.push(filter);
+			break;
+		case 'country':
+			countryFilters.push(filter);
+			break;
+		}
+	});
+
+	updateFilter(stateFilters.length > 1 ? [{boolean: 'OR', members: stateFilters}] : stateFilters);
+	updateFilter(countryFilters.length > 1 ? [{boolean: 'OR', members: countryFilters}] : countryFilters);
+	updateFilter(cityFilters.length > 1 ? [{boolean: 'OR', members: cityFilters}] : cityFilters);
+	updateFilter(regionFilters.length > 1 ? [{boolean: 'OR', members: regionFilters}] : regionFilters);
+}
+
+var locationList = new Array();
+var locationAutocompleteList = new Array();
+
+$.ajax({
+	url: '/app/data/locations',
+	success: function(data) {
+		locationList = data;
+		
+		$.each(data, function(index, location) {
+			
+			locationAutocompleteList.push({
+				value: location.display_name,
+				label: location.display_name,
+				type: location.type,
+				abbreviation: location.abbreviation
+			});
+		});
+		
+		$('#locationCustomFilter').autocomplete({
+			focus: function( event, ui ) {
+				$( "#locationCustomFilter" ).val(ui.item.label);
+				
+				return false;
+			},
+			source: locationAutocompleteList,
+			select: function(event, ui) {
+				$killElement = $('<div class="label"></div>').text(ui.item.label).attr('data-value', ui.item.label).attr('data-type', ui.item.type).append(' <a class="lockill" href="">&times;</a>');
+				
+				if (ui.item.abbreviation != undefined) {
+					$killElement.attr('data-value', ui.item.abbreviation)
+				}
+				
+				$killElement.appendTo('#locationKillArea');
+				$('#locationCustomFilter').val('');
+				
+				var filteredLocations = new Array();
+				
+				$('#locationKillArea div').each(function() {
+					filteredLocations.push({field: $(this).attr('data-type'), operator: '=', value: $(this).attr('data-value')});
+				});
+				
+				doLocationFilter(filteredLocations);
+				
+				return false;
+			}
+		}).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+			var type = '';
+			switch (item.type) {
+				case 'region':
+					type = 'Metropolitan Region';
+					break;
+				case 'city':
+					type = 'City';
+					break;
+				case 'state':
+					type = 'State';
+					break;
+				case 'country':
+					type = 'Country';
+					break;
+			}
+			
+			return $( "<li>" )
+				.append( "<a>" + item.label + "<br />" + type + "</a>" )
+				.appendTo( ul );
+		};
+		
+		$('.ui-autocomplete').css({'z-index': 9999});
+	}
+});
+
+$('body').on('click', '#btnLocation', function() {
+	if ( isAdvancedQueryRequiredFor('location') || isAdvancedQueryRequiredFor('city') || isAdvancedQueryRequiredFor('region') || isAdvancedQueryRequiredFor('state') || isAdvancedQueryRequiredFor('country') ) {
+		$('#btnMoreFilter').trigger('click');
+	}
+	else {
+		$('#locationCustomFilter').val('');
+		$('#locationKillArea').empty();
+
+		var locationFilters = new Array();
+		
+		$.each(filtersFor('region', '='), function(index, locationFilter) {
+			locationFilters.push({label: locationFilter, type: 'region'});
+		});
+
+		$.each(filtersFor('city', '='), function(index, locationFilter) {
+			locationFilters.push({label: locationFilter, type: 'city'});
+		});
+		
+		$.each(filtersFor('state', '='), function(index, locationFilter) {
+			fullLocation = _.find(locationList, function(location) { return location.type == 'state' && location.abbreviation == locationFilter; }); 
+			locationFilters.push({label: fullLocation.display_name, type: 'state', abbreviation: locationFilter});
+		});
+		
+		$.each(filtersFor('country', '='), function(index, locationFilter) {
+			fullLocation = _.find(locationList, function(location) { return location.type == 'country' && location.abbreviation == locationFilter; }); 
+			locationFilters.push({label: fullLocation.display_name, type: 'country', abbreviation: locationFilter});
+		});
+		
+		$.each(locationFilters, function(index, locationFilter) {
+			$killElement = $('<div class="label"></div>').text(locationFilter.label).attr('data-type', locationFilter.type).attr('data-value', locationFilter.label).append(' <a class="lockill" href="">&times;</a>');
+			
+			if (locationFilter.abbreviation != undefined) {
+				$killElement.attr('data-value', locationFilter.abbreviation);
+			}
+			
+			$killElement.appendTo('#locationKillArea');
+		});
+		
+		$('#locationModal').modal({keyboard: true}); 
+		$('#locationModal').modal('show');
+	}
+});
+
+$('#locationModal').on('click', 'a.lockill', function(event) {
+	event.preventDefault();
+	
+	$(this).parent().remove();
+	
+	// TODO consider moving next several lines into doLocationFilter, since it is duplicated
+	var filteredLocations = new Array();
+	
+	$('#locationKillArea div').each(function() {
+		filteredLocations.push({field: $(this).attr('data-type'), operator: '=', value: $(this).attr('data-value')});
+	});
+	
+	if (filteredLocations.length) {
+		doLocationFilter(filteredLocations);
+	}
+	else {
+		updateFilter([{field: 'city', operator: '=', value: ''}])
+		updateFilter([{field: 'region', operator: '=', value: ''}])
+		updateFilter([{field: 'state', operator: '=', value: ''}])
+		updateFilter([{field: 'country', operator: '=', value: ''}])
+	}
+});
+</script>
+<div id="vcModal" class="modal hide fade" tabindex="-1">
+
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3 id="myModalLabel">Filter by Investor</h3>
+	</div>
+	<div class="modal-body" style="height: 270px">
+	<fieldset style="margin-bottom:20px;">
+	<p>Enter two or more investor names to see co-investments</p>
+	<p>For example: Y Combinator, Naval Ravikant, Andreessen Horowitz</p>
+	
+	<div id="vcKillArea" style="margin-bottom: 10px"></div>
+	
+	<div class="ui-widget">
+  		<input type="text" id="vcCustomFilter" style="width:400px;" />
+	</div>
+	</fieldset>		
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" style="float: right;" data-dismiss="modal" id="apply-vc-filter">Apply Filter</button>
+	</div>
+</div>
+
+<script>
+function doInvestorFilter(investors) {
+	var filterMembers = new Array();
+	
+	$.each(investors, function(index, value) {
+		filterMembers.push({field: 'investors', operator: '=', value: value});
+	});
+	
+	if (filterMembers.length) {
+		updateFilter(filterMembers);
+	}
+}
+
+var investorsList = new Array();
+var investorsAutocompleteList = new Array();
+
+$.ajax({
+	url: '/app/data/investors',
+	success: function(data) {
+		investorsList = data;
+		
+		$.each(data, function(index, investor) {
+			var type = '';
+			switch (investor.type) {
+				case 'vc':
+					type = 'Venture Capital';
+					break;
+				case 'angel':
+					type = 'Angel';
+					break;
+				case 'accelerator':
+					type = 'Accelerator';
+					break;
+				case 'pe':
+					type = 'Private Equity';
+					break;
+			}
+			
+			investorsAutocompleteList.push({
+				value: investor.mm_slug,
+				label: investor.display_name,
+				type: type
+			});
+		});
+		
+		$('#vcCustomFilter').autocomplete({
+			focus: function( event, ui ) {
+				$( "#vcCustomFilter" ).val(ui.item.label);
+				
+				return false;
+			},
+			source: investorsAutocompleteList,
+			select: function(event, ui) {
+				$('<div class="label"></div>').text(ui.item.label).attr('data-mm-slug', ui.item.value).append(' <a class="vckill" href="">&times;</a>').appendTo('#vcKillArea');
+				$('#vcCustomFilter').val('');
+				
+				filteredInvestors = new Array();
+				
+				$('#vcKillArea div').each(function() {
+					filteredInvestors.push($(this).attr('data-mm-slug'));
+				});
+				
+				doInvestorFilter(filteredInvestors);
+				
+				return false;
+			}
+		}).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+			return $( "<li>" )
+				.append( "<a>" + item.label + "<br />" + item.type + "</a>" )
+				.appendTo( ul );
+		};
+		
+		$('.ui-autocomplete').css({'z-index': 9999});
+	}
+});
+
+$('body').on('click', '#btnVC', function() {
+	if (isAdvancedQueryRequiredFor('investors')) {
+		$('#btnMoreFilter').trigger('click');
+	}
+	else {
+		$('#vcCustomFilter').val('');
+		$('#vcKillArea').empty();
+		
+		$.each(filtersFor('investors', '='), function(index, investorSlug) {
+			$('<div class="label"></div>').text(_.find(investorsList, function(investor){ return investorSlug == investor.mm_slug; }).display_name).attr('data-mm-slug', investorSlug).append(' <a class="vckill" href="">&times;</a>').appendTo('#vcKillArea');
+		});
+		
+		$('#vcModal').modal({keyboard: true}); 
+		$('#vcModal').modal('show');
+	}
+});
+
+$('#vcModal').on('click', 'a.vckill', function(event) {
+	event.preventDefault();
+	
+	$(this).parent().remove();
+	
+	// TODO consider moving next 3 lines into doInvestorFilter, since it is duplicated
+	filteredInvestors = new Array();
+	
+	$('#vcKillArea div').each(function() {
+		filteredInvestors.push($(this).attr('data-mm-slug'));
+	});
+	
+	if (filteredInvestors.length) {
+		doInvestorFilter(filteredInvestors);
+	}
+	else {
+		updateFilter([{field: 'investors', operator: '=', value: ''}])
+	}
+});
+
+</script>
+<!-- Stage Modal -->
+<div id="stageModal" class="modal hide fade" tabindex="-1">
+
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3 id="myModalLabel">Filter by Stage</h3>
+	</div>
+	<ul class="nav nav-tabs" id="tabContent">
+        	<li class="active"><a href="#totalfunding" data-toggle="tab">Total Funding Range</a></li>
+        	<li><a href="#crunchbasefunding" data-toggle="tab">Funding Stage</a></li>
+	</ul>
+  
+	<div class="tab-content">
+		<div class="tab-pane active" id="totalfunding">
+			<fieldset style="margin-left:10px">
+				<label title=''><input type="checkbox"/> Seed ($1 - $1.5 million)</label>
+				<label title=''><input type="checkbox"/> Early ($750k - $4.5 million)</label>
+				<label title=''><input type="checkbox"/> Growth ($4 million - $20 million)</label>
+				<label title=''><input type="checkbox"/> Late ($20 million+)</label>
+			</fieldset>
+		</div>
+
+		<div class="tab-pane" id="crunchbasefunding">
+		        <fieldset style="margin-left:10px">
+				<label><input type="checkbox" /> No Known Funding</label>
+				<label><input type="checkbox" /> Pre Series A</label>
+				<label><input type="checkbox" /> A</label>
+				<label><input type="checkbox" /> B</label>
+				<label><input type="checkbox" /> C</label>
+				<label><input type="checkbox" /> Late</label>
+				<label><input type="checkbox" /> Exited</label>
+			</fieldset>
+		</div>	
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" style="float: right;" data-dismiss="modal" id='apply-stage-filter'>Apply Filter</button>
+	</div>
+</div>
+
+<div id="tagModal" class="modal hide fade in" tabindex="-1" style="width: 800px; margin-left: -400px; top: 5%;">
+	<div class="modal-dialog">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3 id="myModalLabel">Filter Business Types</h3>  	
+	  	</div>
+			
+		<div class="modal-body row-fluid" style="max-height:540px;">
+			<div class="span3">
+				<fieldset >
+					<legend>Business Model</legend>
+					<div id="business_model_filters" style="overflow: auto; height: 500px; width: 200px;">
+						<label><input type="checkbox" value="B2B" /> B2B</label>
+						<label><input type="checkbox" value="B2C" /> B2C</label>
+						<hr style="margin: 10px 0px 5px 0px; width: 90px; border: solid 1px #ddd;">
+						<label><input type="checkbox" value="Advertising" /> Advertising</label>
+						<label><input type="checkbox" value="Affiliate" /> Affiliate</label>
+						<label><input type="checkbox" value="Classifieds" /> Classifieds</label>
+						<label><input type="checkbox" value="Consulting" /> Consulting</label>
+						<label><input type="checkbox" value="Direct Sales" /> Direct Sales</label>
+						<label><input type="checkbox" value="Events" /> Events</label>
+						<label><input type="checkbox" value="Freemium" /> Freemium</label>
+						<label><input type="checkbox" value="Lead Generation" /> Lead Generation</label>
+						<label><input type="checkbox" value="Marketplace" /> Marketplace</label>
+						<label><input type="checkbox" value="Merchant" /> Merchant</label>
+						<label><input type="checkbox" value="Metamediary" /> Metamediary</label>
+						<label><input type="checkbox" value="SaaS" /> SaaS</label>
+						<label><input type="checkbox" value="Subscription" /> Subscription</label>
+					</div>
+				</fieldset>
+			</div>
+
+			<div class="span3">
+				<fieldset>
+					<legend>Industry</legend>
+					<div id="industry_filters" style="overflow: auto; height: 510px; width: 200px;">
+						<label><input type="checkbox" value="Advertising" /> Advertising</label>
+						<label><input type="checkbox" value="Agriculture" /> Agriculture</label>
+						<label><input type="checkbox" value="Analytics" /> Analytics</label>
+						<label><input type="checkbox" value="Automotive" /> Automotive</label>
+						<label><input type="checkbox" value="Banking" /> Banking</label>
+						<label><input type="checkbox" value="Biotechnology" /> Biotechnology</label>
+						<label><input type="checkbox" value="Career / Job Search" /> Career / Job Search</label>
+						<label><input type="checkbox" value="Classifieds" /> Classifieds</label>
+						<label><input type="checkbox" value="CleanTech" /> CleanTech</label>
+						<label><input type="checkbox" value="Cloud Computing" /> Cloud Computing</label>
+						<label><input type="checkbox" value="Crowdfunding" /> Crowdfunding</label>
+						<label><input type="checkbox" value="Customer Support" /> Customer Support</label>
+						<label><input type="checkbox" value="Dating" /> Dating</label>
+						<label><input type="checkbox" value="E-Commerce" /> E-Commerce</label>
+						<label><input type="checkbox" value="Education" /> Education</label>
+						<label><input type="checkbox" value="Email" /> Email</label>
+						<label><input type="checkbox" value="Energy" /> Energy</label>
+					</div>
+				</fieldset>
+			</div>
+			
+			<div class="span3">
+				<fieldset>
+					<div id="industry_filters" style="overflow: auto; height: 500px; width: 200px; ">
+						<label><input type="checkbox" value="Enterprise Software" /> Enterprise Software</label>
+						<label><input type="checkbox" value="Entertainment" /> Entertainment</label>
+						<label><input type="checkbox" value="Finance" /> Finance</label>
+						<label><input type="checkbox" value="Food & Beverages" /> Food & Beverages</label>
+						<label><input type="checkbox" value="Funerals" /> Funerals</label>
+						<label><input type="checkbox" value="Gaming" /> Gaming</label>
+						<label><input type="checkbox" value="Government" /> Government</label>
+						<label><input type="checkbox" value="Hardware" /> Hardware</label>
+						<label><input type="checkbox" value="Healthcare" /> Healthcare</label>
+						<label><input type="checkbox" value="Hospitality" /> Hospitality</label>
+						<label><input type="checkbox" value="Human Resources (HR)" /> Human Resources (HR)</label>
+						<label><input type="checkbox" value="Insurance" /> Insurance</label>
+						<label><input type="checkbox" value="Legal" /> Legal</label>
+						<label><input type="checkbox" value="Lending" /> Lending</label>
+						<label><input type="checkbox" value="Market Research" /> Market Research</label>
+						<label><input type="checkbox" value="Marketing" /> Marketing</label>
+						<label><input type="checkbox" value="Media" /> Media</label>
+						<label><input type="checkbox" value="Mobile" /> Mobile</label>
+					</div>
+				</fieldset>
+			</div>
+			
+			<div class="span3">
+				<fieldset>
+					<div id="industry_filters" style="overflow: auto; height: 500px; width: 200px; ">
+						<label><input type="checkbox" value="Music" /> Music</label>
+						<label><input type="checkbox" value="Network / Hosting / Infrastructure" /> Network / Hosting / Infrastructure</label>
+						<label><input type="checkbox" value="Oil & Gas" /> Oil & Gas</label>
+						<label><input type="checkbox" value="Pharmaceuticals" /> Pharmaceuticals</label>
+						<label><input type="checkbox" value="Publishing" /> Publishing</label>
+						<label><input type="checkbox" value="Real Estate" /> Real Estate</label>
+						<label><input type="checkbox" value="Retail" /> Retail</label>
+						<label><input type="checkbox" value="Search" /> Search</label>
+						<label><input type="checkbox" value="Security" /> Security</label>
+						<label><input type="checkbox" value="Semiconductors" /> Semiconductors</label>
+						<!-- <label><input type="checkbox" value="Services" /> Services</label> -->
+						<label><input type="checkbox" value="Social Networking" /> Social Networking</label>
+						<label><input type="checkbox" value="Software Development" /> Software Development</label>
+						<label><input type="checkbox" value="Space Travel" /> Space Travel</label>
+						<label><input type="checkbox" value="Technical Support" /> Technical Support</label>
+						<label><input type="checkbox" value="Telecommunications" /> Telecommunications</label>
+						<label><input type="checkbox" value="Transportation" /> Transportation</label>
+						<label><input type="checkbox" value="Travel" /> Travel</label>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-primary" data-dismiss="modal">Apply Filter</button>
+		</div>
+	</div>
+</div>
+
+<div id="querySaveModal" class="modal hide fade" tabindex="-1">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3 id="myModalLabel">Save Search and Alert</h3>
+	</div>
+	<div class="modal-body">
+		<div class="form-horizontal">
+			<div class="control-group">
+				<div class="controls">
+					<input type="text" id="title" placeholder="Title">
+				</div>
+			</div>
+			<div class="control-group">
+				<div class="controls subscribe-modal">
+					<label><input type="checkbox" checked="checked" id="notifications"> <strong>Subscribe to Company Alerts:</strong> Receive an email when companies newly meet these criteria.</label>
+					<label><input type="checkbox" checked="checked" id="news_notifications"> <strong>Subscribe to News Alerts:</strong> Receive an email about news stories regarding companies meeting these criteria.</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal">Cancel</button>
+		<button class="btn btn-primary save" data-dismiss="modal">Save</button>
+	</div>
+</div>
+
+<div id="bigReportModal" class="modal hide fade" tabindex="-1">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3>Too Many Companies</h3>
+	</div>
+	<div class="modal-body">
+		<p>This report contains more than 10,000 companies in it. Please add more filters to narrow your search.</p>
+		<p>If you need help contact <a href="mailto:support@mattermark.com">support@mattermark.com</a>.</p>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-primary" data-dismiss="modal">Ok</button>
+	</div>
+</div>
+
+<div id="columnsModal" class="modal hide fade" tabindex="-1">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3 id="myModalLabel">Show and Hide Columns</h3>
+	</div>
+	<div class="modal-body">
+		<div class="form-horizontal">
+		</div>
+	</div>
+	<div class="modal-footer">
+		<div class="pull-left"><label for="saveColumnsDefault" class="checkbox"><input id="saveColumnsDefault" type="checkbox">Save as my default view</label></div>
+		<button class="btn btn-primary" data-dismiss="modal">Save</button>
+	</div>
+</div>
+
+<div class="modal hide fade modal-dialog" id="shareUrlModal" tabindex='-1'>
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Copy the URL to share this search</h4>
+		</div>
+		<div class="modal-body" id="shareUrlModalBody">
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+</div>
+
+<div class="modal hide fade modal-dialog" id="upgradeModal" tabindex='-1'>
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Subscription Required</h4>
+		</div>
+		<div class="modal-body hide upgrade-subscriber">
+		This feature requires a paid account, and you are still in your 30 day free trial.  Click <strong>Upgrade Now</strong> to make your first payment and enable this feature.
+		</div>
+		<div class="modal-body hide upgrade-nonsubscriber">
+		This feature required a paid account.
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="hide btn btn-success upgrade-subscriber">Upgrade Now</button>
+			<a href="/app/subscribe" target="_blank" type="button" class="hide btn btn-success upgrade-nonsubscriber">Upgrade Now</a>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+		</div>
+	</div>
+</div>
+	
+<div class="modal hide fade modal-dialog" id="exportModal" tabindex='-1'>
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Export</h4>
+		</div>
+		<div class="modal-body">
+			<a style="color: blue; text-decoration: underline;" id="exportLink" href="">Right click this link and choose "<span id="exportLinkInstruction">Download Linked File As...</span>"</a> to save a CSV export to your computer.
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="/app/assets/js/data/index.js"></script>
+<script> $('news-wrapper-header').addClass('hidden'); </script>
+
+<div class="modal hide fade modal-dialog" id="shareModal" tabindex='-1'>
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title">Share Your List</h4>
+		</div>
+		<div class="modal-body" id="shareModalBody" style="height: 200px;">
+			<div><strong>Who has access</strong></div>
+			<p>These people can see your Custom List and any additions you make to it.</p>
+			<div class="row" style="border-bottom: 1px solid #EBEBEB; border-top: 1px solid #EBEBEB; margin-left:0px;">
+				<div class="span3" style="margin-left: 0px; padding-left: 0px; padding-bottom: 8px; padding-top: 8px; color: #777">sid.reddy@cornellvc.com (you)</div>
+				<div class="span2" style="padding-bottom: 8px; padding-top: 8px; color: #777;">Is Owner</div>
+			</div>
+
+			<img class="loading" src="/app/assets/img/throbber.gif" />
+			 
+			<div id="shared-list-member-template" class="row hide" style="border-bottom: 1px solid #EBEBEB; margin-left:0px">
+				<div class="span3 shared-list-member-email" style="margin-left: 0px; padding-left: 0px; padding-bottom: 8px; padding-top: 8px; color: #777">foobar@foobar.com</div>
+				<div class="span1" style="padding-bottom: 8px; padding-top: 8px; color: #777;">Can View</div>
+				<div class="span1" style="padding-bottom: 8px; padding-top: 8px; color: #777;"><a class="remove" href="#">&times;</a></div>
+			</div>
+			
+		</div>
+		<div class="modal-body hide" id="shareModalSuccess">
+			<p>Success! Your list has been emailed with a link to this list.</p>
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+		<div class="modal-footer" style="text-align: left;">
+			<div>Invite people:</div>
+			<div>
+				<input style="width: 300px;" id="shareAddresses" type="text" placeholder="jane@mattermark.com, john@mattermark.com" />
+			</div>
+			<div id="sharingDetails" class="hide">
+				<label style="display: inline-block;" for="shareNotify"><input type="checkbox" checked id="shareNotify" /> Notify people via email</label> - <a class="add-message" href="#">Add a message</a> <a class="hide discard-message" href="#">Discard message</a>
+				<div>
+					<textarea style="width: 510px;" class="sharing-message hide"></textarea>
+				</div>
+				<div style="margin-top: 20px;">
+					<!-- This will just add a row, and leaves the modal open with restored state -->
+					<button class="btn btn-success complete-share">Share & Save</button>
+					<button class="btn cancel">Cancel</button>
+				</div>
+			</div>
+			<button type="button" class="btn btn-default share-done" data-dismiss="modal">Done</button>
+		</div>
+	</div>
+</div>
+
+<script>
+$('#shareAddresses').focus(function() {
+	$('#sharingDetails').show();
+	$('.share-done').hide();
+});
+
+$('#sharingDetails .cancel').click(function() {
+	$('#shareAddresses').val('');
+	$('#sharingDetails,.share-done').toggle();
+});
+
+$('.add-message').click(function(e) {
+	e.preventDefault();
+
+	$('#shareNotify').attr('checked', 'checked').attr('disabled', 1);
+	$('.sharing-message,.discard-message').toggle()
+	$(this).hide();
+});
+
+$('.discard-message').click(function(e) {
+	e.preventDefault();
+	
+	$('#shareNotify').removeAttr('disabled');
+	$('.sharing-message').val('').hide();
+	$('.discard-message,.add-message').toggle();
+});
+
+$('.complete-share').click(function() {
+	$(this).text('Sharing...').attr('disabled', 1);
+
+	$.ajax({
+		type: 'POST',
+		url: '/app/data/share',
+		data: {
+			csrf: $('#mm_csrf').val(),
+			type_code: $('#shareModal').attr('rel'),
+			emails: $('#shareAddresses').val(),
+			send_notification: $('#shareNotify').is(':checked') ? 1 : 0, 
+			message: $('#shareNotify').is(':checked') ? $('#shareModal textarea.sharing-message').val() : null
+		},
+		success: function(data) {
+			loadSharedMemberList();
+			
+			$('.complete-share').text('Share & Save').removeAttr('disabled');
+			$('#shareAddresses').val('');
+			$('#shareNotify').removeAttr('disabled');
+			$('.sharing-message').val('');
+			$('#sharingDetails,.share-done').toggle();
+		}
+	});
+});
+
+$('#shareModalBody').on('click', '.shared-list-member .remove', function(e) {
+	e.preventDefault();
+	$that = $(this);
+	
+	$.ajax({
+		type: 'POST',
+		url: '/app/data/share/',
+		data: {
+			csrf: $('#mm_csrf').val(),
+			type_code: $('#shareModal').attr('rel'),
+			action: 'delete-member',
+			email: $(this).attr('rel')
+		},
+		success: function(data) {
+			$that.closest('.shared-list-member').remove();
+		}
+	});
+});
+
+function loadSharedMemberList() {
+	$('#shareModalBody img.loading').show();
+
+	$('#shareModalBody .shared-list-member').remove();
+	$.ajax({
+		type: 'GET',
+		url: '/app/data/share?type_code=' + encodeURIComponent($('#shareModal').attr('rel')),
+		success: function(data) {
+			$('#shareModalBody img.loading').hide();
+			
+			$.each(data, function(index, shared_list_member) {
+				$row = $('#shared-list-member-template').clone();
+				$row.removeAttr('id');
+				$('.shared-list-member-email', $row).text(shared_list_member.email);
+				$('a.remove', $row).attr('rel', shared_list_member.email);
+				$row.removeClass('hide').addClass('shared-list-member').appendTo('#shareModalBody');
+			});
+		}
+	});
+}
+</script>
+<div id="queryTreeModal" class="modal hide fade" tabindex="-1">
+	<div class="modal-header">	    
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3>Choose Filters</h3>
+	</div>
+	<div class="modal-body">
+		Match all <select class="hide" style="width: 60px;"><option selected="1">all</option><option>any</option></select> of the following filters:
+		
+		<div id="queryArea" class="queryRow">
+		</div>
+		
+		<div id="operatorTemplate" class="hide parens">
+			<span style="position: relative; left: -10px"><span class="operator-indicator">and</span> any <select style="width: 60px;" class="hide"><option>All</option><option>Any</option></select> of the following are true:</span>
+		</div>
+		
+		<div id="queryTemplate" class="hide query">
+			<select class="column" style="margin-left: 20px;">
+				<option value="cached_mattermark">Mattermark Score</option>
+				<option value="stage">Stage</option>
+				<option value="location">Location</option>
+			</select>
+			<select class="operator">
+				<option class="string" value="=">Equals</option>
+				<option class="string" value="!=">Does Not Equal</option>
+				<option class="string" value="LIKE">Contains</option>
+				<option class="string" value="NOT LIKE">Does Not Contain</option>
+				
+				<option class="number" value="=">Equals</option>
+				<option class="number" value="!=">Does Not Equal</option>
+				<option class="number" value="&gt;">Greater Than</option>
+				<option class="number" value="&gt;=">Greater Than Equal To</option>
+				<option class="number" value="&lt;">Less Than</option>
+				<option class="number" value="&lt;=">Less Than Equal To</option>
+
+				<option class="date" value="=">On</option>
+				<option class="date" value="!=">Not On</option>
+				<option class="date" value="&gt;">After</option>
+				<option class="date" value="&gt;=">On or After</option>
+				<option class="date" value="&lt;">Before</option>
+				<option class="date" value="&lt;=">On or Before</option>
+				
+				<option class="yesno" value="=">Is</option>
+				<option class="yesno" value="!=">Is Not</option>
+				
+				<option class="select" value="=">Is</option>
+				<option class="select" value="!=">Is Not</option>
+				
+				<option class="list" value="IN">In List</option>
+				<option class="list" value="NOT IN">Not In List</option>
+				
+				<option class="is-isnt" value="=">Equals</option>
+				<option class="is-isnt" value="!=">Does Not Equal</option>
+								
+				<option class="jobs" value="current">Currently Works At</option>
+				<option class="jobs" value="has">Has Worked At</option>
+				<option class="jobs" value="early">Early Employee At</option>
+			</select>
+			<input type="text" class="value" />
+			
+			<button class="hide btn subtract-query-row">&times;</button>
+			<button class="hide btn add-or">OR</button>
+			<button class="hide btn add-and">AND</button>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<a href="#" data-dismiss="modal" class="btn">Done</a>
+	</div>
+</div>
+
+<script>
+function filtersFor(column, operator) {
+	if (isAdvancedQueryRequiredFor(column)) {
+		return [];
+	}
+
+	var filters = [];
+	
+	$.each(queryTree.members, function(index, member) {
+		if (member.boolean != undefined) {
+			$.each(member.members, function(index, member) {
+				if (member.field == column && member.operator == operator) {
+					filters.push(member.value);
+				}
+			});
+		}
+		else {
+			if (member.field == column && member.operator == operator) {
+				filters.push(member.value);
+			}
+		}
+	});
+
+	return filters;
+}
+
+function isAdvancedQueryRequiredFor(column) {
+	var isAdvanced = false;
+	
+	$.each(queryTree.members, function(index, member) {
+		if (member.boolean == 'OR') {
+			var firstColumn = member.members[0].field;
+
+			$.each(member.members, function(index, member) {
+				if (member.field != firstColumn) {
+					if (column == undefined) {
+						isAdvanced = true;
+					}
+					else if (firstColumn == column || member.field == column) {
+						isAdvanced = true;
+					}
+				}
+			});
+		}
+	});
+	
+	return isAdvanced;
+}
+
+function addParens($this) {
+	// Modify the current row and prep to move into parenthetical statement
+	$original = $this.closest('.query');
+	$original.find('.operator-indicator').remove();
+	$original.find('select.column').attr('style', 'margin-left: 14px;');
+	
+	$row = $('<div class="queryRow"></div>');
+	$('#operatorTemplate').clone().removeAttr('id').appendTo($row).show();
+	$row.find('select.column').removeAttr('style');	
+	
+	$row.find('.parens select').val('Any');
+	
+	$templateInstance = $('#queryTemplate').clone().removeAttr('id').appendTo($row).show();
+	$templateInstance.find('select.column').removeAttr('style');
+	$('<span class="operator-indicator">or</span>').insertBefore($('select.column', $templateInstance));
+	
+	$row.insertAfter($this.parent());
+	
+	$original.insertAfter($row.find('.parens'));
+
+	// Default the column to match existing
+	$templateInstance.find('select.column').val($('select.column', $original).val()).trigger('change');
+}
+
+function addSibling($this) {
+	$templateInstance = $('#queryTemplate').clone().removeAttr('id').insertAfter($this.parent()).show();
+	$templateInstance.find('select.column').removeAttr('style');
+
+	$('.column', $templateInstance).trigger('change');
+	
+	$parenSelect = $this.closest('.queryRow').children('.parens').children().children('select');
+	
+	if ($parenSelect.length && $parenSelect.val() == 'Any') {
+		$('<span class="operator-indicator">or</span>').insertBefore($('select.column', $templateInstance));
+		// TODO default the column to match existing
+	}
+	else {
+		$('<span class="operator-indicator">and</span>').insertBefore($('select.column', $templateInstance));
+	}
+		
+}
+
+function addOuter($this) {
+	$templateInstance = $('#queryTemplate').clone().removeAttr('id').insertAfter($this.parent().parent()).show();
+	$templateInstance.find('select.column').removeAttr('style');
+	$('<span class="operator-indicator">and</span>').insertBefore($('select.column', $templateInstance));
+}
+
+$(document).on('click', '#btnMoreFilter', function() {
+	$('#queryTreeModal').modal({keyboard: true});
+	$('#queryTreeModal').modal('show');
+});
+
+$('#queryTreeModal').on('hidden', function() {
+	// TODO rip this out
+	queryTree = {
+			boolean: 'AND',
+			members: []
+	};
+	
+	if ($('#queryArea .query').length) {
+		
+		$('#queryArea>.query').each(function() {
+			if ($(this).find('.value').val().length) {
+				queryTree.members.push({
+					field: $(this).find('select.column').val(),
+					operator: $(this).find('select.operator').val(),
+					value: $(this).find('.value').val()
+				});
+			}
+		});
+		
+		$('#queryArea .queryRow').each(function() {
+			var members = Array();
+			
+			$('.query', $(this)).each(function() {
+				if ($(this).find('.value').val() && $(this).find('.value').val().length) {
+					members.push({
+						field: $(this).find('select.column').val(),
+						operator: $(this).find('select.operator').val(),
+						value: $(this).find('.value').val()
+					});
+				}
+			});
+
+			if (members.length) {
+				queryTree.members.push({
+					boolean: 'OR',
+					members: members
+				});
+			}
+		});
+	}
+	
+	// Cause a requery through AJAX, which uses this dialog's filter
+	myDataTable.fnDraw(false); 
+});
+
+$('#queryTreeModal').on('shown', function() {
+	// TODO do the opposite of the unwind
+	
+	$columns = $('#queryTemplate select.column').empty();
+	$('#queryArea').empty();
+
+	// Initialize select dropdown templates
+	$.each(myColumns, function(index, value) {
+		if (value.classHide.length == 0) {
+			$('<option value="' + value.mData + '">' + value.sTitle + '</option>').appendTo($columns);
+		}
+		else if ($.inArray(value.mData, ['user_tags', 'interested', 'alert_hash', 'industries', 'business_models']) != -1) {
+			$('<option value="' + value.mData + '">' + value.sTitle + '</option>').appendTo($columns);
+		}
+	});
+
+	// Manifest existing query
+	$.each(queryTree.members, function(index, member) {
+		if (member.boolean != undefined) {
+			$row = $('<div class="queryRow"></div>');
+			$('#operatorTemplate').clone().removeAttr('id').appendTo($row).show();
+			$row.find('select.column').removeAttr('style');
+			
+			$row.find('.parens select').val('Any');
+			
+			$templateInstance = $('#queryTemplate').clone().removeAttr('id').appendTo($row).show();
+			$templateInstance.find('select.column').removeAttr('style');
+			$('<span class="operator-indicator">or</span>').insertBefore($('select.column', $templateInstance));
+			$('.query', $row).remove(); // we don't need the initial query in this case, since we'll create in each loop below
+
+			$row.appendTo('#queryArea'); // must append it live here so that :last will work in the each below
+			
+			$.each(member.members, function(index, member) {
+				$newRow = $('#queryTemplate').clone().removeAttr('id').appendTo($row).show();
+
+				if (index > 0) {
+					$('<span class="operator-indicator">or</span>').insertBefore($('select.column', $newRow));
+					$('select.column', $newRow).removeAttr('style');
+				}
+					
+				$('#queryArea .column:last').val(member.field).trigger('change');
+				$('#queryArea .operator:last option.' + getColumn(member.field).treeFilter + '[value="' + member.operator + '"]').prop('selected', 1).attr('selected', 1);
+				$('#queryArea .value:last').val(member.value);
+			});
+		}
+		else {
+			$newRow = $('#queryTemplate').clone().removeAttr('id').appendTo('#queryArea').show();
+
+			if (index > 0) {
+				$('<span class="operator-indicator">and</span>').insertBefore($('select.column', $newRow));
+				$('select.column', $newRow).removeAttr('style');
+			}
+			
+			$('#queryArea .column:last').val(member.field).trigger('change');
+			$('#queryArea .operator:last option.' + getColumn(member.field).treeFilter + '[value="' + member.operator + '"]').prop('selected', 1).attr('selected', 1);
+			$('#queryArea .value:last').val(member.value);
+		}
+	});
+	
+	// If nothing shown yet, add a blank row...
+	if ($('#queryArea .query').length == 0) {
+		$('#queryTemplate').clone().removeAttr('id').appendTo('#queryArea').show();
+	}
+	
+	// Don't show minus button for first row
+	$('#queryArea .subtract-query-row:first').remove(); 
+});
+
+$('#queryTreeModal').on('click', '.add-or', function() {
+	$parenSelect = $(this).closest('.queryRow').children('.parens').children().children('select');
+	
+	if ($parenSelect.length && $parenSelect.val() == 'Any') {
+		addSibling($(this));
+	}
+	else {
+		addParens($(this));
+	}
+});
+
+$('#queryTreeModal').on('click', '.add-and', function() {
+	$parenSelect = $(this).closest('.queryRow').children('.parens').children().children('select');
+	
+	if ($parenSelect.length && $parenSelect.val() == 'Any') {
+		addOuter($(this));
+	}
+	else {
+		addSibling($(this));
+	}
+});
+
+$('#queryTreeModal').on('click', '.subtract-query-row', function() {
+	$parentRow = $(this).closest('.queryRow');
+	
+	if ($parentRow.length && $parentRow.find('.query').length == 1) {
+		$parentRow.remove();
+	}
+	else {
+		$(this).parent().remove();
+	}
+});
+
+$('#queryTreeModal').on('change', 'select.column', function() {
+	$operator = $(this).closest('.query').children('select.operator');
+	var theColumn = getColumn($(this).val());
+	
+	$operator.html($('#queryTemplate select.operator').html());
+	$('option', $operator).each(function() {
+		if ( ! $(this).hasClass(theColumn.treeFilter) ) {
+			$(this).remove();
+		}
+	});
+	
+	if (theColumn.defaultOperator != undefined) {
+		$('option[value="' + theColumn.defaultOperator + '"]', $operator).attr('selected', 1).prop('selected', 1);
+	}
+	else {
+		$('option:first', $operator).attr('selected', 1).prop('selected', 1);
+	}
+	
+	// TODO make this something you can just implement a class for, rather than one offs
+	// could be a callback function that's actually hanging off the myColumns object array
+	if ($(this).val() == 'investors') {
+		$newControl = $('<select class="value"></select>');
+		$.each(investorsList, function(index, investor) {
+			$newOption = $('<option />');
+			$newOption.text(investor.display_name);
+			$newOption.attr('value', investor.mm_slug);
+			$newOption.appendTo($newControl);
+		});
+		
+		$(this).closest('.query').children('.value').replaceWith($newControl);
+	}
+	else if ($(this).val() == 'business_models') {
+		var $newControl = $('<select class="value"></select>');
+		
+		$('#business_model_filters label').each(function() {
+			$('<option></option').attr('value', $.trim($(this).text())).text($.trim($(this).text())).appendTo($newControl);
+		});
+		
+		$(this).closest('.query').children('.value').replaceWith($newControl);
+	}
+	else if ($(this).val() == 'industries') {
+		var $newControl = $('<select class="value"></select>');
+		
+		$('#industry_filters label').each(function() {
+			$('<option></option').attr('value', $.trim($(this).text())).text($.trim($(this).text())).appendTo($newControl);
+		});
+		
+		$(this).closest('.query').children('.value').replaceWith($newControl);
+	}
+	else if ($(this).val() == 'region') {
+		var $newControl = $('<select class="value"></select>');
+		var $that = $(this);
+
+		$.each(locationList, function(index, location) {
+			if (location.type == 'region') {
+				$('<option></option').attr('value', location.display_name).text(location.display_name).appendTo($newControl);
+			}
+		});
+		
+		$that.closest('.query').children('.value').replaceWith($newControl);
+	}
+	else if ($(this).val() == 'state') {
+		var $newControl = $('<select class="value"></select>');
+		var $that = $(this);
+
+		$.ajax({
+			dataType: "json",
+			url: '/app/assets/data/states_abbrev.json',
+			async: false,
+			success: function(json) {
+				for (var fullName in json) {
+					$('<option></option').attr('value', json[fullName]).text(fullName).appendTo($newControl);
+				}
+				
+				$that.closest('.query').children('.value').replaceWith($newControl);
+			}
+		});
+	}
+	else if ($(this).val() == 'country') {
+		var $newControl = $('<select class="value"></select>');
+		var $that = $(this);
+
+		$.ajax({
+			dataType: "json",
+			url: '/app/assets/data/countries_abbrev.json',
+			async: false,
+			success: function(json) {
+				for (var fullName in json) {
+					$('<option></option').attr('value', json[fullName]).text(fullName).appendTo($newControl);
+				}
+				
+				$that.closest('.query').children('.value').replaceWith($newControl);
+			}
+		});
+	}
+	else if (theColumn.treeFilter == 'date') {
+		$value = $('<input type="text" class="value" />');
+		
+		$(this).closest('.query').children('.value').replaceWith($value);
+		
+		$value.datepicker({
+			dateFormat: 'yy-mm-dd'
+		});
+	}
+	else if (theColumn.treeFilter == 'yesno') {
+		$(this).closest('.query').children('.value').replaceWith('<select class="value"><option value="1">Yes</option><option value="0">No</option></select>');
+	}
+	else if (theColumn.treeFilter == 'select') {
+		var $newControl = $('<select class="value"></select>');
+		$.each(theColumn.treeFilterSelect, function(index, value) {
+			$('<option></option').attr('value', value).text(value).appendTo($newControl);
+		});
+		$(this).closest('.query').children('.value').replaceWith($newControl);
+
+		// Limit available operators; need this on top of above, because selects have dynamic list of operators
+		$('option.' + theColumn.treeFilter, $operator).each(function() {
+			if ( $.inArray($(this).val(), theColumn.treeFilterOperators) == -1) {
+				$(this).hide();
+			}
+		});
+	}
+	else {
+		// make sure the input box is restored
+		$(this).closest('.query').children('.value').replaceWith('<input type="text" class="value" />');
+	}
+});
+
+$('#queryTreeModal').on('mouseenter', '.query', function() {$('button', $(this)).show();});
+$('#queryTreeModal').on('mouseleave', '.query', function() {$('button', $(this)).hide();});
+</script>
+
+	<footer style="padding:5px !important; background:#fafafa; border:1px solid #CCC; z-index:100;">
+		<p style="padding:0px;">
+			
+			<a style="font-weight:200;" href="mailto:support@mattermark.com">
+			<span class="mobile-menu-support">
+				<i style="padding-left:2px;" class="icon icon-bullhorn"> </i> Support
+			</span></a>
+
+			<!-- start: Mobile Nav -->
+			<span class="mobile-menu-item hidden-desktop hidden-tablet" style="margin-right:10px;"><a href="/app/data" class="mobile-menu-text"> All</a></span>
+			<span class="mobile-menu-item hidden-desktop hidden-tablet"><a href="/app/data/portfolios/vc" class="mobile-menu-text"> VCs</a></span>
+			<span class="mobile-menu-item hidden-desktop hidden-tablet"><a href="/app/data?interested=1" class="mobile-menu-text"> Watch</a></span>
+			<span class="mobile-menu-item hidden-desktop hidden-tablet"><a href="/app/account/lists" class="mobile-menu-text"> Lists</a></span>
+			<!-- end: Mobile Nav -->
+			
+			<span class="hidden-phone" style="float:right; padding-right:20px; padding-left:20px; padding-top:3px;">
+				<a style="font-weight:200;" href="/app/data/">&copy; 2014 Mattermark</a> 
+				<span style=" margin-left:20px; font-size:10px;">Sources include <a style="font-size:10px;" href="http://www.crunchbase.com">Crunchbase</a> & <a style="font-size:10px;" href="http://www.angel.co">AngelList</a>.</span>		
+			
+			</span>
+			
+			<span class="hidden-phone" style="float:left; padding-top:3px;">
+				<a style="font-weight:200; margin-right:15px; margin-left:20px;" href="/app/Team">About</a>
+				<a style="font-weight:200; margin-right:15px;" href="/backend-engineer/">Careers</a>
+				<a style="font-weight:200; margin-right:15px;" href="/#blog">Blog</a>
+				<a style="font-weight:200; margin-right:5px;" href="/app/terms">Terms</a>& <a style="font-weight:200; margin-right:15px;" href="/privacy-policy">Privacy</a>
+				<a style="font-weight:200; margin-right:10px;" href="#submitCompany" data-toggle="modal" >+ Submit a Startup</a>
+			</span>
+			
+		</p>
+	</footer>
+
+
+<!-- Submit Company Modal -->
+<div id="submitCompany" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3 id="myModalLabel">Submit a Company to Mattermark</h3>
+  </div>
+  <div class="modal-body">
+    <p>Know a startup we should be tracking? Add it and we'll include it in our database.</p>
+    
+    
+	<form class="form-horizontal" id="submit-company">
+	  	<div class="alert alert-success hide"><strong>Great!</strong> We've added that company to our database.</div>
+    	  <div class="control-group">
+		    <label class="control-label" for="submitCompanyName">Company Name</label>
+		    <div class="controls">
+		      <input type="text" id="submitCompanyName" class="required" placeholder="Startup Name">
+		    </div>
+		  </div>
+		  
+		  <div class="control-group">
+		    <label class="control-label" for="submitCompanyUrl">Company URL</label>
+		    <div class="controls">
+		      <input type="text" id="submitCompanyUrl" name="submitCompanyUrl" class="required url" placeholder="http://www.startupname.com">
+		    </div>
+		  </div>
+
+    	  <div class="control-group">
+		    <label class="control-label" for="submitCompanyEmail">Your Email (optional)</label>
+		    <div class="controls">
+		      <input type="text" id="submitCompanyEmail" class="email" placeholder="yourname@email.com">
+		    </div>
+		  </div>
+		  		  
+		  <div class="control-group">
+		    <div class="controls">
+		      <label class="checkbox">
+		        <input type="checkbox" id="submitCompanyFounder"> I founded or work for this company
+		      </label>
+		    </div>
+		  </div>
+		  <div class="control-group final">
+		    <div class="controls">
+			    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			    <input type="submit" class="btn btn-primary" value="Submit Company" />
+		    </div>
+		  </div>
+	</form>
+	
+	<script>
+	$('#submit-company input[type="submit"]').removeAttr('disabled');
+	
+	$('#submit-company').validate({
+		messages: {submitCompanyUrl: {url: 'Enter a valid URL. Make sure to include http://'}}
+	});
+
+	$('#submit-company').submit(function(event) {
+		event.preventDefault();
+		$('#submit-company input[type="submit"]').attr('disabled', '1');
+		$.ajax({
+			type: 'POST',
+			url: '/app/Register/company',
+			data: {
+				csrf: $('#mm_csrf').val(),
+				name: $('#submitCompanyName').val(),
+				url: $('#submitCompanyUrl').val(),
+				email: $('#submitCompanyEmail').val(),
+				founder: $('#submitCompanyFounder').is(':checked') ? 1 : 0
+				},
+			success: function(data) {
+				$('#submit-company .alert-success').show();
+				$('#submit-company .btn-primary').hide();
+				$('#submit-company .control-group:not(.final)').hide();
+			},
+			error: function() {
+				$('#submit-company input[type="submit"]').removeAttr('disabled');
+			}
+		});
+	});
+	
+	$(document).ready(function () {
+		var space = window.innerHeight - document.getElementById("custom-list-menu-handle").offsetBottom - 95;
+		$('#popout-list-menu').css('height', space);
+
+		$("#popout-list-menu-wrapper").hide();
+
+		$("#custom-list-menu-handle, #popout-list-menu-wrapper").mouseenter(function(){
+			var menuoffset = $("#custom-list-menu-handle").offset().top - $('#sidebar-left').offset().top;
+			var footerheight = $("footer").height();
+
+			$("#popout-list-menu-wrapper").show();
+			var space2 = window.innerHeight - menuoffset - footerheight - 150; // constant accounts for height of absolutely positioned "Manage Lists" element
+			$('#popout-list-menu').css('height', space2);
+
+			var width = $('#sidebar-left').css('width');
+			$('#popout-list-menu-wrapper').css('width', width);
+
+			$('#popout-list-menu-wrapper').css('top', menuoffset + footerheight + 50); // constant accounts for height of absolutely positioned "Manage Lists" element
+			console.log(menuoffset);
+		});
+
+		$("#popout-list-menu-wrapper, #custom-list-menu-handle").mouseleave(function(){
+			$("#popout-list-menu-wrapper").hide(); 
+		});
+	});
+	</script>
+
+  </div>
+</div>
+
+</body>
+
+</html>

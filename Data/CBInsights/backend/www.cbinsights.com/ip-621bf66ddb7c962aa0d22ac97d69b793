@@ -1,0 +1,463 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1394660766,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok8v=02fcfa4f56/"},atok:"1811706007acf6ae7a16a3d93e997e4f",petok:"a94098e6c65cb7c7eaab742cb310e599560393ee-1394695037-1800",zone:"cbinsights.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"},"ga_key":{"ua":"UA-2917383-11","ga_bs":"2"}}}];var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.async=!0;a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok8v=b064e16429/cloudflare.min.js";b.parentNode.insertBefore(a,b);}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f<d.length;f++)e(d[f]);return e}({"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&&a.agent&&a.licenseKey&&a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&&e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],loader:[function(a,b){b.exports=a("YLUGVp")},{}]},{},["YLUGVp"]);</script>
+	<title>Aneel Bhusri - CB Insights</title>
+
+<script>
+	var id_user = 36130;
+	var $_SESSION = { pkg: {"id_package":9,"name":"Basic","annual":0,"id_duration":3,"price":0,"online_chat":1,"ts_package":"0000-00-00 00:00:00","social_graph":0,"hide_features":0,"num_days":31,"features":{"company_search":{"id_feature":1,"feature":"Company Search","feature_session":"company_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":4,"cbi_user_field":"com_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"investor_search":{"id_feature":2,"feature":"Investor Search","feature_session":"investor_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":5,"cbi_user_field":"inv_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"deal_search":{"id_feature":3,"feature":"Deal Search","feature_session":"deal_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":6,"cbi_user_field":"deal_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"valuation_search":{"id_feature":4,"feature":"Valuation Search","feature_session":"valuation_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":7,"cbi_user_field":"vs_searches","id_package":9,"access":1,"quota":2,"results_per_page":25,"results_total":5},"people_search":{"id_feature":5,"feature":"People Search","feature_session":"people_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":8,"cbi_user_field":"people_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"rankings":{"id_feature":6,"feature":"Rankings Search","feature_session":"rankings","admin_order":null,"team_admin_edit":0,"team_admin_page_order":9,"cbi_user_field":"rank_searches","id_package":9,"access":1,"quota":2,"results_per_page":5,"results_total":5},"mosaic":{"id_feature":7,"feature":"Mosaic","feature_session":"mosaic","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"cb_insider":{"id_feature":8,"feature":"CB Insider","feature_session":"cb_insider","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"sf_contacts":{"id_feature":9,"feature":"Salesforce Contacts","feature_session":"sf_contacts","admin_order":null,"team_admin_edit":1,"team_admin_page_order":12,"cbi_user_field":"sf_contacts","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"company_profile":{"id_feature":10,"feature":"Company Profile","feature_session":"company_profile","admin_order":null,"team_admin_edit":0,"team_admin_page_order":1,"cbi_user_field":"cp_views","id_package":9,"access":1,"quota":20,"results_per_page":0,"results_total":0},"investor_profile":{"id_feature":11,"feature":"Investor Profile","feature_session":"investor_profile","admin_order":null,"team_admin_edit":0,"team_admin_page_order":2,"cbi_user_field":"ip_views","id_package":9,"access":1,"quota":20,"results_per_page":0,"results_total":0},"industry_analytics":{"id_feature":12,"feature":"Industry Analytics","feature_session":"industry_analytics","admin_order":null,"team_admin_edit":0,"team_admin_page_order":13,"cbi_user_field":"ia_views","id_package":9,"access":1,"quota":1,"results_per_page":0,"results_total":0},"profile_views":{"id_feature":13,"feature":"Profile Views","feature_session":"profile_views","admin_order":null,"team_admin_edit":1,"team_admin_page_order":3,"cbi_user_field":"total_profiles","id_package":9,"access":1,"quota":20,"results_per_page":0,"results_total":0},"downloads":{"id_feature":14,"feature":"Downloads","feature_session":"downloads","admin_order":null,"team_admin_edit":1,"team_admin_page_order":11,"cbi_user_field":"ex_downloads","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"searches":{"id_feature":15,"feature":"Searches","feature_session":"searches","admin_order":null,"team_admin_edit":1,"team_admin_page_order":10,"cbi_user_field":"total_searches","id_package":9,"access":1,"quota":10,"results_per_page":0,"results_total":0},"logins":{"id_feature":16,"feature":"Logins","feature_session":"logins","admin_order":null,"team_admin_edit":1,"team_admin_page_order":0,"cbi_user_field":"total_logins","id_package":9,"access":1,"quota":10,"results_per_page":0,"results_total":0},"premium_post":{"id_feature":17,"feature":"Premium Post","feature_session":"premium_post","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"api_calls":{"id_feature":18,"feature":"API Calls","feature_session":"api_calls","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":1,"quota":300,"results_per_page":0,"results_total":0},"chat":{"id_feature":19,"feature":"Chat","feature_session":"chat","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":1,"quota":0,"results_per_page":0,"results_total":0},"long_life_session":{"id_feature":20,"feature":"Long life session","feature_session":"long_life_session","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"browser_plugin":{"id_feature":21,"feature":"Browser plugin","feature_session":"browser_plugin","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"browser_plugin_views","id_package":9,"access":1,"quota":100,"results_per_page":10,"results_total":10},"receive_funding_flash":{"id_feature":22,"feature":"Receive Funding Flash","feature_session":"receive_funding_flash","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"search_templates":{"id_feature":23,"feature":"Search Templates","feature_session":"search_templates","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"search_templates","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"advanced_data_fields":{"id_feature":24,"feature":"Advanced Data Fields","feature_session":"advanced_data_fields","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"mobile_data":{"id_feature":25,"feature":"Mobile Data","feature_session":"mobile_data","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"people_profile_tab":{"id_feature":26,"feature":"People Profile Tab","feature_session":"people_profile_tab","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"financing_profile_tab":{"id_feature":27,"feature":"Financing Profile Tab","feature_session":"financing_profile_tab","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":1,"quota":0,"results_per_page":0,"results_total":0},"funding_history_profile_table":{"id_feature":28,"feature":"Funding History Profile Table","feature_session":"funding_history_profile_table","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0}}} };
+	$_SESSION.pkg.basic = /basic/ig.test($_SESSION.pkg.name);
+	$_SESSION.browser = {
+		ie8: !document.createElementNS
+	};
+	// GA stuff
+	var _gaq = _gaq || [];
+	_gaq.push(['_setCustomVar', 1, 'User Type', $_SESSION.pkg.price ? 'Paid' : 'Free', 1]);
+	_gaq.push(['_setCustomVar', 5, 'User ID', id_user, 1]);
+</script>
+	<link rel="stylesheet" href="./css/timeline.css">
+			<style type="text/css">
+			.top_search_results {
+				font-size: 12px !important;
+			}
+		</style>
+					
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2917383-11']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body data-twttr-rendered="true" id="people_profile" style="background-color:#f5f5f5;">
+    <div id="header_load"></div>
+    
+	
+	<script id="IntercomSettingsScriptTag">
+			  window.intercomSettings = {"app_id":"1807d4f6935e9397bfcd1c5c187d611789b4fee4","email":"sid.reddy@cornellvc.com","user_id":"36130","created_at":1393516811,"user_hash":"cf1c90af4187c32da2f59ae4a48dd79e464dac8f359fc0e61aea5d4a2ce49f7b","name":" ","first name":"","last name":"","active":"1","type":"user","title":null,"package":"Basic","user company":"","company searches":"1","deal searches":"1","investor searches":"0","people searches":"0","industry analytics views":"0","valuation searches":"0","ranking searches":"0","logins":8,"searches":"2","excel downloads":"2","sf contacts":"0","drip marketing":"1","package start_at":1393516811,"package end_at":1395936011,"profiles remaining":0,"searches remaining":8,"downloads remaining":0,"contacts remaining":0,"profile views":37,"company views":0,"investor views":37,"top search":0,"last investor profile_at":1394679463,"last package":"Basic","blog signup":0};
+		</script>
+		<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://static.intercomcdn.com/intercom.v1.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
+
+
+<div id="nav_bg">
+	<div class="container">
+		<div class="navbar row">
+			<div class="span1">
+				<div class="home">
+					<a href="/mycbi.php">MyCBI</a>					<a href="/mycbi.php"><img src="/img/small_logo_header.png" alt="Go to MyCBI" height="30" width="47"></a>				</div>
+			</div>
+			<div class="span2">
+				<ul class="nav-links">
+					<li><a href="/deal_search.php">Deal Search</a></li>
+											<li >
+							<a href="/advanced_search.php?seg=com">Company Search</a>
+						</li>
+																<li >
+							<a href="/advanced_search.php?seg=inv">Investor Search</a>
+						</li>
+										<li><a href="/people_search.php">People Search</a></li>				</ul>
+			</div>
+			<div class="span3">
+				<ul class="nav-links">
+					<li><a href="/industries">Industry Analytics</a></li>										<li><a href="/valuation_search.php">Valuation / Multiple Search</a></li>
+										<li><a href="/rankings.php">Rankings</a></li>
+					<li><a href="/research/">Research</a></li>
+									</ul>
+			</div>
+			<div class="span2">
+				<ul class="nav-links">
+										<li><a href="/data_append.php">Bulk Search</a></li>
+										<li>
+						<a href="/excel-plugin">Excel Plugin</a> <span class="label label-success">NEW</span>
+					</li>
+					<li>
+						<a href="/chrome-plugin">Chrome Plugin</a> <span class="label label-success">NEW</span>
+					</li>
+				</ul>
+			</div>
+			<div class="span4">
+				<input type="text" name="term" id="term" placeholder="Search companies and investors" autocomplete="off" />
+				<div class="user-section">
+											&nbsp; |
+						<a href="/user_account.php">Your account</a>
+						<a href="/basic_upgrade.php"><span class="label label-success">upgrade</span></a>											|
+						<a href="/user_logout.php?url=">Logout</a></span>
+										<div class="btn-group" style="display: block;">
+					  <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" style="color:#333;" href="#" data-bind="click: loadPrivateLists">
+					    Your Private Lists
+					    <span class="caret"></span>
+					  </a>
+					  <ul class="dropdown-menu" style="right: 0;text-align: left;left: auto;max-height: 600px;" data-bind="foreach: privateLists()">
+					    <li><a data-bind="attr: { href: CBI.getIAURL(id(), 'private_list')+'#company-list' }, text: name()"></a></li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+				<div class="user-ed-banner" style="margin-top:-10px;">
+			<div class="container">
+				<p style="margin-bottom: 10px;" class="lead">CB Insights offers powerful, easy access to the following:</p>
+				<ul>
+					
+			<li><p><a href="/deal_search.php#feature=financings&ind=Technology&geo=California&time=m">List of California Technology financings from the past month</a></p></li>
+			<li><p><a href="/rankings.php#feature=investors&ind=Technology&geo=California&time=y">Rankings of top investors in California-based Technology companies from the past year</a></p></li>
+			<li><p><a href="/valuation_search.php#feature=none&ind=Technology">Technology Valuations</a></p></li>
+						</ul>
+				<p class="pull-right" style="margin-top: -28px;"><small>Paying customers don't see this banner. <a href="/basic_upgrade.php">Upgrade today</a></small></p>
+			</div>
+		</div>
+		
+		<img src="/img/arrow-top-right-left.png" style="display: none;position: absolute;z-index: 20000;" id="basic_user_ed_arrow">
+
+	
+<div id="wrapper">
+</div>
+
+    <div class="modal" id="upgrade_modal" style="display:none">
+	<div class="modal-header">
+	    <a class="close" data-dismiss="modal">&times;</a>
+	    <h2>Uh Oh! You're out of profile views</h2>
+	</div>
+	<div class="modal-body">
+	    Upgrade and we'll show you Facebook's profile and also get:
+	    <ul>
+		<li>Download profiles as PDF</li>
+		<li>Get search results in Excel</li>
+		<li>View more profiles</li>
+	    </ul>
+	</div>
+	<div class="modal-footer">
+	    <a href="#" class="btn btn-primary btn-large">Upgrade</a>
+	    <a href="#">Learn more</a>
+	</div>
+    </div>
+
+    <div class="container">
+
+	<div id="company_header" class="row"> <!-- Company profile header -->
+	    <div class="span9"><h1 id="company_name">Aneel Bhusri</h1>
+		<p>works at <a href="./i-aba3b6fd5d186d28e06ff97135cade7f">Greylock Partners</a></p>
+	    </div>
+	</div>
+    </div>
+
+    <div class="white" style="margin-bottom:20px;display:none;">
+	<div class="container">
+	    <div class="row">
+		<div class="span12">
+		    <div id="chart" class="d3-loading-wrapper">
+			<div class="d3-loading"><img src="./img/ajax-loader.gif" alt="Loading..." /></div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+    </div>
+
+    <div class="container">
+	<div class="row">
+	    <div class="span3"> <!-- Notes & Tasks -->
+		<ul class="nav nav-pills nav-stacked">
+		    <li class="active"><a href="#basic_tab" data-toggle="tab" data-section-type="core" data-section="">All</a></li>
+		    <li><a href="#" data-section-type="core" data-section="board_positions">Board Positions</a></li>
+		    <li><a href="#" data-section-type="core" data-section="frequent_shares">Shares Boards With</a></li>
+		    <li><a href="#" data-section-type="core" data-section="inv_they_know">Investors They Know</a></li>
+		    <li><a href="#" data-section-type="core" data-section="entrepreneurs_they_know">Executives They Know</a></li>
+		    <li><a href="#" data-section-type="core" data-section="timeline">Selected News Mentions</a></li>
+		</ul>
+	    </div>
+
+
+	    <div class="tab-content span9" style="margin-bottom:200px;"> <!-- Right -->
+		<!-- <ul class="nav nav-tabs">
+		<li class="active"><a href="#">Relationships</a></li>
+		<li><a href="#">Performance</a></li>
+		</ul> -->
+
+
+
+		<div id="insights" class="row">
+		    <div class="span9">
+			<div id="tables">
+			    <div class="section">
+
+				<p id="bio_short" style="padding-left:10px">Aneel Bhusri is a Partner at Greylock and Co-Founder and Co-Chief Executive at Workday . Aneel joined Greylock in 1999 from PeopleSoft, where he was named vice chairman after several years as the company's senior vice president in charge of product strategy, business development and marketing. At PeopleSoft, he was responsible for developing and guiding all product strategy, cor&nbsp;&nbsp;<a id="more_bio" href="#">more &#x226B;</a></p>
+						<p id="bio_long" style="padding-left:10px; display: none;">Aneel Bhusri is a Partner at Greylock and Co-Founder and Co-Chief Executive at Workday . Aneel joined Greylock in 1999 from PeopleSoft, where he was named vice chairman after several years as the company's senior vice president in charge of product strategy, business development and marketing. At PeopleSoft, he was responsible for developing and guiding all product strategy, corporate and product marketing. He also led the company's business development efforts in key areas such as new product development, vertical market initiatives and corporate expansion. Prior to PeopleSoft, Aneel held positions in both venture capital and corporate finance. He holds an MBA from Stanford University and a bachelor of science and arts in electrical engineering and economics from Brown University. Aneel currently serves on the Boards of Cloudera , Data Robotics , Simply Continuous and Workday . Aneel is the former Chairman of Data Domain (acquired by EMC). In addition to PeopleSoft, Aneel formerly served on the boards of PolyServe (acquired by HP), Corio (acquired by IBM), Outlooksoft (acquired by SAP), Marimba (acquired by BMC Software), Perfigo (acquired by Cisco), SeeBeyond , (acquired by Sun Microsystems) and Vantive (acquired by PeopleSoft). Aneel also represented Greylock's investment in Unicru (acquired by Kronos). Aneel was named to the Forbes Midas List in 2009 (#8) and 2008 (#16) and to the AlwaysOn Top 100 List of VCs in 2009. View Aneel's Profile on 2009 Forbes Midas List AREAS OF EXPERTISE Cleantech Enterprise Infrastructure Enterprise Software CURRENT COMPANIES Cloudera Data Robotics Simply Continuous Workday CONTACT 650-493-5525 Email Aneel Bhusri ASSISTANT Tina O'Sullivan (650) 358-2839 Email Tina O'Sullivan&nbsp;&nbsp;<a id="less_bio" href="#">&#x226A; less</a></p>
+											 <div id="how_to_reach" class="gray_block">
+												 <table class="table">
+													 <thead>
+														 <tr>
+															 <th>How to reach</th>
+															 <th>Aneel Bhusri</th>
+																</tr>
+															</thead>
+													 <tbody><tr><td>via email</td><td><a href='http://www.cloudflare.com/email-protection#0d6c6f65787e7f644d6a7f687461626e66236e6260'><span class="__cf_email__" data-cfemail="c3a2a1abb6b0b1aa83a4b1a6baafaca0a8eda0acae">[email&nbsp;protected]</span><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script></a></td></tr></tbody>
+							</table>
+						</div>			    </div>
+			    <!-- <tbody> -->
+			    <div class="section board_positions">
+					<h2 class="com_profile">Board Positions</h2>
+						<table class="table table-striped" id="com_funding_info">
+						<thead>
+							<tr>
+								<th>Company</th>
+								<th>Sector / Industry</th>
+								<th>Last Funding</th>
+								<th>Shares Board With</th>
+							</tr>
+						</thead><tbody id="boardp0"><tr><td><a href="./c-b600b4a38eec82f70918b605343a6dea">Tidemark Systems</a></td><td>Internet &gt; Internet Software & Services</td><td><b>1.07M</b> (Dec 27, 2013)</td><td><a href="./ip-d0590c3194fc8551999c90e3ced336ba">Thomas E. Banahan</a>, <a href="./ip-b2fb12e27d2287a01cef2a1b4aafe813">Benjamin Horowitz</a>, <a href="./ip-7fa732b517cbed14a48843d74526c11a">Geoffrey Y. Yang</a></td></tr><tr><td><a href="./c-6209d3873549a30e8e72459469532fd4">Okta</a></td><td>Internet &gt; Internet Software & Services</td><td><b>27.00M</b> (Sep 13, 2013)</td><td><a href="./ip-b2fb12e27d2287a01cef2a1b4aafe813">Benjamin Horowitz</a></td></tr><tr><td><a href="./c-f69a5ac83a9b713c404a7f5c3cc3f38e">Pure Storage</a></td><td>Computer Hardware & Services &gt; Computer Storage & Peripherals</td><td><b>150.00M</b> (Aug 29, 2013)</td><td><a href="./ip-fedfccb3e56d00940f966e345b0c2fe3">Mark Leslie</a>, <a href="./ip-f654edd7c5eb3459527efcbb7cbeebc8">Mike Volpi</a>, <a href="./ip-1068c6e4c8051cfd4e9ea8072e3189e2">Satish Dharmaraj</a>, <a href="./ip-428fca9bc1921c25c5121f9da7815cde">Mike Speiser</a>, <a href="./ip-0f35c6d68b37bc794ca8501120d8182f">John L. Walecka</a></td></tr><tr><td><a href="./c-ad22e184c6cdfb585ad39195d1905acd">Cloudera</a></td><td>Internet &gt; Internet Software & Services</td><td><b>65.00M</b> (Dec 6, 2012)</td><td><a href="./ip-d408f8836601ea1440f17989e8e87483">Ping Li</a>, <a href="./ip-af9ccb8c09ec0f7e2406248bd619266f">Andrew Braccia</a>, <a href="./ip-08c5433a60135c32e34f46a71175850c">Frank G. Artale</a></td></tr><tr><td><a href="./c-928f4ca705f087254806b3138726f1a3">Sumo Logic</a></td><td>Internet &gt; Internet Software & Services</td><td><b>30.00M</b> (Nov 28, 2012)</td><td><a href="./ip-428fca9bc1921c25c5121f9da7815cde">Mike Speiser</a>, <a href="./ip-6c9882bbac1c7093bd25041881277658">Asheem Chandna</a>, <a href="./ip-12d8a90a71c06166549dc546b39b2fc6">Joseph Ansanelli</a></td></tr></tbody><tbody id="boardp1" style="display: none;"><tr><td><a href="./c-b4568df26077653eeadf29596708c94b">Workday</a></td><td>Internet &gt; Internet Software & Services</td><td><b>637.00M</b> (Oct 12, 2012)</td><td><a href="./ip-91a188bd40f6a903bfc4da1e0a41b864">Scott  Sandell</a>, <a href="./ip-e7b24b112a44fdd9ee93bdf998c6ca0e">George J. Still Jr.</a></td></tr><tr><td><a href="./c-192fc044e74dffea144f9ac5dc9f3395">Drobo</a></td><td>Mobile & Telecommunications &gt; Mobile Software & Services</td><td><b>10.00M</b> (Oct 16, 2009)</td><td><a href="./ip-ef16866ae8fb0cc60f70c3caf7396152">William D. Porteous</a></td></tr><tr><td><a href="./c-b5dc4e5d9b495d0196f61d45b26ef33e">Data Domain</a></td><td>Computer Hardware & Services &gt; Computer Storage & Peripherals</td><td><b>15.00M</b> (Aug 5, 2005)</td><td><a href="./ip-d93719f16a8da02eccf18dfd097194c8">John Egan</a></td></tr><tr><td><a href="./c-2751fae77b24c37382cf6464173d145e">Above All Software</a></td><td>Software (non-internet/mobile)</td><td><b>2.10M</b> (Jun 20, 2005)</td><td><a href="./ip-cb70ab375662576bd1ac5aaf16b3fca4">Tom Furlong</a>, <a href="./ip-6f15ac7a42bf7cd03a43382a12832123">Patrick C. Lee</a></td></tr><tr><td><a href="./c-4e714dc795dc50b932e2a837e3efc472">Illuminator</a></td><td>Software (non-internet/mobile)</td><td><b>5.00M</b> (Nov 11, 2004)</td><td><a href="./ip-31bb244d0f6911b016c6ce54944f6fc4">Erez Shachar</a></td></tr></tbody><tbody id="boardp2" style="display: none;"><tr><td><a href="./c-0849659c26c77c8aac41bed0133fa88c">SeeBeyond Technology</a></td><td>Software (non-internet/mobile)</td><td><b>11.00M</b> (Mar 8, 1999)</td><td><a href="./ip-e7b24b112a44fdd9ee93bdf998c6ca0e">George J. Still Jr.</a>, <a href="./ip-6616e57eaae42f1fb77621a9366e6c50">Jerry F. Murdock</a>, <a href="./ip-013a006f03dbc5392effeb8f18fda755">Raymond J. Lane</a></td></tr><tr><td><a href="./c-14d9f3a29e7fb45297564da4fe44473e">Corio</a></td><td>Software (non-internet/mobile) &gt; Application & Data Integration Software</td><td></td><td><a href="./ip-e3796ae838835da0b6f6ea37bcf8bcb7">Vinod Khosla</a>, <a href="./ip-e7b24b112a44fdd9ee93bdf998c6ca0e">George J. Still Jr.</a>, <a href="./ip-5fd1526a8892593a3bb0ec6d50519aaa">Theodore E. Schlein</a></td></tr><tr><td><a href="./c-5f75e8eea894213d75a7c471116a3378">Cape Clear Software</a></td><td>Internet &gt; Internet Software & Services</td><td></td><td><a href="./ip-b53b3a3d6ab90ce0268229151c9bde11">Kevin Comolli</a>, <a href="./ip-8f121ce07d74717e0b1f21d122e04521">Bruce Cleveland</a>, <a href="./ip-c5ff73ee3de87f5e06fbdafe6d71008f">John Flynn</a></td></tr><tr><td><a href="./c-b147a61c1d07c1c999560f62add6dbc7">Symphoniq</a></td><td>Software (non-internet/mobile) &gt; Storage & Systems Management Software</td><td></td><td></td></tr><tr><td><a href="./c-c88d8d0a6097754525e02c2246d8d27f">Simply Continuous</a></td><td>Software (non-internet/mobile) &gt; Security Software</td><td></td><td></td></tr></tbody><tbody id="boardp3" style="display: none;"><tr><td><a href="./c-504e168545004f7cf60670ee2aa9cc6e">Syniverse Brience</a></td><td>Computer Hardware & Services &gt; IT Services</td><td></td><td><a href="./ip-37da5c908f9e8686d05e6d4accf25717">Keyur J. Patel</a></td></tr><tr><td><a href="./c-b6bbd11daf9d7d31ffa787379614cd4f">PolyServe</a></td><td>Software (non-internet/mobile)</td><td></td><td></td></tr><tr><td><a href="./c-74d1f598371a8d363fab3dca78b93690">Marimba</a></td><td>Software (non-internet/mobile)</td><td></td><td><a href="./ip-013a006f03dbc5392effeb8f18fda755">Raymond J. Lane</a>, <a href="./ip-dcf4ab7302702cfc24e7a91b308b8215">Douglas J. Mackenzie</a>, <a href="./ip-f0a20b51c340cf1d8be3f61d1b624a6c">Stratton D. Sclavos</a></td></tr><tr><td><a href="./c-19d5254bda3efc525d2fbc731215b282">OutlookSoft Corporation</a></td><td>Software (non-internet/mobile)</td><td></td><td><a href="./ip-68d83c7772aebc5c306a2aafcb38e891">Lawrence David Lenihan</a>, <a href="./ip-4c0d0ed0d09f44c438fca0a99dc05b12">William W. Helman</a>, <a href="./ip-65b9eea6e1cc6bb9f0cd2a47751a186f">Michael Brown</a>, <a href="./ip-9e9003b9c94c661799d90a63ee3d9030">James P. Mcniel</a></td></tr><tr><td><a href="./c-41ab32a8ee30c68af11c6e320db4f5d0">PeopleSoft</a></td><td>Software (non-internet/mobile) &gt; HR & Workforce Management Software</td><td></td><td><a href="./ip-8c4fe00448b5cf2833c438204ebfff8d">Steve Goldby</a></td></tr></tbody><tbody id="boardp4" style="display: none;"><tr><td><a href="./c-cecc9ca84be1d2cd9c5e88f159af74e7">Perfigo</a></td><td>Software (non-internet/mobile)</td><td></td><td><a href="./ip-03c6b06952c750899bb03d998e631860">Roger Evans</a></td></tr><tr><td><a href="./c-e4807834012f253392148c5bfdcb8020">Guru Worldwide</a></td><td>Business Products & Services &gt; HR & Staffing</td><td></td><td></td></tr></tbody></table>			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    <li onclick="changepage('boardp','previous',4)"><a href="#" onclick="return(false);">Previous</a></li><li id="boardpbutton0" class="active" onclick="changepage('boardp',0,4);"><a href="#" onclick="return(false);">1</a></li><li id="boardpbutton1" onclick="changepage('boardp',1,4);"><a href="#" onclick="return(false);">2</a></li><li id="boardpbutton2" onclick="changepage('boardp',2,4);"><a href="#" onclick="return(false);">3</a></li><li id="boardpbutton3" onclick="changepage('boardp',3,4);"><a href="#" onclick="return(false);">4</a></li><li id="boardpbutton4" onclick="changepage('boardp',4,4);"><a href="#" onclick="return(false);">5</a></li><li onclick="changepage('boardp','next',4)"><a href="#" onclick="return(false);">Next</a></li>				</ul>
+			    </div>
+			    </div>			    <!-- <tbody> -->
+			    <div class="section frequent_shares">
+					<h2 class="com_profile">Shares Boards With</a></h2>
+						<table class="table table-striped" id="com_competitors">
+							<thead>
+								<tr>
+								<th>Name</th>
+								<th>Firm</th>
+								<th>Current &amp; Former Shared boards</th>
+								</tr>
+							</thead><tbody id="freqshare0"><tr><td><a href="./ip-e7b24b112a44fdd9ee93bdf998c6ca0e">George J. Still Jr.</a></td><td><a href="./i-c81e728d9d4c2f636f067f89cc14862c">Norwest Venture Partners</a></td><td><b>3 boards</b> including <a href="./c-b4568df26077653eeadf29596708c94b">Workday</a>, <a href="./c-0849659c26c77c8aac41bed0133fa88c">SeeBeyond Technology</a>, <a href="./c-14d9f3a29e7fb45297564da4fe44473e">Corio</a></tr><tr><td><a href="./ip-428fca9bc1921c25c5121f9da7815cde">Mike Speiser</a></td><td><a href="./i-537de305e941fccdbba5627e3eefbb24">Sutter Hill Ventures</a></td><td><b>2 boards</b> including <a href="./c-f69a5ac83a9b713c404a7f5c3cc3f38e">Pure Storage</a>, <a href="./c-928f4ca705f087254806b3138726f1a3">Sumo Logic</a></tr><tr><td><a href="./ip-013a006f03dbc5392effeb8f18fda755">Raymond J. Lane</a></td><td><a href="./i-6512bd43d9caa6e02c990b0a82652dca">Kleiner Perkins Caufield & Byers</a></td><td><b>2 boards</b> including <a href="./c-0849659c26c77c8aac41bed0133fa88c">SeeBeyond Technology</a>, <a href="./c-74d1f598371a8d363fab3dca78b93690">Marimba</a></tr><tr><td><a href="./ip-b2fb12e27d2287a01cef2a1b4aafe813">Benjamin Horowitz</a></td><td><a href="./i-690bb330e5e7e3e07867fafc4d32ec82">Andreessen Horowitz</a></td><td><b>2 boards</b> including <a href="./c-b600b4a38eec82f70918b605343a6dea">Tidemark Systems</a>, <a href="./c-6209d3873549a30e8e72459469532fd4">Okta</a></tr><tr><td><a href="./ip-8f121ce07d74717e0b1f21d122e04521">Bruce Cleveland</a></td><td><a href="./i-f7177163c833dff4b38fc8d2872f1ec6">InterWest Partners</a></td><td><b>1 board</b> including <a href="./c-5f75e8eea894213d75a7c471116a3378">Cape Clear Software</a></tr></tbody><tbody id="freqshare1" style="display: none;"><tr><td><a href="./ip-c5ff73ee3de87f5e06fbdafe6d71008f">John Flynn</a></td><td><a href="./i-1a99f6821980ac99136dcd2f1e9c8740">ACT Venture Capital</a></td><td><b>1 board</b> including <a href="./c-5f75e8eea894213d75a7c471116a3378">Cape Clear Software</a></tr><tr><td><a href="./ip-5fd1526a8892593a3bb0ec6d50519aaa">Theodore E. Schlein</a></td><td><a href="./i-6512bd43d9caa6e02c990b0a82652dca">Kleiner Perkins Caufield & Byers</a></td><td><b>1 board</b> including <a href="./c-14d9f3a29e7fb45297564da4fe44473e">Corio</a></tr><tr><td><a href="./ip-e3796ae838835da0b6f6ea37bcf8bcb7">Vinod Khosla</a></td><td><a href="./i-0336dcbab05b9d5ad24f4333c7658a0e">Khosla Ventures</a></td><td><b>1 board</b> including <a href="./c-14d9f3a29e7fb45297564da4fe44473e">Corio</a></tr><tr><td><a href="./ip-37da5c908f9e8686d05e6d4accf25717">Keyur J. Patel</a></td><td><a href="./i-3cef96dcc9b8035d23f69e30bb19218a">Fuse Capital</a></td><td><b>1 board</b> including <a href="./c-504e168545004f7cf60670ee2aa9cc6e">Syniverse Brience</a></tr><tr><td><a href="./ip-b53b3a3d6ab90ce0268229151c9bde11">Kevin Comolli</a></td><td><a href="./i-e2c0be24560d78c5e599c2a9c9d0bbd2">Accel Partners</a></td><td><b>1 board</b> including <a href="./c-5f75e8eea894213d75a7c471116a3378">Cape Clear Software</a></tr></tbody><tbody id="freqshare2" style="display: none;"><tr><td><a href="./ip-f0a20b51c340cf1d8be3f61d1b624a6c">Stratton D. Sclavos</a></td><td><a href="./i-30bb3825e8f631cc6075c0f87bb4978c">Radar Partners</a></td><td><b>1 board</b> including <a href="./c-74d1f598371a8d363fab3dca78b93690">Marimba</a></tr><tr><td><a href="./ip-9e9003b9c94c661799d90a63ee3d9030">James P. Mcniel</a></td><td><a href="./i-c0e190d8267e36708f955d7ab048990d">FirstMark Capital</a></td><td><b>1 board</b> including <a href="./c-19d5254bda3efc525d2fbc731215b282">OutlookSoft Corporation</a></tr><tr><td><a href="./ip-8c4fe00448b5cf2833c438204ebfff8d">Steve Goldby</a></td><td><a href="./i-2b8a61594b1f4c4db0902a8a395ced93">Venrock</a></td><td><b>1 board</b> including <a href="./c-41ab32a8ee30c68af11c6e320db4f5d0">PeopleSoft</a></tr><tr><td><a href="./ip-03c6b06952c750899bb03d998e631860">Roger Evans</a></td><td><a href="./i-aba3b6fd5d186d28e06ff97135cade7f">Greylock Partners</a></td><td><b>1 board</b> including <a href="./c-cecc9ca84be1d2cd9c5e88f159af74e7">Perfigo</a></tr><tr><td><a href="./ip-65b9eea6e1cc6bb9f0cd2a47751a186f">Michael Brown</a></td><td><a href="./i-202cb962ac59075b964b07152d234b70">Battery Ventures</a></td><td><b>1 board</b> including <a href="./c-19d5254bda3efc525d2fbc731215b282">OutlookSoft Corporation</a></tr></tbody><tbody id="freqshare3" style="display: none;"><tr><td><a href="./ip-4c0d0ed0d09f44c438fca0a99dc05b12">William W. Helman</a></td><td><a href="./i-aba3b6fd5d186d28e06ff97135cade7f">Greylock Partners</a></td><td><b>1 board</b> including <a href="./c-19d5254bda3efc525d2fbc731215b282">OutlookSoft Corporation</a></tr><tr><td><a href="./ip-6616e57eaae42f1fb77621a9366e6c50">Jerry F. Murdock</a></td><td><a href="./i-c74d97b01eae257e44aa9d5bade97baf">Insight Venture Partners</a></td><td><b>1 board</b> including <a href="./c-0849659c26c77c8aac41bed0133fa88c">SeeBeyond Technology</a></tr><tr><td><a href="./ip-68d83c7772aebc5c306a2aafcb38e891">Lawrence David Lenihan</a></td><td><a href="./i-c0e190d8267e36708f955d7ab048990d">FirstMark Capital</a></td><td><b>1 board</b> including <a href="./c-19d5254bda3efc525d2fbc731215b282">OutlookSoft Corporation</a></tr><tr><td><a href="./ip-dcf4ab7302702cfc24e7a91b308b8215">Douglas J. Mackenzie</a></td><td><a href="./i-30bb3825e8f631cc6075c0f87bb4978c">Radar Partners</a></td><td><b>1 board</b> including <a href="./c-74d1f598371a8d363fab3dca78b93690">Marimba</a></tr><tr><td><a href="./ip-cb70ab375662576bd1ac5aaf16b3fca4">Tom Furlong</a></td><td><a href="./i-04da717026605472461b05cf41f717ee">Granite Ventures</a></td><td><b>1 board</b> including <a href="./c-2751fae77b24c37382cf6464173d145e">Above All Software</a></tr></tbody><tbody id="freqshare4" style="display: none;"><tr><td><a href="./ip-0f35c6d68b37bc794ca8501120d8182f">John L. Walecka</a></td><td><a href="./i-b8c37e33defde51cf91e1e03e51657da">Redpoint Ventures</a></td><td><b>1 board</b> including <a href="./c-f69a5ac83a9b713c404a7f5c3cc3f38e">Pure Storage</a></tr><tr><td><a href="./ip-d408f8836601ea1440f17989e8e87483">Ping Li</a></td><td><a href="./i-e2c0be24560d78c5e599c2a9c9d0bbd2">Accel Partners</a></td><td><b>1 board</b> including <a href="./c-ad22e184c6cdfb585ad39195d1905acd">Cloudera</a></tr><tr><td><a href="./ip-af9ccb8c09ec0f7e2406248bd619266f">Andrew Braccia</a></td><td><a href="./i-e2c0be24560d78c5e599c2a9c9d0bbd2">Accel Partners</a></td><td><b>1 board</b> including <a href="./c-ad22e184c6cdfb585ad39195d1905acd">Cloudera</a></tr><tr><td><a href="./ip-1068c6e4c8051cfd4e9ea8072e3189e2">Satish Dharmaraj</a></td><td><a href="./i-b8c37e33defde51cf91e1e03e51657da">Redpoint Ventures</a></td><td><b>1 board</b> including <a href="./c-f69a5ac83a9b713c404a7f5c3cc3f38e">Pure Storage</a></tr><tr><td><a href="./ip-f654edd7c5eb3459527efcbb7cbeebc8">Mike Volpi</a></td><td><a href="./i-e5841df2166dd424a57127423d276bbe">Index Ventures</a></td><td><b>1 board</b> including <a href="./c-f69a5ac83a9b713c404a7f5c3cc3f38e">Pure Storage</a></tr></tbody><tbody id="freqshare5" style="display: none;"><tr><td><a href="./ip-7fa732b517cbed14a48843d74526c11a">Geoffrey Y. Yang</a></td><td><a href="./i-b8c37e33defde51cf91e1e03e51657da">Redpoint Ventures</a></td><td><b>1 board</b> including <a href="./c-b600b4a38eec82f70918b605343a6dea">Tidemark Systems</a></tr><tr><td><a href="./ip-fedfccb3e56d00940f966e345b0c2fe3">Mark Leslie</a></td><td><a href="./i-129fe3f122a123f2d69ed124459aff58">Leslie Ventures</a></td><td><b>1 board</b> including <a href="./c-f69a5ac83a9b713c404a7f5c3cc3f38e">Pure Storage</a></tr><tr><td><a href="./ip-08c5433a60135c32e34f46a71175850c">Frank G. Artale</a></td><td><a href="./i-73278a4a86960eeb576a8fd4c9ec6997">Ignition Partners</a></td><td><b>1 board</b> including <a href="./c-ad22e184c6cdfb585ad39195d1905acd">Cloudera</a></tr><tr><td><a href="./ip-6c9882bbac1c7093bd25041881277658">Asheem Chandna</a></td><td><a href="./i-aba3b6fd5d186d28e06ff97135cade7f">Greylock Partners</a></td><td><b>1 board</b> including <a href="./c-928f4ca705f087254806b3138726f1a3">Sumo Logic</a></tr><tr><td><a href="./ip-d0590c3194fc8551999c90e3ced336ba">Thomas E. Banahan</a></td><td><a href="./i-b06b5541a62ed438f956b662b4e1ec28">Tenaya Capital</a></td><td><b>1 board</b> including <a href="./c-b600b4a38eec82f70918b605343a6dea">Tidemark Systems</a></tr></tbody><tbody id="freqshare6" style="display: none;"><tr><td><a href="./ip-6f15ac7a42bf7cd03a43382a12832123">Patrick C. Lee</a></td><td><a href="./i-ffeabd223de0d4eacb9a3e6e53e5448d">Pinnacle Ventures</a></td><td><b>1 board</b> including <a href="./c-2751fae77b24c37382cf6464173d145e">Above All Software</a></tr><tr><td><a href="./ip-d93719f16a8da02eccf18dfd097194c8">John Egan</a></td><td><a href="./i-854d9fca60b4bd07f9bb215d59ef5561">Egan-Managed Capital</a></td><td><b>1 board</b> including <a href="./c-b5dc4e5d9b495d0196f61d45b26ef33e">Data Domain</a></tr><tr><td><a href="./ip-ef16866ae8fb0cc60f70c3caf7396152">William D. Porteous</a></td><td><a href="./i-b534ba68236ba543ae44b22bd110a1d6">RRE Ventures</a></td><td><b>1 board</b> including <a href="./c-192fc044e74dffea144f9ac5dc9f3395">Drobo</a></tr><tr><td><a href="./ip-12d8a90a71c06166549dc546b39b2fc6">Joseph Ansanelli</a></td><td><a href="./i-aba3b6fd5d186d28e06ff97135cade7f">Greylock Partners</a></td><td><b>1 board</b> including <a href="./c-928f4ca705f087254806b3138726f1a3">Sumo Logic</a></tr><tr><td><a href="./ip-91a188bd40f6a903bfc4da1e0a41b864">Scott  Sandell</a></td><td><a href="./i-a87ff679a2f3e71d9181a67b7542122c">New Enterprise Associates</a></td><td><b>1 board</b> including <a href="./c-b4568df26077653eeadf29596708c94b">Workday</a></tr></tbody><tbody id="freqshare7" style="display: none;"><tr><td><a href="./ip-31bb244d0f6911b016c6ce54944f6fc4">Erez Shachar</a></td><td><a href="./i-07cdfd23373b17c6b337251c22b7ea57">Evergreen Venture Partners</a></td><td><b>1 board</b> including <a href="./c-4e714dc795dc50b932e2a837e3efc472">Illuminator</a></tr></tbody></table>
+			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    <li onclick="changepage('freqshare','previous',7)"><a href="#" onclick="return(false);">Previous</a></li><li id="freqsharebutton0" class="active" onclick="changepage('freqshare',0,7);"><a href="#" onclick="return(false);">1</a></li><li id="freqsharebutton1" onclick="changepage('freqshare',1,7);"><a href="#" onclick="return(false);">2</a></li><li id="freqsharebutton2" onclick="changepage('freqshare',2,7);"><a href="#" onclick="return(false);">3</a></li><li id="freqsharebutton3" onclick="changepage('freqshare',3,7);"><a href="#" onclick="return(false);">4</a></li><li id="freqsharebutton4" onclick="changepage('freqshare',4,7);"><a href="#" onclick="return(false);">5</a></li><li id="freqsharebutton5" onclick="changepage('freqshare',5,7);"><a href="#" onclick="return(false);">6</a></li><li id="freqsharebutton6" onclick="changepage('freqshare',6,7);"><a href="#" onclick="return(false);">7</a></li><li id="freqsharebutton7" onclick="changepage('freqshare',7,7);"><a href="#" onclick="return(false);">8</a></li><li onclick="changepage('freqshare','next',7)"><a href="#" onclick="return(false);">Next</a></li>				</ul>
+			    </div>
+
+			    </div>
+			    			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    				</ul>
+			    </div>
+			    
+
+
+
+			    			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    				</ul>
+			    </div>
+			    
+			    <div class="section timeline">
+				<h2 class="com_profile">Selected News Mentions</h2>
+				<div id="articles"></div>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+
+	</div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="./js/topsearch.min.js"></script>
+    <script type="text/javascript" src="./js/cbi.js"></script>
+    <script type="text/javascript" src="./js/timeline.js"></script>
+    <script type="text/javascript" src="./js/tooltip.js"></script>
+    <script type="text/javascript" src="./js/timeline-chart.js"></script>
+    <script type="text/javascript">
+     var myTimeline = Timeline();
+     var myTimelineChart = TimelineChart().callback(function () {
+	 $(".d3-loading-wrapper").removeClass("d3-loading-wrapper");
+	 $(".d3-loading").remove();
+     });
+     var timeFormat = d3.time.format("%Y-%m-%d %X");
+     var timeDisplayFormat = d3.time.format("%Y-%m");
+     var i = 0;
+     var data = [];
+     d3.json('./ajax/getters/get_inv_people_news_mentions.php?id_inv_person_md5=621bf66ddb7c962aa0d22ac97d69b793', function (_data) {
+	 if (_data.length >= 10) $('.white').slideDown();
+	 if (_data.length == 0) {
+	     $('[data-section=timeline]').hide();
+	     $('.timeline').hide();
+	 }
+	 _data.reverse();
+	 _data.forEach(function(e) {
+	     e.ts_news = timeFormat.parse(e.ts_news);
+	     if (data.length === 0) {
+		 return data.push({ month: d3.time.month(e.ts_news), articles: [e] });
+	     }
+	     else {
+		 if (timeDisplayFormat(e.ts_news) === timeDisplayFormat(data[i].month)) {
+		     return data[i].articles.push(e);
+		 }
+		 else {
+		     data.push({
+			 month: d3.time.month(e.ts_news),
+			 articles: [e]
+		     });
+		     return ++i;
+		 }
+	     }
+	 });
+	 d3.select("#nb-press-mentions").html(_data.length);
+	 d3.select("#articles").datum(data).call(myTimeline);
+	 d3.select("#chart").datum(data).call(myTimelineChart);
+     });
+    </script>
+    
+    <script type="text/javascript">
+     $(document).ready(function () {
+	 $('#more_bio,#less_bio').on('click', function() {
+	     $('#bio_short').toggle();
+	     $('#bio_long').toggle();
+	 });//on click
+
+	 $('.learn_more_twitter').on('click', function () {
+	     $(this).parent().parent().children('.learn_more_twitter_div').slideToggle();
+	     return false;
+	 });
+     });
+
+     var active_page = 0;
+     var rec_per_page = 5;
+     function changepage(section, pagen, max_pagenum) {
+	 if (pagen == "next")
+	 active_page = Math.min(max_pagenum, active_page + 1);
+	 else if (pagen == "previous")
+	 active_page = Math.max(0, active_page -1);
+	 else
+	 active_page = pagen;
+
+	 if (active_page < 5)
+	 {
+	     min_active_button = 0;
+	     max_active_button = Math.min(max_pagenum, 9);
+	 }
+	 else if ((max_pagenum - active_page) < 5)
+	 {
+	     max_active_button = max_pagenum;
+	     min_active_button = Math.max(0, max_pagenum - 9);
+	 }
+	 else
+	 {
+	     min_active_button = active_page - 4;
+	     max_active_button = active_page + 5;
+	 }
+
+	 for (i=0; i <= max_pagenum; i++)
+	 {
+	     if (i == active_page) {
+		 $('#' + section + String(i)).toggle(true);
+		 $('#' + section + 'button' + String(i)).attr("class","active");
+	     }
+	     else {
+		 $('#' + section + String(i)).toggle(false);
+		 $('#' + section + 'button' + String(i)).attr("class","inactive");
+	     }
+
+
+	     if (i >= min_active_button && i <= max_active_button)
+	     $('#' + section + 'button' + String(i)).toggle(true);
+	     else
+	     $('#' + section + 'button' + String(i)).toggle(false);
+	 }
+     }//changepage
+
+
+     $('a[data-section]').on('click', function () {
+	 $('.nav-pills li').removeClass('active');
+	 $(this).parent().addClass('active');
+	 if ($(this).attr('data-section-type') == 'core') {
+	     $('#mosaic_tab').hide();
+	     $('#news_tab').hide();
+	     $('#basic_tab').show();
+	     if ($(this).attr('data-section') == '') {
+		 $('.section').show();
+	     }
+	     else {
+		 $('.section').hide();
+		 $('.section.' + $(this).attr('data-section')).show();
+	     }
+
+	     if ($('#total_score').css('display') != 'none') {
+		 $('#company_header .span12').removeClass('span12').addClass('span9');
+		 $('#top_right').removeClass('span9').addClass('span3').removeAttr('style');
+		 $('#lists_menu').removeAttr('style');
+		 $('#top_right > a').show();
+		 $('#total_score').hide();
+	     }
+	 }
+	 else {
+	     $('#mosaic_tab').show();
+	     $('#news_tab').hide();
+	     $('#basic_tab').hide();
+
+	     $('#mosaic_tab').html('<div id="mosaic-loader"><img src="img/ajax-loader.gif" alt="loading" /></div>');
+
+	     var _this = $(this);
+	     $.ajax({
+		 type: 'POST',
+		 url: 'ajax/getters/mosaic/' + _this.attr('data-section') + '.php',
+		 data: {id_company: id_company},
+		 success: function(data){
+		     $('#mosaic_tab').html(data);
+		     return false;
+		 }
+	     });
+	     if ($('#total_score').css('display') == 'none') {
+		 $('#top_right').removeClass('span3').addClass('span9').css('text-align', 'left');
+		 $('#total_score').fadeIn();
+		 $('#lists_menu').css({
+		     'float': 'none',
+		     'margin': 0,
+		     'display': 'inline-block'
+		 });
+		 $('#top_right > a').hide();
+	     }
+	 }
+     });
+
+     $('#news_tab_button').on('click', function () {
+	 $('#basic_tab').show();
+	 $('#news_tab').show();
+	 $('.pills_sub_menu li').removeClass('active');
+     });
+
+     $('a[data-section-type="core"]').each(function () { // hide tab if section is not present on the page
+							if ($(this).attr('data-section') != '' && $('.section.' + $(this).attr('data-section')).length == 0)
+							$(this).parent().hide();
+							});
+    </script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"da0f25597a","applicationID":"2978698","transactionName":"MgFSYEsDWRIHW0QIVwtLZUZQTV4PEGdABFcVCFVrSRBYBw9UVU9IDRQ=","queueTime":0,"applicationTime":112,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-338.min.js"}</script><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"www.cloudflare.com/email-protection"==a.substr(7 ,35)){s='';j=43;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body></html>

@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1394660766,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok8v=02fcfa4f56/"},atok:"1811706007acf6ae7a16a3d93e997e4f",petok:"53d0b156ff45b3f4a704ea879d9a88f566e57384-1394695033-1800",zone:"cbinsights.com",rocket:"0",apps:{"abetterbrowser":{"ie":"7"},"ga_key":{"ua":"UA-2917383-11","ga_bs":"2"}}}];var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.async=!0;a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok8v=b064e16429/cloudflare.min.js";b.parentNode.insertBefore(a,b);}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f<d.length;f++)e(d[f]);return e}({"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&&a.agent&&a.licenseKey&&a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&&e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],loader:[function(a,b){b.exports=a("YLUGVp")},{}]},{},["YLUGVp"]);</script>
+	<title>Byron Deeter - CB Insights</title>
+
+<script>
+	var id_user = 36130;
+	var $_SESSION = { pkg: {"id_package":9,"name":"Basic","annual":0,"id_duration":3,"price":0,"online_chat":1,"ts_package":"0000-00-00 00:00:00","social_graph":0,"hide_features":0,"num_days":31,"features":{"company_search":{"id_feature":1,"feature":"Company Search","feature_session":"company_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":4,"cbi_user_field":"com_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"investor_search":{"id_feature":2,"feature":"Investor Search","feature_session":"investor_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":5,"cbi_user_field":"inv_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"deal_search":{"id_feature":3,"feature":"Deal Search","feature_session":"deal_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":6,"cbi_user_field":"deal_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"valuation_search":{"id_feature":4,"feature":"Valuation Search","feature_session":"valuation_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":7,"cbi_user_field":"vs_searches","id_package":9,"access":1,"quota":2,"results_per_page":25,"results_total":5},"people_search":{"id_feature":5,"feature":"People Search","feature_session":"people_search","admin_order":null,"team_admin_edit":0,"team_admin_page_order":8,"cbi_user_field":"people_searches","id_package":9,"access":1,"quota":10,"results_per_page":25,"results_total":10},"rankings":{"id_feature":6,"feature":"Rankings Search","feature_session":"rankings","admin_order":null,"team_admin_edit":0,"team_admin_page_order":9,"cbi_user_field":"rank_searches","id_package":9,"access":1,"quota":2,"results_per_page":5,"results_total":5},"mosaic":{"id_feature":7,"feature":"Mosaic","feature_session":"mosaic","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"cb_insider":{"id_feature":8,"feature":"CB Insider","feature_session":"cb_insider","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"sf_contacts":{"id_feature":9,"feature":"Salesforce Contacts","feature_session":"sf_contacts","admin_order":null,"team_admin_edit":1,"team_admin_page_order":12,"cbi_user_field":"sf_contacts","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"company_profile":{"id_feature":10,"feature":"Company Profile","feature_session":"company_profile","admin_order":null,"team_admin_edit":0,"team_admin_page_order":1,"cbi_user_field":"cp_views","id_package":9,"access":1,"quota":20,"results_per_page":0,"results_total":0},"investor_profile":{"id_feature":11,"feature":"Investor Profile","feature_session":"investor_profile","admin_order":null,"team_admin_edit":0,"team_admin_page_order":2,"cbi_user_field":"ip_views","id_package":9,"access":1,"quota":20,"results_per_page":0,"results_total":0},"industry_analytics":{"id_feature":12,"feature":"Industry Analytics","feature_session":"industry_analytics","admin_order":null,"team_admin_edit":0,"team_admin_page_order":13,"cbi_user_field":"ia_views","id_package":9,"access":1,"quota":1,"results_per_page":0,"results_total":0},"profile_views":{"id_feature":13,"feature":"Profile Views","feature_session":"profile_views","admin_order":null,"team_admin_edit":1,"team_admin_page_order":3,"cbi_user_field":"total_profiles","id_package":9,"access":1,"quota":20,"results_per_page":0,"results_total":0},"downloads":{"id_feature":14,"feature":"Downloads","feature_session":"downloads","admin_order":null,"team_admin_edit":1,"team_admin_page_order":11,"cbi_user_field":"ex_downloads","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"searches":{"id_feature":15,"feature":"Searches","feature_session":"searches","admin_order":null,"team_admin_edit":1,"team_admin_page_order":10,"cbi_user_field":"total_searches","id_package":9,"access":1,"quota":10,"results_per_page":0,"results_total":0},"logins":{"id_feature":16,"feature":"Logins","feature_session":"logins","admin_order":null,"team_admin_edit":1,"team_admin_page_order":0,"cbi_user_field":"total_logins","id_package":9,"access":1,"quota":10,"results_per_page":0,"results_total":0},"premium_post":{"id_feature":17,"feature":"Premium Post","feature_session":"premium_post","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"api_calls":{"id_feature":18,"feature":"API Calls","feature_session":"api_calls","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":1,"quota":300,"results_per_page":0,"results_total":0},"chat":{"id_feature":19,"feature":"Chat","feature_session":"chat","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":1,"quota":0,"results_per_page":0,"results_total":0},"long_life_session":{"id_feature":20,"feature":"Long life session","feature_session":"long_life_session","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"browser_plugin":{"id_feature":21,"feature":"Browser plugin","feature_session":"browser_plugin","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"browser_plugin_views","id_package":9,"access":1,"quota":100,"results_per_page":10,"results_total":10},"receive_funding_flash":{"id_feature":22,"feature":"Receive Funding Flash","feature_session":"receive_funding_flash","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"search_templates":{"id_feature":23,"feature":"Search Templates","feature_session":"search_templates","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"search_templates","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"advanced_data_fields":{"id_feature":24,"feature":"Advanced Data Fields","feature_session":"advanced_data_fields","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"mobile_data":{"id_feature":25,"feature":"Mobile Data","feature_session":"mobile_data","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":"","id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"people_profile_tab":{"id_feature":26,"feature":"People Profile Tab","feature_session":"people_profile_tab","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0},"financing_profile_tab":{"id_feature":27,"feature":"Financing Profile Tab","feature_session":"financing_profile_tab","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":1,"quota":0,"results_per_page":0,"results_total":0},"funding_history_profile_table":{"id_feature":28,"feature":"Funding History Profile Table","feature_session":"funding_history_profile_table","admin_order":null,"team_admin_edit":0,"team_admin_page_order":null,"cbi_user_field":null,"id_package":9,"access":0,"quota":0,"results_per_page":0,"results_total":0}}} };
+	$_SESSION.pkg.basic = /basic/ig.test($_SESSION.pkg.name);
+	$_SESSION.browser = {
+		ie8: !document.createElementNS
+	};
+	// GA stuff
+	var _gaq = _gaq || [];
+	_gaq.push(['_setCustomVar', 1, 'User Type', $_SESSION.pkg.price ? 'Paid' : 'Free', 1]);
+	_gaq.push(['_setCustomVar', 5, 'User ID', id_user, 1]);
+</script>
+	<link rel="stylesheet" href="./css/timeline.css">
+			<style type="text/css">
+			.top_search_results {
+				font-size: 12px !important;
+			}
+		</style>
+					
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2917383-11']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body data-twttr-rendered="true" id="people_profile" style="background-color:#f5f5f5;">
+    <div id="header_load"></div>
+    
+	
+	<script id="IntercomSettingsScriptTag">
+			  window.intercomSettings = {"app_id":"1807d4f6935e9397bfcd1c5c187d611789b4fee4","email":"sid.reddy@cornellvc.com","user_id":"36130","created_at":1393516811,"user_hash":"cf1c90af4187c32da2f59ae4a48dd79e464dac8f359fc0e61aea5d4a2ce49f7b","name":" ","first name":"","last name":"","active":"1","type":"user","title":null,"package":"Basic","user company":"","company searches":"1","deal searches":"1","investor searches":"0","people searches":"0","industry analytics views":"0","valuation searches":"0","ranking searches":"0","logins":8,"searches":"2","excel downloads":"2","sf contacts":"0","drip marketing":"1","package start_at":1393516811,"package end_at":1395936011,"profiles remaining":0,"searches remaining":8,"downloads remaining":0,"contacts remaining":0,"profile views":37,"company views":0,"investor views":37,"top search":0,"last investor profile_at":1394679463,"last package":"Basic","blog signup":0};
+		</script>
+		<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://static.intercomcdn.com/intercom.v1.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
+
+
+<div id="nav_bg">
+	<div class="container">
+		<div class="navbar row">
+			<div class="span1">
+				<div class="home">
+					<a href="/mycbi.php">MyCBI</a>					<a href="/mycbi.php"><img src="/img/small_logo_header.png" alt="Go to MyCBI" height="30" width="47"></a>				</div>
+			</div>
+			<div class="span2">
+				<ul class="nav-links">
+					<li><a href="/deal_search.php">Deal Search</a></li>
+											<li >
+							<a href="/advanced_search.php?seg=com">Company Search</a>
+						</li>
+																<li >
+							<a href="/advanced_search.php?seg=inv">Investor Search</a>
+						</li>
+										<li><a href="/people_search.php">People Search</a></li>				</ul>
+			</div>
+			<div class="span3">
+				<ul class="nav-links">
+					<li><a href="/industries">Industry Analytics</a></li>										<li><a href="/valuation_search.php">Valuation / Multiple Search</a></li>
+										<li><a href="/rankings.php">Rankings</a></li>
+					<li><a href="/research/">Research</a></li>
+									</ul>
+			</div>
+			<div class="span2">
+				<ul class="nav-links">
+										<li><a href="/data_append.php">Bulk Search</a></li>
+										<li>
+						<a href="/excel-plugin">Excel Plugin</a> <span class="label label-success">NEW</span>
+					</li>
+					<li>
+						<a href="/chrome-plugin">Chrome Plugin</a> <span class="label label-success">NEW</span>
+					</li>
+				</ul>
+			</div>
+			<div class="span4">
+				<input type="text" name="term" id="term" placeholder="Search companies and investors" autocomplete="off" />
+				<div class="user-section">
+											&nbsp; |
+						<a href="/user_account.php">Your account</a>
+						<a href="/basic_upgrade.php"><span class="label label-success">upgrade</span></a>											|
+						<a href="/user_logout.php?url=">Logout</a></span>
+										<div class="btn-group" style="display: block;">
+					  <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" style="color:#333;" href="#" data-bind="click: loadPrivateLists">
+					    Your Private Lists
+					    <span class="caret"></span>
+					  </a>
+					  <ul class="dropdown-menu" style="right: 0;text-align: left;left: auto;max-height: 600px;" data-bind="foreach: privateLists()">
+					    <li><a data-bind="attr: { href: CBI.getIAURL(id(), 'private_list')+'#company-list' }, text: name()"></a></li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+				<div class="user-ed-banner" style="margin-top:-10px;">
+			<div class="container">
+				<p style="margin-bottom: 10px;" class="lead">CB Insights offers powerful, easy access to the following:</p>
+				<ul>
+					
+			<li><p><a href="/deal_search.php#feature=financings&ind=Technology&geo=California&time=m">List of California Technology financings from the past month</a></p></li>
+			<li><p><a href="/rankings.php#feature=investors&ind=Technology&geo=California&time=y">Rankings of top investors in California-based Technology companies from the past year</a></p></li>
+			<li><p><a href="/valuation_search.php#feature=none&ind=Technology">Technology Valuations</a></p></li>
+						</ul>
+				<p class="pull-right" style="margin-top: -28px;"><small>Paying customers don't see this banner. <a href="/basic_upgrade.php">Upgrade today</a></small></p>
+			</div>
+		</div>
+		
+		<img src="/img/arrow-top-right-left.png" style="display: none;position: absolute;z-index: 20000;" id="basic_user_ed_arrow">
+
+	
+<div id="wrapper">
+</div>
+
+    <div class="modal" id="upgrade_modal" style="display:none">
+	<div class="modal-header">
+	    <a class="close" data-dismiss="modal">&times;</a>
+	    <h2>Uh Oh! You're out of profile views</h2>
+	</div>
+	<div class="modal-body">
+	    Upgrade and we'll show you Facebook's profile and also get:
+	    <ul>
+		<li>Download profiles as PDF</li>
+		<li>Get search results in Excel</li>
+		<li>View more profiles</li>
+	    </ul>
+	</div>
+	<div class="modal-footer">
+	    <a href="#" class="btn btn-primary btn-large">Upgrade</a>
+	    <a href="#">Learn more</a>
+	</div>
+    </div>
+
+    <div class="container">
+
+	<div id="company_header" class="row"> <!-- Company profile header -->
+	    <div class="span9"><h1 id="company_name">Byron Deeter</h1>
+		<p>works at <a href="./i-a3f390d88e4c41f2747bfa2f1b5f87db">Bessemer Venture Partners</a></p>
+	    </div>
+	</div>
+    </div>
+
+    <div class="white" style="margin-bottom:20px;display:none;">
+	<div class="container">
+	    <div class="row">
+		<div class="span12">
+		    <div id="chart" class="d3-loading-wrapper">
+			<div class="d3-loading"><img src="./img/ajax-loader.gif" alt="Loading..." /></div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+    </div>
+
+    <div class="container">
+	<div class="row">
+	    <div class="span3"> <!-- Notes & Tasks -->
+		<ul class="nav nav-pills nav-stacked">
+		    <li class="active"><a href="#basic_tab" data-toggle="tab" data-section-type="core" data-section="">All</a></li>
+		    <li><a href="#" data-section-type="core" data-section="board_positions">Board Positions</a></li>
+		    <li><a href="#" data-section-type="core" data-section="frequent_shares">Shares Boards With</a></li>
+		    <li><a href="#" data-section-type="core" data-section="inv_they_know">Investors They Know</a></li>
+		    <li><a href="#" data-section-type="core" data-section="entrepreneurs_they_know">Executives They Know</a></li>
+		    <li><a href="#" data-section-type="core" data-section="timeline">Selected News Mentions</a></li>
+		</ul>
+	    </div>
+
+
+	    <div class="tab-content span9" style="margin-bottom:200px;"> <!-- Right -->
+		<!-- <ul class="nav nav-tabs">
+		<li class="active"><a href="#">Relationships</a></li>
+		<li><a href="#">Performance</a></li>
+		</ul> -->
+
+
+
+		<div id="insights" class="row">
+		    <div class="span9">
+			<div id="tables">
+			    <div class="section">
+
+				<p id="bio_short" style="padding-left:10px">Philippe Botteri is a Senior Associate in BVP&Atilde;&cent;&Acirc;€&Acirc;™s Menlo Park office. Working primarily with Byron Deeter, he focuses on the enterprise software and internet sectors. Most recently, Philippe was a senior engagement manager at McKinsey &amp; Co.&Atilde;&cent;&Acirc;€&Acirc;™s high-tech practice in Silicon Valley, where he focused in the software,&nbsp;&nbsp;<a id="more_bio" href="#">more &#x226B;</a></p>
+						<p id="bio_long" style="padding-left:10px; display: none;">Philippe Botteri is a Senior Associate in BVP&Atilde;&cent;&Acirc;€&Acirc;™s Menlo Park office. Working primarily with Byron Deeter, he focuses on the enterprise software and internet sectors. Most recently, Philippe was a senior engagement manager at McKinsey &amp; Co.&Atilde;&cent;&Acirc;€&Acirc;™s high-tech practice in Silicon Valley, where he focused in the software,&nbsp;&nbsp;<a id="less_bio" href="#">&#x226A; less</a></p>
+											 <div id="how_to_reach" class="gray_block">
+												 <table class="table">
+													 <thead>
+														 <tr>
+															 <th>How to reach</th>
+															 <th>Byron Deeter</th>
+																</tr>
+															</thead>
+													 <tbody><tr><td>via email</td><td><a href='http://www.cloudflare.com/email-protection#47253e352829072531376924282a'><span class="__cf_email__" data-cfemail="a1c3d8d3cecfe1c3d7d18fc2cecc">[email&nbsp;protected]</span><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script></a></td></tr></tbody>
+							</table>
+						</div>			    </div>
+			    <!-- <tbody> -->
+			    <div class="section board_positions">
+					<h2 class="com_profile">Board Positions</h2>
+						<table class="table table-striped" id="com_funding_info">
+						<thead>
+							<tr>
+								<th>Company</th>
+								<th>Sector / Industry</th>
+								<th>Last Funding</th>
+								<th>Shares Board With</th>
+							</tr>
+						</thead><tbody id="boardp0"><tr><td><a href="./c-ac503f9e2345aa0e0cb346bec68f7ce5">ClearSlide</a></td><td>Internet &gt; Internet Software & Services</td><td><b>50.00M</b> (Feb 27, 2014)</td><td><a href="./ip-dc0d9b96e97313f0e6e5d4ede526f759">Aydin Senkut</a>, <a href="./ip-badbdb9f6069430e5813d96fdf55e0ac">John Lilly</a>, <a href="./ip-10b0794b2d16d43b083f5fad5ef2442d">Mamoon Hamid</a></td></tr><tr><td><a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></td><td>Internet &gt; Internet Software & Services</td><td><b>15.00M</b> (Feb 18, 2014)</td><td><a href="./ip-54a367d629152b720749e187b3eaa11b">Gregory P. Sands</a>, <a href="./ip-6cbf8903b512b2c8c050054af7d5ce35">Brian Jacobs</a>, <a href="./ip-7c590f01490190db0ed02a5070e20f01">Ann L. Winblad</a>, <a href="./ip-f6dd8eba119cb5e467374917752ca683">Thomas Neustaetter</a>, <a href="./ip-0289a6acbed665d9ce707929e122d043">Mario M. Rosati</a>, <a href="./ip-e2f31e9cb00f24ec62bfec353d249266">Chelsea Stoner</a>, <a href="./ip-5225c0461a7351b6fd82f8feae491d63">Jeff Epstein</a>, <a href="./ip-333cf35251d32359f6492ad2a843e642">Bob Spinner</a></td></tr><tr><td><a href="./c-6d9cb7de5e8ac30bd5e8734bc96a35c1">Box</a></td><td>Internet &gt; Internet Software & Services</td><td><b>100.00M</b> (Dec 5, 2013)</td><td><a href="./ip-5d3f7ea573739d361cfd90eaa70a225b">Josh Stein</a>, <a href="./ip-10b0794b2d16d43b083f5fad5ef2442d">Mamoon Hamid</a>, <a href="./ip-e039eb170943b3ee74f20262745266b4">Rory O'Driscoll</a>, <a href="./ip-a1ccf9280f3eb1ebc29f2da7c0aeb332">Gary Reiner</a>, <a href="./ip-0d3180d672e08b4c5312dcdafdf6ef36">Randall S. Glein</a>, <a href="./ip-3335fa0a82459e6f24d1193969b8a56e">Steven M. Krausz</a></td></tr><tr><td><a href="./c-29d74915e1b323676bfc28f91b3c4802">Criteo</a></td><td>Internet &gt; Internet Software & Services</td><td><b>250.56M</b> (Oct 30, 2013)</td><td><a href="./ip-4d83f7282a48be0e0dfe8d356cc3ee7a">Toby Coppel</a>, <a href="./ip-02522a2b2726fb0a03bb19f2d8d9524d">Daniel Ciporin</a>, <a href="./ip-c31c18d285a641ec92cec7a321da0378">Benoist Grossmann</a>, <a href="./ip-76f7ba7628624abad55ee8f56c645395">Dominique Vidal</a>, <a href="./ip-23ab4b058a6cd00abbbf67d8d8241c5c">Marie Ekeland</a>, <a href="./ip-ee2efed5bd38def2ac5b2ea3d954bbaf">Dan Ciporin</a></td></tr><tr><td><a href="./c-5a2038a5c5cc18eb8abb5abfbc4c95d9">DoubleDutch</a></td><td>Mobile & Telecommunications &gt; Mobile Software & Services</td><td><b>10.00M</b> (Sep 25, 2013)</td><td><a href="./ip-348d5b0c1b710decc40bd45400e86bab">Michael James Maples</a></td></tr></tbody><tbody id="boardp1" style="display: none;"><tr><td><a href="./c-1ec12035e5b91874abca57cefbd59200">Bizo</a></td><td>Internet &gt; Internet Software & Services</td><td><b>12.50M</b> (Jun 25, 2013)</td><td><a href="./ip-f14e960747bc2e1d376aad2484d39dc1">David Silverman</a>, <a href="./ip-971f6dc9dc18cd59a5c29f5105eaab50">Mike Tyrrell</a></td></tr><tr><td><a href="./c-e8ed252ad439861c556d1031b6d8d51f">Twilio</a></td><td>Mobile & Telecommunications &gt; Mobile Software & Services</td><td><b>70.00M</b> (Jun 7, 2013)</td><td><a href="./ip-793d9c7a85210d092e6c0951ce1878f4">Albert Wenger</a>, <a href="./ip-d329266297e3ca2056c29656a26da99a">Scott Raney</a></td></tr><tr><td><a href="./c-9db8c4faafdd92e8892fd40b8968daf6">Instructure</a></td><td>Internet &gt; Internet Software & Services</td><td><b>30.00M</b> (Jun 5, 2013)</td><td><a href="./ip-3eaa1efccd00f272182b21207494fbe9">Firas Raouf</a>, <a href="./ip-6c3edcba69854556ba97267c3f7b941b">Nick Esfratis</a></td></tr><tr><td><a href="./c-edcbcd6213372e4d3b5535cd576546e8">Simply Measured</a></td><td>Internet &gt; Internet Software & Services</td><td><b>8.00M</b> (Jan 22, 2013)</td><td><a href="./ip-8924716934e687835d7a56c12ab89eab">Mark Sugarman</a></td></tr><tr><td><a href="./c-8381d2a3fb8e75c7e5f659371d2cc656">SendGrid</a></td><td>Internet &gt; Internet Software & Services</td><td><b>21.00M</b> (Jan 17, 2012)</td><td><a href="./ip-ab6f0a00ee121a0fd0e13c4cc99a6636">David Cohen</a>, <a href="./ip-8ed24fb59edab9b9009fd6c172bf36d5">Ryan Mcintyre</a>, <a href="./ip-aceaed5fd2601b7aaaab998357f35996">Mark Solon</a></td></tr></tbody><tbody id="boardp2" style="display: none;"><tr><td><a href="./c-02aff7969b61d33fe215dba6bf0056c8">Cornerstone onDemand</a></td><td>Software (non-internet/mobile) &gt; HR & Workforce Management Software</td><td><b>136.50M</b> (Mar 17, 2011)</td><td><a href="./ip-3ab538f43a578a26bcae740e71ec3789">Neil Sadaranganey</a>, <a href="./ip-d6f3c91f86814415f5053618eadf1fa5">Robert D. Ward</a></td></tr><tr><td><a href="./c-838aac83e00e8c5ca0f839c96d6cb3be">Retail Solutions</a></td><td>Internet &gt; Internet Software & Services</td><td><b>15.20M</b> (Sep 15, 2010)</td><td><a href="./ip-1a7d3600f0be3f77a68db0894e423990">Brian D. Ascher</a>, <a href="./ip-e2feccf2f1254cf5c9473a4668ec8bab">Robert G. Todd</a>, <a href="./ip-afda332245e2af431fb7b672a68b659d">Noah J. Walley</a></td></tr><tr><td><a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></td><td>Internet &gt; Internet Software & Services</td><td></td><td><a href="./ip-ce10b7252fe2e77ebd99c1c7359781b8">Eric C. W.</a>, <a href="./ip-ea9767e795f6cababd7e7cec9783815d">Sergio Monsalve</a>, <a href="./ip-b3a87b1ef196c44ff7be2128544cef54">Terry L. Opdendyk</a>, <a href="./ip-43ed0ac68df1a351eaf025206a42b9b2">Robert Antoniades</a>, <a href="./ip-1b60a929670aa5dd366abcec8b60a51b">Derek Blazensky</a>, <a href="./ip-8ac073a684f5083fe793c78e90ab6f12">Jerome Engel</a>, <a href="./ip-91f7c83f5c5974feb47cf09696c93cb7">Mark G. Hilderbrand</a></td></tr><tr><td><a href="./c-a3fefe83288ecb0e40ebe40b2bde29fe">Eloqua</a></td><td>Internet &gt; Internet Software & Services</td><td></td><td><a href="./ip-7f6ffaa6bb0b408017b62254211691b5">Neal Dempsey</a></td></tr><tr><td><a href="./c-d339a8932df05de23ae3d9e29df4b25f">Adap.TV</a></td><td>Internet &gt; Internet Software & Services</td><td></td><td><a href="./ip-ee2efed5bd38def2ac5b2ea3d954bbaf">Dan Ciporin</a>, <a href="./ip-c3e7180a624560ea2dbeff8a65fff2c1">Daniel Cohen</a>, <a href="./ip-941e1aaaba585b952b62c14a3a175a61">Santo Politi</a>, <a href="./ip-d329266297e3ca2056c29656a26da99a">Scott Raney</a></td></tr></tbody></table>			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    <li onclick="changepage('boardp','previous',2)"><a href="#" onclick="return(false);">Previous</a></li><li id="boardpbutton0" class="active" onclick="changepage('boardp',0,3);"><a href="#" onclick="return(false);">1</a></li><li id="boardpbutton1" onclick="changepage('boardp',1,3);"><a href="#" onclick="return(false);">2</a></li><li id="boardpbutton2" onclick="changepage('boardp',2,3);"><a href="#" onclick="return(false);">3</a></li><li onclick="changepage('boardp','next',2)"><a href="#" onclick="return(false);">Next</a></li>				</ul>
+			    </div>
+			    </div>			    <!-- <tbody> -->
+			    <div class="section frequent_shares">
+					<h2 class="com_profile">Shares Boards With</a></h2>
+						<table class="table table-striped" id="com_competitors">
+							<thead>
+								<tr>
+								<th>Name</th>
+								<th>Firm</th>
+								<th>Current &amp; Former Shared boards</th>
+								</tr>
+							</thead><tbody id="freqshare0"><tr><td><a href="./ip-ee2efed5bd38def2ac5b2ea3d954bbaf">Dan Ciporin</a></td><td><a href="./i-06eb61b839a0cefee4967c67ccb099dc">Canaan Partners</a></td><td><b>2 boards</b> including <a href="./c-29d74915e1b323676bfc28f91b3c4802">Criteo</a>, <a href="./c-d339a8932df05de23ae3d9e29df4b25f">Adap.TV</a></tr><tr><td><a href="./ip-10b0794b2d16d43b083f5fad5ef2442d">Mamoon Hamid</a></td><td><a href="./i-99bc147ed9068c9f2dbfc242373977eb">The Social+Capital Partnership</a></td><td><b>2 boards</b> including <a href="./c-ac503f9e2345aa0e0cb346bec68f7ce5">ClearSlide</a>, <a href="./c-6d9cb7de5e8ac30bd5e8734bc96a35c1">Box</a></tr><tr><td><a href="./ip-d329266297e3ca2056c29656a26da99a">Scott Raney</a></td><td><a href="./i-b8c37e33defde51cf91e1e03e51657da">Redpoint Ventures</a></td><td><b>2 boards</b> including <a href="./c-e8ed252ad439861c556d1031b6d8d51f">Twilio</a>, <a href="./c-d339a8932df05de23ae3d9e29df4b25f">Adap.TV</a></tr><tr><td><a href="./ip-3ab538f43a578a26bcae740e71ec3789">Neil Sadaranganey</a></td><td><a href="./i-07c5807d0d927dcd0980f86024e5208b">Bay Partners</a></td><td><b>1 board</b> including <a href="./c-02aff7969b61d33fe215dba6bf0056c8">Cornerstone onDemand</a></tr><tr><td><a href="./ip-aceaed5fd2601b7aaaab998357f35996">Mark Solon</a></td><td><a href="./i-be3e9d3f7d70537357c67bb3f4086846">Highway 12 Ventures</a></td><td><b>1 board</b> including <a href="./c-8381d2a3fb8e75c7e5f659371d2cc656">SendGrid</a></tr></tbody><tbody id="freqshare1" style="display: none;"><tr><td><a href="./ip-1a7d3600f0be3f77a68db0894e423990">Brian D. Ascher</a></td><td><a href="./i-2b8a61594b1f4c4db0902a8a395ced93">Venrock</a></td><td><b>1 board</b> including <a href="./c-838aac83e00e8c5ca0f839c96d6cb3be">Retail Solutions</a></tr><tr><td><a href="./ip-8ed24fb59edab9b9009fd6c172bf36d5">Ryan Mcintyre</a></td><td><a href="./i-ca46c1b9512a7a8315fa3c5a946e8265">Foundry Group</a></td><td><b>1 board</b> including <a href="./c-8381d2a3fb8e75c7e5f659371d2cc656">SendGrid</a></tr><tr><td><a href="./ip-d6f3c91f86814415f5053618eadf1fa5">Robert D. Ward</a></td><td><a href="./i-6ea2ef7311b482724a9b7b0bc0dd85c6">Meritech Capital Partners</a></td><td><b>1 board</b> including <a href="./c-02aff7969b61d33fe215dba6bf0056c8">Cornerstone onDemand</a></tr><tr><td><a href="./ip-8924716934e687835d7a56c12ab89eab">Mark Sugarman</a></td><td><a href="./i-c9efe5f26cd17ba6216bbe2a7d26d490">MHS Capital</a></td><td><b>1 board</b> including <a href="./c-edcbcd6213372e4d3b5535cd576546e8">Simply Measured</a></tr><tr><td><a href="./ip-3eaa1efccd00f272182b21207494fbe9">Firas Raouf</a></td><td><a href="./i-e1fc9c082df6cfff8cbcfff2b5a722ef">OpenView Venture Partners</a></td><td><b>1 board</b> including <a href="./c-9db8c4faafdd92e8892fd40b8968daf6">Instructure</a></tr></tbody><tbody id="freqshare2" style="display: none;"><tr><td><a href="./ip-6c3edcba69854556ba97267c3f7b941b">Nick Esfratis</a></td><td><a href="./i-471c75ee6643a10934502bdafee198fb">Epic Ventures</a></td><td><b>1 board</b> including <a href="./c-9db8c4faafdd92e8892fd40b8968daf6">Instructure</a></tr><tr><td><a href="./ip-e2feccf2f1254cf5c9473a4668ec8bab">Robert G. Todd</a></td><td><a href="./i-0887f1a5b9970ad13f46b8c1485f7900">Red Rock Ventures</a></td><td><b>1 board</b> including <a href="./c-838aac83e00e8c5ca0f839c96d6cb3be">Retail Solutions</a></tr><tr><td><a href="./ip-ab6f0a00ee121a0fd0e13c4cc99a6636">David Cohen</a></td><td><a href="./i-25e2d0317e892210f0bfed6b1a96d1e6">Fiduciary/Claymore MLP Opportunity Fund</a></td><td><b>1 board</b> including <a href="./c-8381d2a3fb8e75c7e5f659371d2cc656">SendGrid</a></tr><tr><td><a href="./ip-afda332245e2af431fb7b672a68b659d">Noah J. Walley</a></td><td><a href="./i-4e4e53aa080247bc31d0eb4e7aeb07a0">Investor Growth Capital</a></td><td><b>1 board</b> including <a href="./c-838aac83e00e8c5ca0f839c96d6cb3be">Retail Solutions</a></tr><tr><td><a href="./ip-91f7c83f5c5974feb47cf09696c93cb7">Mark G. Hilderbrand</a></td><td><a href="./i-0e087ec55dcbe7b2d7992d6b69b519fb">Housatonic Partners</a></td><td><b>1 board</b> including <a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></tr></tbody><tbody id="freqshare3" style="display: none;"><tr><td><a href="./ip-7f6ffaa6bb0b408017b62254211691b5">Neal Dempsey</a></td><td><a href="./i-07c5807d0d927dcd0980f86024e5208b">Bay Partners</a></td><td><b>1 board</b> including <a href="./c-a3fefe83288ecb0e40ebe40b2bde29fe">Eloqua</a></tr><tr><td><a href="./ip-c3e7180a624560ea2dbeff8a65fff2c1">Daniel Cohen</a></td><td><a href="./i-e0cf1f47118daebc5b16269099ad7347">Gemini Israel Ventures</a></td><td><b>1 board</b> including <a href="./c-d339a8932df05de23ae3d9e29df4b25f">Adap.TV</a></tr><tr><td><a href="./ip-941e1aaaba585b952b62c14a3a175a61">Santo Politi</a></td><td><a href="./i-e2c420d928d4bf8ce0ff2ec19b371514">Spark Capital</a></td><td><b>1 board</b> including <a href="./c-d339a8932df05de23ae3d9e29df4b25f">Adap.TV</a></tr><tr><td><a href="./ip-8ac073a684f5083fe793c78e90ab6f12">Jerome Engel</a></td><td><a href="./i-ee8374ec4e4ad797d42350c904d73077">Monitor Ventures</a></td><td><b>1 board</b> including <a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></tr><tr><td><a href="./ip-1b60a929670aa5dd366abcec8b60a51b">Derek Blazensky</a></td><td><a href="./i-fc192b0c0d270dbf41870a63a8c76c2f">Cardinal Venture Capital</a></td><td><b>1 board</b> including <a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></tr></tbody><tbody id="freqshare4" style="display: none;"><tr><td><a href="./ip-ce10b7252fe2e77ebd99c1c7359781b8">Eric C. W.</a></td><td><a href="./i-fc192b0c0d270dbf41870a63a8c76c2f">Cardinal Venture Capital</a></td><td><b>1 board</b> including <a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></tr><tr><td><a href="./ip-ea9767e795f6cababd7e7cec9783815d">Sergio Monsalve</a></td><td><a href="./i-c81e728d9d4c2f636f067f89cc14862c">Norwest Venture Partners</a></td><td><b>1 board</b> including <a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></tr><tr><td><a href="./ip-b3a87b1ef196c44ff7be2128544cef54">Terry L. Opdendyk</a></td><td><a href="./i-f4be00279ee2e0a53eafdaa94a151e2c">ONSET Ventures</a></td><td><b>1 board</b> including <a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></tr><tr><td><a href="./ip-43ed0ac68df1a351eaf025206a42b9b2">Robert Antoniades</a></td><td><a href="./i-101951fe7ebe7bd8c77d14f75746b4bc">RBC Venture Partners</a></td><td><b>1 board</b> including <a href="./c-0d056cb65729981066d83ad9ea7e7325">Adaptive Insights</a></tr><tr><td><a href="./ip-793d9c7a85210d092e6c0951ce1878f4">Albert Wenger</a></td><td><a href="./i-9766527f2b5d3e95d4a733fcfb77bd7e">Union Square Ventures</a></td><td><b>1 board</b> including <a href="./c-e8ed252ad439861c556d1031b6d8d51f">Twilio</a></tr></tbody><tbody id="freqshare5" style="display: none;"><tr><td><a href="./ip-f14e960747bc2e1d376aad2484d39dc1">David Silverman</a></td><td><a href="./i-248e844336797ec98478f85e7626de4a">Crosslink Capital</a></td><td><b>1 board</b> including <a href="./c-1ec12035e5b91874abca57cefbd59200">Bizo</a></tr><tr><td><a href="./ip-e2f31e9cb00f24ec62bfec353d249266">Chelsea Stoner</a></td><td><a href="./i-202cb962ac59075b964b07152d234b70">Battery Ventures</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr><tr><td><a href="./ip-5225c0461a7351b6fd82f8feae491d63">Jeff Epstein</a></td><td><a href="./i-a3f390d88e4c41f2747bfa2f1b5f87db">Bessemer Venture Partners</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr><tr><td><a href="./ip-333cf35251d32359f6492ad2a843e642">Bob Spinner</a></td><td><a href="./i-c51ce410c124a10e0db5e4b97fc2af39">Sigma Partners</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr><tr><td><a href="./ip-5d3f7ea573739d361cfd90eaa70a225b">Josh Stein</a></td><td><a href="./i-ac627ab1ccbdb62ec96e702f07f6425b">Draper Fisher Jurvetson</a></td><td><b>1 board</b> including <a href="./c-6d9cb7de5e8ac30bd5e8734bc96a35c1">Box</a></tr></tbody><tbody id="freqshare6" style="display: none;"><tr><td><a href="./ip-0289a6acbed665d9ce707929e122d043">Mario M. Rosati</a></td><td><a href="./i-fc192b0c0d270dbf41870a63a8c76c2f">Cardinal Venture Capital</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr><tr><td><a href="./ip-f6dd8eba119cb5e467374917752ca683">Thomas Neustaetter</a></td><td><a href="./i-d1fe173d08e959397adf34b1d77e88d7">JK&B Capital</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr><tr><td><a href="./ip-badbdb9f6069430e5813d96fdf55e0ac">John Lilly</a></td><td><a href="./i-aba3b6fd5d186d28e06ff97135cade7f">Greylock Partners</a></td><td><b>1 board</b> including <a href="./c-ac503f9e2345aa0e0cb346bec68f7ce5">ClearSlide</a></tr><tr><td><a href="./ip-54a367d629152b720749e187b3eaa11b">Gregory P. Sands</a></td><td><a href="./i-3f8ee098f1300beb0464a8a8288ab931">Costanoa Venture Capital</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr><tr><td><a href="./ip-6cbf8903b512b2c8c050054af7d5ce35">Brian Jacobs</a></td><td><a href="./i-40008b9a5380fcacce3976bf7c08af5b">Emergence Capital Partners</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr></tbody><tbody id="freqshare7" style="display: none;"><tr><td><a href="./ip-7c590f01490190db0ed02a5070e20f01">Ann L. Winblad</a></td><td><a href="./i-d67d8ab4f4c10bf22aa353e27879133c">Hummer Winblad Venture Partners</a></td><td><b>1 board</b> including <a href="./c-086e34bf4e3aebbb142ead2fd4901c0a">Intacct</a></tr><tr><td><a href="./ip-e039eb170943b3ee74f20262745266b4">Rory O'Driscoll</a></td><td><a href="./i-cfecdb276f634854f3ef915e2e980c31">Scale Venture Partners</a></td><td><b>1 board</b> including <a href="./c-6d9cb7de5e8ac30bd5e8734bc96a35c1">Box</a></tr><tr><td><a href="./ip-a1ccf9280f3eb1ebc29f2da7c0aeb332">Gary Reiner</a></td><td><a href="./i-dfa92d8f817e5b08fcaafb50d03763cf">General Atlantic</a></td><td><b>1 board</b> including <a href="./c-6d9cb7de5e8ac30bd5e8734bc96a35c1">Box</a></tr><tr><td><a href="./ip-76f7ba7628624abad55ee8f56c645395">Dominique Vidal</a></td><td><a href="./i-e5841df2166dd424a57127423d276bbe">Index Ventures</a></td><td><b>1 board</b> including <a href="./c-29d74915e1b323676bfc28f91b3c4802">Criteo</a></tr><tr><td><a href="./ip-23ab4b058a6cd00abbbf67d8d8241c5c">Marie Ekeland</a></td><td><a href="./i-e077e1a544eec4f0307cf5c3c721d944">Elaia Partners</a></td><td><b>1 board</b> including <a href="./c-29d74915e1b323676bfc28f91b3c4802">Criteo</a></tr></tbody><tbody id="freqshare8" style="display: none;"><tr><td><a href="./ip-348d5b0c1b710decc40bd45400e86bab">Michael James Maples</a></td><td><a href="./i-65b9d1b6673cfd8602f9f9765265bc78">Floodgate</a></td><td><b>1 board</b> including <a href="./c-5a2038a5c5cc18eb8abb5abfbc4c95d9">DoubleDutch</a></tr><tr><td><a href="./ip-dc0d9b96e97313f0e6e5d4ede526f759">Aydin Senkut</a></td><td><a href="./i-58238e9ae2dd305d79c2ebc8c1883422">Felicis Ventures</a></td><td><b>1 board</b> including <a href="./c-ac503f9e2345aa0e0cb346bec68f7ce5">ClearSlide</a></tr><tr><td><a href="./ip-c31c18d285a641ec92cec7a321da0378">Benoist Grossmann</a></td><td><a href="./i-1fda978e43e5b8d6947b190fa7b15c95">IDInvest Partners</a></td><td><b>1 board</b> including <a href="./c-29d74915e1b323676bfc28f91b3c4802">Criteo</a></tr><tr><td><a href="./ip-02522a2b2726fb0a03bb19f2d8d9524d">Daniel Ciporin</a></td><td><a href="./i-06eb61b839a0cefee4967c67ccb099dc">Canaan Partners</a></td><td><b>1 board</b> including <a href="./c-29d74915e1b323676bfc28f91b3c4802">Criteo</a></tr><tr><td><a href="./ip-0d3180d672e08b4c5312dcdafdf6ef36">Randall S. Glein</a></td><td><a href="./i-ac627ab1ccbdb62ec96e702f07f6425b">Draper Fisher Jurvetson</a></td><td><b>1 board</b> including <a href="./c-6d9cb7de5e8ac30bd5e8734bc96a35c1">Box</a></tr></tbody><tbody id="freqshare9" style="display: none;"><tr><td><a href="./ip-3335fa0a82459e6f24d1193969b8a56e">Steven M. Krausz</a></td><td><a href="./i-1f0e3dad99908345f7439f8ffabdffc4">US Venture Partners</a></td><td><b>1 board</b> including <a href="./c-6d9cb7de5e8ac30bd5e8734bc96a35c1">Box</a></tr><tr><td><a href="./ip-4d83f7282a48be0e0dfe8d356cc3ee7a">Toby Coppel</a></td><td><a href="./i-cd0f74b5955dc87fd0605745c4b49ee8">Virgin Green Fund</a></td><td><b>1 board</b> including <a href="./c-29d74915e1b323676bfc28f91b3c4802">Criteo</a></tr><tr><td><a href="./ip-971f6dc9dc18cd59a5c29f5105eaab50">Mike Tyrrell</a></td><td><a href="./i-2b8a61594b1f4c4db0902a8a395ced93">Venrock</a></td><td><b>1 board</b> including <a href="./c-1ec12035e5b91874abca57cefbd59200">Bizo</a></tr></tbody></table>
+			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    <li onclick="changepage('freqshare','previous',9)"><a href="#" onclick="return(false);">Previous</a></li><li id="freqsharebutton0" class="active" onclick="changepage('freqshare',0,9);"><a href="#" onclick="return(false);">1</a></li><li id="freqsharebutton1" onclick="changepage('freqshare',1,9);"><a href="#" onclick="return(false);">2</a></li><li id="freqsharebutton2" onclick="changepage('freqshare',2,9);"><a href="#" onclick="return(false);">3</a></li><li id="freqsharebutton3" onclick="changepage('freqshare',3,9);"><a href="#" onclick="return(false);">4</a></li><li id="freqsharebutton4" onclick="changepage('freqshare',4,9);"><a href="#" onclick="return(false);">5</a></li><li id="freqsharebutton5" onclick="changepage('freqshare',5,9);"><a href="#" onclick="return(false);">6</a></li><li id="freqsharebutton6" onclick="changepage('freqshare',6,9);"><a href="#" onclick="return(false);">7</a></li><li id="freqsharebutton7" onclick="changepage('freqshare',7,9);"><a href="#" onclick="return(false);">8</a></li><li id="freqsharebutton8" onclick="changepage('freqshare',8,9);"><a href="#" onclick="return(false);">9</a></li><li id="freqsharebutton9" onclick="changepage('freqshare',9,9);"><a href="#" onclick="return(false);">10</a></li><li onclick="changepage('freqshare','next',9)"><a href="#" onclick="return(false);">Next</a></li>				</ul>
+			    </div>
+
+			    </div>
+			    <div class="section inv_they_know">
+									<div class="pull-right" style="margin-top: 10px;">
+										Powered by <a href="http://twitter.com"><img src="http://twitter.com/favicon.ico" style="vertical-align:top;" /> Twitter</a> (<a class="learn_more_twitter" href="#">learn more</a>)
+									</div>
+																<h2 class="com_profile">Investors They Know</h2>
+									<p class="learn_more_twitter_div" style="display:none;">
+										We are now mining Twitter data and combining it with CB Insights algorithms and data to provide insight into likely relationships an investor has with other investors.
+									</p>
+																	 <table class="table table-striped" id="com_people">
+																				<thead>
+																						<tr>
+																								<th style="width: 48px;"></th>
+																								<th>Name</th>
+																								<th>Firm Name</th>
+																								<th>Bio</th>
+																								<th>Follow</th>
+																						</tr>
+																				</thead> <tbody id="inv_they_know0"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1751613861/josh_head_normal.png" width="48"></td><td><a href="./ip-b930383e52970ea2fa9639971cb64349">Josh Kopelman</a></td><td><a href="./i-8d317bdcf4aafcfc22149d77babee96d">First Round Capital</a></td><td>VC.  Father.  Geek</td><td><a href="https://twitter.com/joshk">Follow @joshk</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1809120239/RyanFaceSquare_normal.jpg" width="48"></td><td><a href="./ip-8ed24fb59edab9b9009fd6c172bf36d5">Ryan McIntyre</a></td><td><a href="./i-ca46c1b9512a7a8315fa3c5a946e8265">Foundry Group</a></td><td>VC, musician, dad, husband, dog owner, Boulderite, occasional San Franciscan.</td><td><a href="https://twitter.com/ryan_mcintyre">Follow @ryan_mcintyre</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1487847703/david-cowan_197x282_2011_normal.jpg" width="48"></td><td><a href="./ip-1d25e2d048380b4cc2fcdecdbf995312">davidcowan</a></td><td><a href="./i-a3f390d88e4c41f2747bfa2f1b5f87db">Bessemer Venture Partners</a></td><td>partner of Bessemer Venture Partners, blogger, father of 3, born again atheist, singer with VIH</td><td><a href="https://twitter.com/davidcowan">Follow @davidcowan</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1772187320/Manu_Kumar__813x961__normal.jpg" width="48"></td><td><a href="./ip-eba1fec285b55b190a0ac69482520ef4">Manu Kumar</a></td><td><a href="./i-248f5ee32b694f3fb43eba685bd1dcaf">K9 Ventures</a></td><td>Entrepreneur turned Investor. Chief Firestarter at @K9Ventures. Tags: tech entrepreneur startups angel investor concept seed web venture vc cmu stanford</td><td><a href="https://twitter.com/ManuKumar">Follow @ManuKumar</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1325028150/eightbit-cf73cc25-8d7d-4ec2-b68f-46f72c2ee659_normal.png" width="48"></td><td><a href="./ip-36660e59856b4de58a219bcf4e27eba3">LarsLeckie</a></td><td><a href="./i-d67d8ab4f4c10bf22aa353e27879133c">Hummer Winblad Venture Partners</a></td><td>Partner at early stage software venture capital firm, Hummer Winblad Venture Partners</td><td><a href="https://twitter.com/LarsLeckie">Follow @LarsLeckie</a></td></tr></tbody><tbody id="inv_they_know1" style="display: none;"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1808872782/IMG_2411_3_normal.JPG" width="48"></td><td><a href="./ip-aceaed5fd2601b7aaaab998357f35996">Mark Solon</a></td><td><a href="./i-be3e9d3f7d70537357c67bb3f4086846">Highway 12 Ventures</a></td><td>rocky mountain vc, boise, single track, vinyl, dirt & snow, NY sports teams, naps, bogus basin road, tents, smartwool socks, ice hockey, GDTRFB, north end, pam</td><td><a href="https://twitter.com/mark_solon">Follow @mark_solon</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1617939166/josh2011_normal.jpg" width="48"></td><td><a href="./ip-5d3f7ea573739d361cfd90eaa70a225b">Josh Stein</a></td><td><a href="./i-ac627ab1ccbdb62ec96e702f07f6425b">Draper Fisher Jurvetson</a></td><td>Managing Director at Draper Fisher Jurvetson, a global venture capital firm based in Silicon Valley</td><td><a href="https://twitter.com/dfjjosh">Follow @dfjjosh</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1212959926/dana_stalder_hires_normal.jpg" width="48"></td><td><a href="./ip-21ea9c9635ae1550e50168fb7a80fd4c">Dana Stalder</a></td><td><a href="./i-556f391937dfd4398cbac35e050a2177">Matrix Partners</a></td><td>Early stage venture capital investor, entrepreneur & internet operator.  General Partner at Matrix Partners</td><td><a href="https://twitter.com/dcstalder">Follow @dcstalder</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/81853831/mypictr_Twitter_normal.jpg" width="48"></td><td><a href="./ip-57aafc91d5f88ab38f567825fedb2817">Robert Stavis</a></td><td><a href="./i-a3f390d88e4c41f2747bfa2f1b5f87db">Bessemer Venture Partners</a></td><td>moderate, venture capitalist, father, husband, gadget freak</td><td><a href="https://twitter.com/robstavis">Follow @robstavis</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1528260739/dbpix-rob-chandra-blogSmallInline_normal.jpg" width="48"></td><td><a href="./ip-2b44928ae11fb9384c4cf38708677c48">Rob Chandra</a></td><td><a href="./i-a3f390d88e4c41f2747bfa2f1b5f87db">Bessemer Venture Partners</a></td><td>Husband. Father. Professional Investor. </td><td><a href="https://twitter.com/robchandra">Follow @robchandra</a></td></tr></tbody><tbody id="inv_they_know2" style="display: none;"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1261363391/DennisSunsetPhoto2_normal.jpg" width="48"></td><td><a href="./ip-7319e112a7747172aba1a2d735bb6852">Dennis Phelps</a></td><td><a href="./i-4285d861bc62cba0f06e6a1e95a2f08a">Institutional Venture Partners</a></td><td>Globetrotter & early Twitter investor.  Black Swan disciple.  Occasional menace.</td><td><a href="https://twitter.com/dbrianphelps">Follow @dbrianphelps</a></td></tr></tbody></table>			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    <li onclick="changepage('inv_they_know','previous',2)"><a href="#" onclick="return(false);">Previous</a></li><li id="inv_they_knowbutton0" class="active" onclick="changepage('inv_they_know',0,2);"><a href="#" onclick="return(false);">1</a></li><li id="inv_they_knowbutton1" onclick="changepage('inv_they_know',1,2);"><a href="#" onclick="return(false);">2</a></li><li id="inv_they_knowbutton2" onclick="changepage('inv_they_know',2,2);"><a href="#" onclick="return(false);">3</a></li><li onclick="changepage('inv_they_know','next',2)"><a href="#" onclick="return(false);">Next</a></li>				</ul>
+			    </div>
+			    </div>
+
+
+
+			    <div class="section entrepreneurs_they_know">
+															<div class="pull-right" style="margin-top: 10px;">
+																Powered by <a href="http://twitter.com"><img src="http://twitter.com/favicon.ico" style="vertical-align:top;" /> Twitter</a> (<a class="learn_more_twitter" href="#">learn more</a>)
+															</div>
+																										<h2 class="com_profile">Executives They Know</h2>
+
+															<p class="learn_more_twitter_div" style="display:none;">
+																We are now mining Twitter data and combining it with CB Insights algorithms and data to provide insight into likely relationships an investor has with entrepreneurs and executives.
+															</p>
+																											<table class="table table-striped" id="com_people">
+																													<thead>
+																															<tr>
+																																	<th style="width: 48px;"></th>
+																																	<th>Name</th>
+																																	<th>Bio</th>
+																																	<th>Follow</th>
+																															</tr>
+																													</thead> <tbody id="entrepreneurs_they_know0"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1654709565/Josh_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/joshjames">Josh James</a></td><td>http://t.co/JPwWL5SA Domo Founder/CEO.  Omniture CEO & Co-founder--inception to IPO.  Sold for $1.8B. 6 daughters. ONE lovely wife. BYU.</td><td><a href="https://twitter.com/joshjames
+">Follow @joshjames</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1258305570/dbinetti_headshot_alpha_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/dbinetti">David Binetti</a></td><td>CEO @votizen - Working every day to restore people's faith in democracy.</td><td><a href="https://twitter.com/dbinetti
+">Follow @dbinetti</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/33800282/P1010066_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/ethankurz">Ethan Kurzweil</a></td><td>I heart entrepreneurs. VC at Bessemer Venture Partners (@BessemerVP)</td><td><a href="https://twitter.com/ethankurz
+">Follow @ethankurz</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/2598602485/hl9eja8jl3zc2anxsode_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/peterpham">Peter Pham</a></td><td>Co-Founder/Partner @scienceinc -   Built a few startups - Photobucket, BillShrink, Color. High on life & always the first on the dance floor.</td><td><a href="https://twitter.com/peterpham
+">Follow @peterpham</a></td></tr><tr><td style="width: 48px;"><img src="http://pbs.twimg.com/profile_images/1668924111/Aneel_bhusri_bio_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/aneelb">aneel bhusri</a></td><td>Dad, husband, Co-Founder & Co-CEO Workday.  Greylock too.</td><td><a href="https://twitter.com/aneelb
+">Follow @aneelb</a></td></tr></tbody><tbody id="entrepreneurs_they_know1" style="display: none;"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/2727382878/fc55e9d4698328ff8e197031103a94f0_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/redpointvc">Redpoint Ventures</a></td><td>Redpoint helps entrepreneurs build innovative businesses that defy convention & shape the future.</td><td><a href="https://twitter.com/redpointvc
+">Follow @redpointvc</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1787842188/image1327778969_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/davemcclure">Dave McClure</a></td><td>Geeks, Entrepreneurs, Startups -- The Internet Revolution. Founding Partner & Sith Lord, @500Startups. </td><td><a href="https://twitter.com/davemcclure
+">Follow @davemcclure</a></td></tr><tr><td style="width: 48px;"><img src="http://pbs.twimg.com/profile_images/2997257409/2190ec444dfe50f041fbff5fe0a99787_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/jeffiel">jeffiel</a></td><td>Entrepreneur, CEO and cofounder of Twilio.</td><td><a href="https://twitter.com/jeffiel
+">Follow @jeffiel</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1271461165/owen_casual_headshot_50kb_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/owentripp">Owen Tripp</a></td><td>Tech exec, co-founder of Reputation.com.  Focus is new market development - currently privacy and reputation.  Obsessed with cultures that empower great people.</td><td><a href="https://twitter.com/owentripp
+">Follow @owentripp</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1097119449/fazal_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/rahimthedream">Rahim Fazal</a></td><td>chairman & co-founder of involver, public speaker and former freestyle emcee</td><td><a href="https://twitter.com/rahimthedream
+">Follow @rahimthedream</a></td></tr></tbody><tbody id="entrepreneurs_they_know2" style="display: none;"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1735442447/Rob_Tarkoff_Twitter_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/rtarkoff">Rob Tarkoff</a></td><td>CEO Lithium Technologies </td><td><a href="https://twitter.com/rtarkoff
+">Follow @rtarkoff</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1816114904/Tom_Ryan_C_normal.JPG" width="48"></td><td><a target="_blank" href="http://twitter.com/thomasryan">Thomas Ryan</a></td><td>CEO at Threadless. 
+Director at Smule and Trunk Club. 
+DJ White Chocolate.</td><td><a href="https://twitter.com/thomasryan
+">Follow @thomasryan</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/252691372/Nirav_Trevi_Fountain_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/niravtolia">Nirav Tolia</a></td><td>Co-Founder and CEO of Nextdoor, the first private social network for neighborhoods.</td><td><a href="https://twitter.com/niravtolia
+">Follow @niravtolia</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1774316068/evan-headshot_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/emcooke">Evan Cooke</a></td><td>CTO & Co-founder at Twilio, Inc.</td><td><a href="https://twitter.com/emcooke
+">Follow @emcooke</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/sticky/default_profile_images/default_profile_6_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/amiller29">Adam Miller</a></td><td>Cornerstone OnDemand CEO</td><td><a href="https://twitter.com/amiller29
+">Follow @amiller29</a></td></tr></tbody><tbody id="entrepreneurs_they_know3" style="display: none;"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1149619484/profile_pic2_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/mattsalz">Matt Salzberg</a></td><td>Former VC at Bessemer.  Now, Founder & CEO at Blue Apron. Follow: @blueapronmeals</td><td><a href="https://twitter.com/mattsalz
+">Follow @mattsalz</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/92382112/schwark-face-trans_normal.png" width="48"></td><td><a target="_blank" href="http://twitter.com/schwark">Schwark Satyavolu</a></td><td>Co-founder and CEO, @truaxis - purveyor of fine @StmtRewards and @BillShrink. Co-founder, @Yodlee. </td><td><a href="https://twitter.com/schwark
+">Follow @schwark</a></td></tr><tr><td style="width: 48px;"><img src="http://pbs.twimg.com/profile_images/423263295391289344/xpH_Vewf_normal.jpeg" width="48"></td><td><a target="_blank" href="http://twitter.com/DanielleMorrill">Danielle Morrill</a></td><td>CEO @Mattermark. Capitalist.</td><td><a href="https://twitter.com/DanielleMorrill
+">Follow @DanielleMorrill</a></td></tr><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/1207925032/fm_200_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/mazaic">Frederic Mazzella</a></td><td>CEO & Founder of Comuto (websites Covoiturage.fr and BlaBlaCar.com)</td><td><a href="https://twitter.com/mazaic
+">Follow @mazaic</a></td></tr><tr><td style="width: 48px;"><img src="http://pbs.twimg.com/profile_images/285143601/sunil_march_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/sunilnagaraj">Sunil Nagaraj</a></td><td>Adventure capitalist at @BessemerVP.  Ex-Founder/CEO of Triangulate. I really love people. Email sunil (at) http://t.co/c05NU1JxbK if I can help</td><td><a href="https://twitter.com/sunilnagaraj
+">Follow @sunilnagaraj</a></td></tr></tbody><tbody id="entrepreneurs_they_know4" style="display: none;"><tr><td style="width: 48px;"><img src="http://a0.twimg.com/profile_images/78614133/profile_normal.jpg" width="48"></td><td><a target="_blank" href="http://twitter.com/jjaguhob">JJ Aguhob</a></td><td>President + Co-Founder at @Viddy</td><td><a href="https://twitter.com/jjaguhob
+">Follow @jjaguhob</a></td></tr></tbody></table>			    <!-- Pagination -->
+			    <div class="pagination pagination-centered">
+				<ul>
+				    <li onclick="changepage('entrepreneurs_they_know','previous',4)"><a href="#" onclick="return(false);">Previous</a></li><li id="entrepreneurs_they_knowbutton0" class="active" onclick="changepage('entrepreneurs_they_know',0,4);"><a href="#" onclick="return(false);">1</a></li><li id="entrepreneurs_they_knowbutton1" onclick="changepage('entrepreneurs_they_know',1,4);"><a href="#" onclick="return(false);">2</a></li><li id="entrepreneurs_they_knowbutton2" onclick="changepage('entrepreneurs_they_know',2,4);"><a href="#" onclick="return(false);">3</a></li><li id="entrepreneurs_they_knowbutton3" onclick="changepage('entrepreneurs_they_know',3,4);"><a href="#" onclick="return(false);">4</a></li><li id="entrepreneurs_they_knowbutton4" onclick="changepage('entrepreneurs_they_know',4,4);"><a href="#" onclick="return(false);">5</a></li><li onclick="changepage('entrepreneurs_they_know','next',4)"><a href="#" onclick="return(false);">Next</a></li>				</ul>
+			    </div>
+			    </div>
+			    <div class="section timeline">
+				<h2 class="com_profile">Selected News Mentions</h2>
+				<div id="articles"></div>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+
+	</div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="./js/topsearch.min.js"></script>
+    <script type="text/javascript" src="./js/cbi.js"></script>
+    <script type="text/javascript" src="./js/timeline.js"></script>
+    <script type="text/javascript" src="./js/tooltip.js"></script>
+    <script type="text/javascript" src="./js/timeline-chart.js"></script>
+    <script type="text/javascript">
+     var myTimeline = Timeline();
+     var myTimelineChart = TimelineChart().callback(function () {
+	 $(".d3-loading-wrapper").removeClass("d3-loading-wrapper");
+	 $(".d3-loading").remove();
+     });
+     var timeFormat = d3.time.format("%Y-%m-%d %X");
+     var timeDisplayFormat = d3.time.format("%Y-%m");
+     var i = 0;
+     var data = [];
+     d3.json('./ajax/getters/get_inv_people_news_mentions.php?id_inv_person_md5=15361576c7452319d9313b16e5404690', function (_data) {
+	 if (_data.length >= 10) $('.white').slideDown();
+	 if (_data.length == 0) {
+	     $('[data-section=timeline]').hide();
+	     $('.timeline').hide();
+	 }
+	 _data.reverse();
+	 _data.forEach(function(e) {
+	     e.ts_news = timeFormat.parse(e.ts_news);
+	     if (data.length === 0) {
+		 return data.push({ month: d3.time.month(e.ts_news), articles: [e] });
+	     }
+	     else {
+		 if (timeDisplayFormat(e.ts_news) === timeDisplayFormat(data[i].month)) {
+		     return data[i].articles.push(e);
+		 }
+		 else {
+		     data.push({
+			 month: d3.time.month(e.ts_news),
+			 articles: [e]
+		     });
+		     return ++i;
+		 }
+	     }
+	 });
+	 d3.select("#nb-press-mentions").html(_data.length);
+	 d3.select("#articles").datum(data).call(myTimeline);
+	 d3.select("#chart").datum(data).call(myTimelineChart);
+     });
+    </script>
+    
+    <script type="text/javascript">
+     $(document).ready(function () {
+	 $('#more_bio,#less_bio').on('click', function() {
+	     $('#bio_short').toggle();
+	     $('#bio_long').toggle();
+	 });//on click
+
+	 $('.learn_more_twitter').on('click', function () {
+	     $(this).parent().parent().children('.learn_more_twitter_div').slideToggle();
+	     return false;
+	 });
+     });
+
+     var active_page = 0;
+     var rec_per_page = 5;
+     function changepage(section, pagen, max_pagenum) {
+	 if (pagen == "next")
+	 active_page = Math.min(max_pagenum, active_page + 1);
+	 else if (pagen == "previous")
+	 active_page = Math.max(0, active_page -1);
+	 else
+	 active_page = pagen;
+
+	 if (active_page < 5)
+	 {
+	     min_active_button = 0;
+	     max_active_button = Math.min(max_pagenum, 9);
+	 }
+	 else if ((max_pagenum - active_page) < 5)
+	 {
+	     max_active_button = max_pagenum;
+	     min_active_button = Math.max(0, max_pagenum - 9);
+	 }
+	 else
+	 {
+	     min_active_button = active_page - 4;
+	     max_active_button = active_page + 5;
+	 }
+
+	 for (i=0; i <= max_pagenum; i++)
+	 {
+	     if (i == active_page) {
+		 $('#' + section + String(i)).toggle(true);
+		 $('#' + section + 'button' + String(i)).attr("class","active");
+	     }
+	     else {
+		 $('#' + section + String(i)).toggle(false);
+		 $('#' + section + 'button' + String(i)).attr("class","inactive");
+	     }
+
+
+	     if (i >= min_active_button && i <= max_active_button)
+	     $('#' + section + 'button' + String(i)).toggle(true);
+	     else
+	     $('#' + section + 'button' + String(i)).toggle(false);
+	 }
+     }//changepage
+
+
+     $('a[data-section]').on('click', function () {
+	 $('.nav-pills li').removeClass('active');
+	 $(this).parent().addClass('active');
+	 if ($(this).attr('data-section-type') == 'core') {
+	     $('#mosaic_tab').hide();
+	     $('#news_tab').hide();
+	     $('#basic_tab').show();
+	     if ($(this).attr('data-section') == '') {
+		 $('.section').show();
+	     }
+	     else {
+		 $('.section').hide();
+		 $('.section.' + $(this).attr('data-section')).show();
+	     }
+
+	     if ($('#total_score').css('display') != 'none') {
+		 $('#company_header .span12').removeClass('span12').addClass('span9');
+		 $('#top_right').removeClass('span9').addClass('span3').removeAttr('style');
+		 $('#lists_menu').removeAttr('style');
+		 $('#top_right > a').show();
+		 $('#total_score').hide();
+	     }
+	 }
+	 else {
+	     $('#mosaic_tab').show();
+	     $('#news_tab').hide();
+	     $('#basic_tab').hide();
+
+	     $('#mosaic_tab').html('<div id="mosaic-loader"><img src="img/ajax-loader.gif" alt="loading" /></div>');
+
+	     var _this = $(this);
+	     $.ajax({
+		 type: 'POST',
+		 url: 'ajax/getters/mosaic/' + _this.attr('data-section') + '.php',
+		 data: {id_company: id_company},
+		 success: function(data){
+		     $('#mosaic_tab').html(data);
+		     return false;
+		 }
+	     });
+	     if ($('#total_score').css('display') == 'none') {
+		 $('#top_right').removeClass('span3').addClass('span9').css('text-align', 'left');
+		 $('#total_score').fadeIn();
+		 $('#lists_menu').css({
+		     'float': 'none',
+		     'margin': 0,
+		     'display': 'inline-block'
+		 });
+		 $('#top_right > a').hide();
+	     }
+	 }
+     });
+
+     $('#news_tab_button').on('click', function () {
+	 $('#basic_tab').show();
+	 $('#news_tab').show();
+	 $('.pills_sub_menu li').removeClass('active');
+     });
+
+     $('a[data-section-type="core"]').each(function () { // hide tab if section is not present on the page
+							if ($(this).attr('data-section') != '' && $('.section.' + $(this).attr('data-section')).length == 0)
+							$(this).parent().hide();
+							});
+    </script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"da0f25597a","applicationID":"2978698","transactionName":"MgFSYEsDWRIHW0QIVwtLZUZQTV4PEGdABFcVCFVrSRBYBw9UVU9IDRQ=","queueTime":0,"applicationTime":125,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"jserror.newrelic.com","agent":"js-agent.newrelic.com\/nr-338.min.js"}</script><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"www.cloudflare.com/email-protection"==a.substr(7 ,35)){s='';j=43;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body></html>

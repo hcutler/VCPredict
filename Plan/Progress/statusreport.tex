@@ -1,0 +1,156 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% ICML 2014 EXAMPLE LATEX SUBMISSION FILE %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use the following line _only_ if you're still using LaTeX 2.09.
+%\documentstyle[icml2014,epsf,natbib]{article}
+% If you rely on Latex2e packages, like most moden people use this:
+\documentclass{article}
+
+\usepackage{amsmath,amsthm}
+
+
+% use Times
+\usepackage{times}
+% For figures
+\usepackage{graphicx} % more modern
+%\usepackage{epsfig} % less modern
+\usepackage{subfigure} 
+
+% For citations
+\usepackage{natbib}
+
+% For algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic-kr}
+
+% As of 2011, we use the hyperref package to produce hyperlinks in the
+% resulting PDF.  If this breaks your system, please commend out the
+% following usepackage line and replace \usepackage{icml2014} with
+% \usepackage[nohyperref]{icml2014} above.
+\usepackage{hyperref}
+
+
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+
+
+
+
+
+
+\usepackage{enumerate}
+
+
+
+
+
+% Employ the following version of the ``usepackage'' statement for
+% submitting the draft version of the paper for review.  This will set
+% the note in the first column to ``Under review.  Do not distribute.''
+%\usepackage{icml2014} 
+% Employ this version of the ``usepackage'' statement after the paper has
+% been accepted, when creating the final version.  This will set the
+% note in the first column to ``Proceedings of the...''
+\usepackage[accepted]{mynotes}
+
+\newcommand{\argmax}{\texttt{argmax} }
+\newcommand{\nn}{\nonumber }
+\newcommand{\nnp}{\nonumber \\ }
+\newcommand{\ie}{{\it i.e., }}
+\newcommand{\expct}{\mathbf E}
+\newcommand{\bp}{{\bf p }}
+\newcommand{\bV}{{\bf V }}
+\newcommand{\bff}{{\bf f }}
+\newcommand{\bpt}{{\bf \hat{p} }}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\BlackBox}{\rule{1.5ex}{1.5ex}}  % end of proof
+\renewenvironment{proof}{\par\noindent{\bf Proof\ }}{\hfill\BlackBox\\[2mm]}
+
+%\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+
+% The \icmltitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+\icmltitlerunning{Ranking Venture Capital Firms}
+
+\begin{document} 
+
+\twocolumn[
+\icmltitle{VCRank: A Data-driven Ranking of Venture Capital Firms}
+
+% It is OKAY to include author information, even for blind
+% submissions: the style file will automatically remove it for you
+% unless you've provided the [accepted] option to the icml2014
+% package.
+\icmlauthor{Siddharth Reddy}{sid.reddy@cornellvc.com}
+\icmladdress{Cornell Venture Capital}
+
+% You may provide any keywords that you 
+% find helpful for describing your paper; these are used to populate 
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{venture capital, pagerank}
+
+\vskip 0.3in
+]
+
+\begin{abstract}
+...
+\end{abstract}
+
+\vspace{-0.3in}
+
+
+\section{Motivation}
+Our motivation for this project is three-fold:
+\begin{itemize}
+\item{Produce a marketing tool that will put CVC ``on the map''}
+\item{Provide useful recommendations and comparisons to New Atlantic Ventures}
+\item{Generate novel visualizations of venture capital investment activity}
+\end{itemize}
+
+
+\section{Problem Setup}
+
+{\bf Data:} As part of this project we plan to use several sources of venture capital investment data: Crunchbase, AngelList, Mattermark, Seed DB, Midas, NVCA, and Find The Best.
+
+{\bf Objects:} Venture capital firms (composed of individual investors), start-up companies
+
+
+{\bf Observed Links:} Investment rounds, exits (including acquisitions)
+
+\section{Problem Statement}
+We aim to rank venture capital firms by the following general criteria:
+\begin{itemize}
+\item{Ability to pick successful start-up companies to invest in}
+\item{Ability to help portfolio companies grow}
+\item{Ability to attract other VC firms as co-investors}
+\item{Ability to attract and retain successful individual investors}
+\end{itemize}
+
+\section{General Approach}
+We plan on using several approaches to rank VCs:
+
+{\bf Investor Rank:} Here, we model co-investments as a random walk on a graph with VC firms as vertices. We draw edges between VCs when they invest in the same start-up company. Edge probability is measured as $e_{ij} = \frac{\text{\# times VC i co-invests with VC j}}{\text{\# times VC co-invests with other VCs}}$. The stationary probability given by the Pagerank algorithm gives us our ranking. This approach was inspired by a TechCrunch article describing a similar method \footnote{http://techcrunch.com/2011/05/25/top-10-vc-firms-investorrank/}. We take our inputs from the Crunchbase data set.
+
+{\bf EarlyBird Rank:} Here, we compare VC firms' ability to pick successful start-up companies by comparing \emph{when} any two firms invest in a company. Presumably, the VC firm that invests earlier than another firm (in the same start-up company) is better able to predict companies' ability to raise funds (which we use as a proxy for ``success''). We take our inputs from the Crunchbase data set.
+
+{\bf Growth Rank:} Here, we measure how well a VC firm helps start-up companies grow by calculating the following metric for all (VC, Startup) pairs: $M1 = \frac{\text{Total Funding Raised}}{\text{Initial Investment Amount}}$. We take our inputs from the Crunchbase data set.
+
+{\bf People Rank:} Here, we measure how well VC firms are able to attract and retain successful individual investors. First, we calculate the following metric for all individual investors: $$. Then, we calculate the following metric for all VC firms: $$. We take our inputs from the AngelList data set.
+
+We plan on generating the following visualizations:
+
+\begin{itemize}
+\item{Clustering of individual investors by \verb+Markets Seeking+ and \verb+Locations Seeking+ in the AngelList data set}
+\item{Heat map of VC activity (i.e. funds raised by start-up companies from VC firms) by geographic region and industry over time}
+\end{itemize}
+
+
+\end{document} 
+
+
+
