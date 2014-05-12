@@ -3,6 +3,7 @@ library("e1071")
 library("glmnet")
 library("pROC")
 library("reshape2")
+library("rpart")
 
 #load data
 dat = read.csv("crunchbase_munged_t1.csv", head=T)
@@ -44,18 +45,57 @@ val_labels = dat[val_rows, label_cols]
 test_labels = dat[test_rows, label_cols]
 
 #3) Run logistic regression
-#
 cb = cbind(train_set, as.numeric(train_labels))
 colnames(cb) = c(colnames(train_set), colnames(dat)[label_cols])
 frm = as.formula(paste(paste(colnames(cb)[ncol(cb)], " ~ ", sep=""), paste(colnames(cb)[1:(ncol(cb)-1)], collapse= "+")))
 
 fit = glm(frm, data = data.frame(cb), family = "binomial")
 pred = predict(fit, data.frame(test_set))
-pred = plogis(pred)
-
-table(pred, test_labels)
+pred = 1 / (1 + exp(-1 * pred))#plogis(pred)
 
 #4) Tune threshold to produce ROC curve
+roc = matrix(0,nrow=1000,ncol=4)
+for (t in 1:1000) {
+  th = 0.001 * t
+  thresh = matrix(th, nrow=length(test_labels), ncol=1)
+  p = (pred > thresh) + 0
+  tab = table(p, test_labels)
+  acc = sum(p == test_labels) / length(test_labels)
+  if (nrow(tab) < 2) next
+  tpr = tab[2,2] / sum(tab[,2])
+  fpr = tab[2,1] / sum(tab[2,])
+  roc[t,1] = tpr
+  roc[t,2] = fpr
+  roc[t,3] = acc
+  roc[t,4] = th
+}
+colnames(roc) = c("TPR", "FPR", "Accuracy", "Threshold")
+rat = na.omit(data.frame(roc, roc[,1] / roc[,2]))
+colnames(rat) = c(colnames(roc), "TPR/FPR")
+
+#4.25) Regression tree for implicit feature selection
+# grow tree 
+cb = cbind(train_set, as.factor(train_labels))
+colnames(cb) = c(colnames(train_set), colnames(dat)[label_cols])
+frm = as.formula(paste(paste(colnames(cb)[ncol(cb)], " ~ ", sep=""), paste(colnames(cb)[1:(ncol(cb)-1)], collapse= "+")))
+fit <- rpart(frm, data=data.frame(cb))
+
+printcp(fit) # display the results 
+plotcp(fit) # visualize cross-validation results 
+summary(fit) # detailed summary of splits
+
+# plot tree 
+plot(fit, uniform=TRUE, 
+     main="Classification Tree for Training Set")
+text(fit, use.n=TRUE, all=TRUE, cex=.8)
+
+#4.5) Neural net for modeling nonlinearities
+cb = cbind(train_set, as.factor(train_labels))
+colnames(cb) = c(colnames(train_set), colnames(dat)[label_cols])
+frm = as.formula(paste(paste(colnames(cb)[ncol(cb)], " ~ ", sep=""), paste(colnames(cb)[1:(ncol(cb)-1)], collapse= "+")))
+fit = nnet(frm, data = data.frame(cb), size = 2, rang = 0.1, decay = 5e-4, maxit = 200)
+pred = predict( object = fit, newdata = test_set)
+
 roc = matrix(0,nrow=1000,ncol=4)
 for (t in 1:1000) {
   th = 0.001 * t
