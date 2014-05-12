@@ -1,0 +1,589 @@
+"SV Angel","0.0253894720213",Early-stage
+"First Round Capital","0.013710976329",Mid-stage
+"Kleiner Perkins Caufield & Byers","0.0129389409957",Mid-stage
+"Accel Partners","0.0127606615083",Mid-stage
+"New Enterprise Associates","0.0126521265955",Mid-stage
+"Andreessen Horowitz","0.0125458908363",Mid-stage
+"Intel Capital","0.0114767813903",Mid-stage
+"Greylock Partners","0.011062799626",Mid-stage
+"Google Ventures","0.0107043951092",Early-stage
+"Lerer Ventures","0.010134763376",Early-stage
+"Draper Fisher Jurvetson (DFJ)","0.00983271968459",Mid-stage
+"Founder Collective","0.0093364261625",Early-stage
+"Sequoia Capital","0.00928188069271",Mid-stage
+"Index Ventures","0.00925947600669",Mid-stage
+"Felicis Ventures","0.00863026813553",Early-stage
+"CrunchFund","0.00803552941888",Early-stage
+"General Catalyst Partners","0.00775538232057",Mid-stage
+"Bessemer Venture Partners","0.00771061124672",Mid-stage
+"Khosla Ventures","0.00750287011116",Mid-stage
+"DAG Ventures","0.0073327949858",Mid-stage
+"Benchmark","0.00674307213668",Mid-stage
+"BoxGroup","0.00671858211843",Early-stage
+"Charles River Ventures","0.00670213016026",Mid-stage
+"SoftTech VC","0.0066561620243",Early-stage
+"Founders Fund","0.00663939672293",Mid-stage
+"Battery Ventures","0.00651588544272",Mid-stage
+"Lightspeed Venture Partners","0.0062173764279",Mid-stage
+"Redpoint Ventures","0.00602975681542",Mid-stage
+"RRE Ventures","0.00602199213502",Mid-stage
+"Menlo Ventures","0.00598087675386",Mid-stage
+"Highland Capital Partners","0.0058937527459",Mid-stage
+"Atlas Venture","0.00560567585774",Mid-stage
+"True Ventures","0.00559731916252",Mid-stage
+"betaworks","0.00559280216729",Early-stage
+"Greycroft Partners","0.00556766092038",Mid-stage
+"Silicon Valley Bank","0.00549403049788",Mid-stage
+"FLOODGATE","0.00525480608061",Early-stage
+"InterWest Partners","0.00523163882957",Mid-stage
+"Venrock","0.00488195284497",Mid-stage
+"Crosslink Capital","0.00476631987037",Mid-stage
+"Polaris Partners","0.0046233743385",Mid-stage
+"Norwest Venture Partners","0.0045834892896",Mid-stage
+"Canaan Partners","0.00456823697436",Mid-stage
+"Goldman Sachs","0.00451530628955",Mid-stage
+"Shasta Ventures","0.00450641476769",Mid-stage
+"US Venture Partners","0.00440943663943",Mid-stage
+"Foundation Capital","0.00440190672498",Mid-stage
+"Spark Capital","0.00431967138531",Mid-stage
+"SoftBank Capital","0.00429301268052",Mid-stage
+"Mayfield Fund","0.00419512891268",Mid-stage
+"Trinity Ventures","0.004171152834",Mid-stage
+"Union Square Ventures","0.0041499742861",Mid-stage
+"Data Collective","0.00413740759479",Early-stage
+"Ignition Partners","0.00398943890086",Mid-stage
+"Baseline Ventures","0.00390776219972",Early-stage
+"Institutional Venture Partners","0.00380095124331",Mid-stage
+"Matrix Partners","0.00368302837986",Mid-stage
+"Sigma Partners","0.00365330537741",Mid-stage
+"Qualcomm Ventures","0.0036523595869",Mid-stage
+"Flybridge Capital Partners","0.00351941322014",Mid-stage
+"Start Fund","0.00351516187561",Early-stage
+"Thrive Capital","0.00351024722012",Early-stage
+"Mohr Davidow Ventures","0.00342033483612",Mid-stage
+"Western Technology Investment","0.00332496174811",Mid-stage
+"Comcast Ventures","0.0032821766399",Mid-stage
+"Jafco Ventures","0.00317828231451",Mid-stage
+"Webb Investment Network","0.00314981211775",Early-stage
+"DCM","0.00314159190797",Mid-stage
+"SAP Ventures","0.00312726849481",Mid-stage
+"Foundry Group","0.00311818354666",Mid-stage
+"Lowercase Capital","0.00308917310012",Early-stage
+"Balderton Capital","0.00307689400436",Mid-stage
+"IA Ventures","0.00305005123829",Early-stage
+"Tenaya Capital","0.0030405551389",Mid-stage
+"Morgenthaler Ventures","0.00303913842744",Mid-stage
+"Insight Venture Partners","0.00303550809521",Mid-stage
+"August Capital","0.00302705957729",Mid-stage
+"BDC Venture Capital","0.00296829346704",Mid-stage
+"OrbiMed Advisors","0.00287365334905",Mid-stage
+"Social Starts","0.00285641236773",Early-stage
+"Samsung Ventures","0.00282594102157",Mid-stage
+"iNovia Capital","0.00279876808045",Mid-stage
+"Emergence Capital Partners","0.00278398331469",Mid-stage
+"Meritech Capital Partners","0.00275761503926",Mid-stage
+"Scale Venture Partners","0.00274669990247",Mid-stage
+"North Bridge Venture Partners","0.00272764302366",Mid-stage
+"Freestyle Capital","0.00271643286786",Early-stage
+"Enterprise Ireland","0.00271079402571",Early-stage
+"Red Swan","0.00268897004804",Early-stage
+"Kapor Capital","0.00268499461888",Early-stage
+"Cisco","0.00267799604361",Mid-stage
+"Northgate Capital","0.00266602607691",Mid-stage
+"Domain Associates","0.00266147638247",Mid-stage
+"Sutter Hill Ventures","0.00263358574471",Mid-stage
+"DFJ Growth","0.00260919889266",Mid-stage
+"Amadeus Capital Partners","0.00259936429457",Mid-stage
+"ff Venture Capital","0.00256253409288",Early-stage
+"Globespan Capital Partners","0.00252636407572",Mid-stage
+"Siemer Ventures","0.00251616452895",Early-stage
+"Metamorphic Ventures","0.0025044178401",Early-stage
+"LaunchCapital","0.00250370899937",Early-stage
+"GGV Capital","0.00249794172884",Mid-stage
+"New Leaf Venture Partners","0.00246714998159",Mid-stage
+"Relay Ventures","0.00244957671852",Mid-stage
+"Oak Investment Partners","0.0024347986546",Mid-stage
+"Versant Ventures","0.00241080772741",Mid-stage
+"e.ventures","0.00239819362264",Mid-stage
+"Bay Partners","0.00235708904339",Mid-stage
+"DFJ Esprit","0.00235265325786",Mid-stage
+"Harrison Metal Capital","0.00234355705842",Early-stage
+"Adams Street Partners","0.0023391120758",Mid-stage
+"ARCH Venture Partners","0.00232991557173",Mid-stage
+"Investor Growth Capital","0.002324621166",Mid-stage
+"In-Q-Tel","0.00232380198952",Mid-stage
+"AOL Ventures","0.00231344893869",Early-stage
+"VantagePoint Capital Partners","0.00229958529314",Mid-stage
+"Quotidian Ventures","0.00228298405659",Early-stage
+"Rho Capital Partners","0.00227943372852",Mid-stage
+"Lightbank","0.00227774308847",Early-stage
+"Bain Capital Ventures","0.00223990899438",Mid-stage
+"Correlation Ventures","0.00223179237006",Early-stage
+"Advanced Technology Ventures","0.00222217246206",Mid-stage
+"Blumberg Capital","0.00219313743848",Early-stage
+"Wellington Partners","0.00216729977003",Mid-stage
+"Upfront Ventures","0.00213656517632",Mid-stage
+"IDG Ventures","0.00211900219742",Mid-stage
+"FirstMark Capital","0.00211148474798",Mid-stage
+"O'Reilly AlphaTech Ventures","0.00210810124396",Early-stage
+"Sofinnova Ventures","0.0020973438649",Mid-stage
+"Kima Ventures","0.00209531871182",Early-stage
+"Promus Ventures","0.00208756691592",Early-stage
+"Alta Partners","0.0020639178497",Mid-stage
+"Triangle Peak Partners","0.00204984326566",Mid-stage
+"Atomico","0.00204738406657",Early-stage
+"Granite Ventures","0.0020431720173",Mid-stage
+"Flagship Ventures","0.00203866754441",Mid-stage
+"QED Investors","0.0020133782919",Mid-stage
+"Focus Ventures","0.00201128267787",Mid-stage
+"Social Leverage","0.00200672879985",Early-stage
+"Madrona Venture Group","0.00197161579178",Mid-stage
+"Frazier Healthcare Ventures","0.00196977795988",Mid-stage
+"Transmedia Capital","0.00196309321869",Early-stage
+"Quest Venture Partners","0.00196102699233",Early-stage
+"Avalon Ventures","0.0019569598362",Mid-stage
+"Collaborative Fund","0.00193567987704",Early-stage
+"Anthem Venture Partners","0.00192461479739",Mid-stage
+"Alloy Ventures","0.00192418583054",Mid-stage
+"Great Oaks Venture Capital","0.00192030919053",Early-stage
+"Presidio Ventures","0.00191889239286",Mid-stage
+"Accelerator Ventures","0.00191792030677",Early-stage
+"Maveron","0.00187692086408",Mid-stage
+"MPM Capital","0.00187506228467",Mid-stage
+"Fidelity Ventures","0.00187235616323",Mid-stage
+"Hummer Winblad Venture Partners","0.00186918378538",Mid-stage
+"Peppermint Venture Partners","0.00186758801008",Early-stage
+"Crescent Capital","0.00186758801008",Mid-stage
+"Clarendon Fund Managers","0.00186758801008",Mid-stage
+"Enjoyventure Management","0.00186758801008",Mid-stage
+"Johnson & Johnson Development Corporation","0.0018419539327",Mid-stage
+"Pitango Venture Capital","0.00182728239842",Mid-stage
+"Tiger Global Management","0.0018212892831",Mid-stage
+"BOLDstart Ventures","0.00182056834415",Early-stage
+"Austin Ventures","0.00182027106961",Mid-stage
+"Bullpen Capital","0.00178521247429",Early-stage
+"Sierra Ventures","0.00178325596369",Mid-stage
+"Trident Capital","0.00177812861498",Mid-stage
+"Neu Venture Capital","0.00177776972885",Early-stage
+"Delphi Ventures","0.00177776734426",Mid-stage
+"Vulcan Capital","0.00177711196334",Mid-stage
+"TomorrowVentures","0.00176325504432",Mid-stage
+"Ludlow Ventures","0.00171262978438",Early-stage
+"Harris & Harris Group","0.00170121611979",Mid-stage
+"T-Venture","0.00168549524219",Mid-stage
+"NextView Ventures","0.00168334672453",Early-stage
+"Double M Partners","0.00168207052928",Early-stage
+"Gimv","0.00167614748067",Mid-stage
+"Founder's Co-op","0.00167554845336",Early-stage
+"Carmel Ventures","0.00167208778343",Mid-stage
+"Rothenberg Ventures","0.00166935151584",Early-stage
+"FundersClub","0.00165438230736",Early-stage
+"SV Life Sciences","0.00164868680701",Mid-stage
+"Lux Capital","0.00164599802768",Mid-stage
+"Baroda Ventures","0.0016396342709",Early-stage
+"Rustic Canyon Partners","0.00163883684491",Mid-stage
+"Village Ventures","0.00163366614734",Mid-stage
+"Valhalla Partners","0.00161596660059",Mid-stage
+"Earlybird Venture Capital","0.00159769876588",Mid-stage
+"Octopus","0.00159156462463",Mid-stage
+"Panorama Capital","0.00159122216827",Mid-stage
+"Glynn Capital Management","0.00157963587621",Mid-stage
+"Ventech","0.00156626220268",Mid-stage
+"TVM Capital","0.00153672078171",Mid-stage
+"BlueRun Ventures","0.00153602760248",Mid-stage
+"Osage University Partners","0.00151325055941",Mid-stage
+"GSV Capital","0.00151206162884",Mid-stage
+"ONSET Ventures","0.00149668746293",Mid-stage
+"OMERS Ventures","0.00148882772322",Mid-stage
+"Forerunner Ventures","0.00148408693907",Early-stage
+"A-Grade Investments","0.00147781799739",Early-stage
+"Nexus Venture Partners","0.00147743287123",Mid-stage
+"Columbia Capital","0.0014767305007",Mid-stage
+"Advent Venture Partners","0.00147642584151",Mid-stage
+"Learn Capital","0.00147190701095",Early-stage
+"Rincon Venture Partners","0.0014711488265",Early-stage
+"GrowthWorks Capital","0.00146435503735",Mid-stage
+"High Peaks Venture Partners","0.00143305342871",Early-stage
+"High Line Venture Partners","0.00143235081193",Early-stage
+"Brandon Capital Partners","0.00143173778069",Mid-stage
+"DFJ Gotham Ventures","0.00143148838989",Mid-stage
+"Crosscut Ventures","0.00142799077163",Early-stage
+"Northzone","0.0014245406754",Mid-stage
+"Opus Capital","0.00142340063276",Mid-stage
+"Point Nine Capital","0.00140001504189",Early-stage
+"Partech Ventures","0.00139873603178",Mid-stage
+"Split Rock Partners","0.00139489554329",Mid-stage
+"Azure Capital Partners","0.00138795965936",Mid-stage
+"MMC Ventures","0.00137376289672",Mid-stage
+"3i Group","0.00136378210263",Mid-stage
+"Storm Ventures","0.00135790679529",Mid-stage
+"Midven","0.00135611597213",Mid-stage
+"Oxford Capital Partners","0.00135033421792",Mid-stage
+"New Atlantic Ventures","0.00134912154768",Mid-stage
+"Abingworth","0.00134882665167",Mid-stage
+"Javelin Venture Partners","0.00134796354139",Early-stage
+"Omidyar Network","0.0013473645388",Mid-stage
+"IDInvest Partners","0.00134619033438",Mid-stage
+"Sunstone Capital","0.0013310681544",Early-stage
+"Target Partners","0.00132767366396",Mid-stage
+"Technology Crossover Ventures","0.00132567626539",Mid-stage
+"Albion Ventures","0.00132557851235",Mid-stage
+"Vertex Venture Capital","0.00131652599214",Mid-stage
+"Signia Venture Partners","0.00130708981043",Early-stage
+"MESA+","0.00130601254709",Early-stage
+"Rembrandt Venture Partners","0.00130235856444",Mid-stage
+"Resolute.vc","0.00129048903442",Early-stage
+"Applied Ventures","0.00128719623351",Mid-stage
+"Longworth Venture Partners","0.00128548822935",Mid-stage
+"Real Ventures","0.00128545523069",Early-stage
+"DN Capital","0.00128364151532",Mid-stage
+"MHS Capital","0.0012713859797",Early-stage
+"Scottish Equity Partners","0.00126014082132",Mid-stage
+"ACT Venture Capital","0.00125130190819",Mid-stage
+"Eden Ventures","0.00124635179204",Mid-stage
+"Connecticut Innovations","0.0012431739165",Early-stage
+"Spark Ventures","0.00124185583799",Mid-stage
+"Third Rock Ventures","0.00123960705244",Mid-stage
+"IP Group Plc","0.00122958868128",Mid-stage
+"ATA Ventures","0.00122762696278",Mid-stage
+"Notion Capital","0.00122141791326",Early-stage
+"Sevin Rosen Funds","0.00122102797153",Mid-stage
+"The Westly Group","0.00121610874988",Mid-stage
+"AME Cloud Ventures","0.00121362408447",Early-stage
+"Mangrove Capital Partners","0.00121131776705",Mid-stage
+"Mercury Fund","0.00120730736637",Mid-stage
+"Nokia Growth Partners","0.00120108106463",Mid-stage
+"Kernel Capital Partners","0.00119650304243",Mid-stage
+"EnerTech Capital","0.00118809137493",Mid-stage
+"Summit Partners","0.00117165809405",Mid-stage
+"OVP Venture Partners","0.0011695035266",Mid-stage
+"ACE & Company","0.00116926331294",Early-stage
+"RockPort Capital Partners","0.00116537712727",Mid-stage
+"Cowboy Ventures","0.00116343417471",Early-stage
+"Siemens Venture Capital","0.00115672125896",Mid-stage
+"Robert Bosch Venture Capital","0.00115378116075",Mid-stage
+"Tribeca Venture Partners","0.00115319665664",Mid-stage
+"Miramar Venture Partners","0.00115201808583",Mid-stage
+"Atlantic Bridge","0.00115180689577",Mid-stage
+"Amicus Capital","0.00115117899802",Early-stage
+"Gemini Israel Ventures","0.00114238772175",Mid-stage
+"Alsop Louie Partners","0.00113886672371",Early-stage
+"El Dorado Ventures","0.00113707903353",Mid-stage
+"VegasTechFund","0.00112258179885",Early-stage
+"Clearstone Venture Partners","0.00111911905172",Mid-stage
+"OCA Ventures","0.00111857667278",Early-stage
+"Southern Cross Venture Partners","0.00111761743882",Mid-stage
+"Steamboat Ventures","0.00110661641837",Mid-stage
+"K9 Ventures","0.00108204469502",Early-stage
+"Parkwalk Advisors Ltd","0.00107141656908",Mid-stage
+"NewSchools Venture Fund","0.00107067514613",Early-stage
+"Innovacom","0.00106340379691",Mid-stage
+"Jerusalem Venture Partners","0.00105806101251",Mid-stage
+"White Star Capital","0.00105755641374",Early-stage
+"Voyager Capital","0.00105214831555",Mid-stage
+"Northstar Ventures","0.00105147156697",Early-stage
+"DFJ Frontier","0.00104269619983",Early-stage
+"Aisling Capital","0.0010424650469",Mid-stage
+"Helion Venture Partners","0.00102979505744",Mid-stage
+"Kreos Capital","0.00101038010844",Mid-stage
+"Genesis Partners","0.00100504474572",Mid-stage
+"StarVest Partners","0.00100153376626",Mid-stage
+"RTP Ventures","0.00099583008498",Mid-stage
+"Altos Ventures","0.000992007000185",Mid-stage
+"The North West Fund","0.000989999848657",Mid-stage
+"Ventures West","0.000989421900238",Mid-stage
+"Dawn Capital","0.000981518595878",Mid-stage
+"Fairhaven Capital Partners","0.000979513318339",Mid-stage
+"Mission Ventures","0.000975386489432",Mid-stage
+"Juniper Networks","0.000973557902054",Mid-stage
+"OpenView Venture Partners","0.000969396909912",Mid-stage
+"Golden Venture Partners","0.000965108928846",Early-stage
+"Star Ventures","0.000964748418079",Mid-stage
+"Novak Biddle Venture Partners","0.000959867294417",Mid-stage
+"Slow Ventures","0.00095959093459",Early-stage
+"GrandBanks Capital","0.000957537096015",Mid-stage
+"Silver Lake Partners","0.000951755964183",Mid-stage
+"Updata Partners","0.000946536955749",Mid-stage
+"Vast Ventures","0.000944317743389",Early-stage
+"Creandum","0.000938030651888",Early-stage
+"Lakestar","0.000933475670515",Mid-stage
+"Uniseed Pty","0.000932392581754",Mid-stage
+"Apax Partners","0.000930518469269",Mid-stage
+"Frog Capital","0.000927665084595",Mid-stage
+"Evergreen Venture Partners","0.000925909897318",Mid-stage
+"Palomar Ventures","0.000925179811451",Mid-stage
+"HLM Venture Partners","0.000924529516676",Mid-stage
+"Reed Elsevier Ventures","0.000920821573294",Mid-stage
+"Karlin Ventures","0.000920123251662",Early-stage
+"Verizon Ventures","0.000919036799738",Mid-stage
+"Cipio Partners","0.000917685924331",Mid-stage
+"DBL Investors","0.000911137577495",Mid-stage
+"JMI Equity","0.000908989078697",Mid-stage
+"MIG AG","0.000896657195766",Mid-stage
+"PivotNorth Capital","0.000891520865386",Early-stage
+"kbs+ Ventures","0.000888927066993",Early-stage
+"Celtic House Venture Partners","0.000888763090199",Mid-stage
+"Terra Rossa Capital","0.000888627878656",Mid-stage
+"Asset Management Ventures","0.000885564124897",Mid-stage
+"Costanoa Venture Capital","0.000882843800808",Early-stage
+"Science","0.000882733659796",Early-stage
+"Band of Angels","0.000877321412639",Early-stage
+"ARTIS Ventures","0.000866095278758",Mid-stage
+"Adara Venture Partners","0.000863075903659",Mid-stage
+"Ecosystem Ventures","0.000855792178092",Early-stage
+"Bowery Capital","0.000854282255691",Early-stage
+"Playfair Capital","0.000850544773319",Early-stage
+"General Atlantic","0.000846158178898",Mid-stage
+"MVM Life Science Partners","0.000843502188073",Mid-stage
+"Origin Ventures","0.000842385640944",Early-stage
+"Formation 8","0.000823703659973",Early-stage
+"Millennium Technology Value Partners","0.000811360573526",Mid-stage
+"Walden Venture Capital","0.000810654579055",Mid-stage
+"Bee Partners","0.000809781283556",Early-stage
+"Amplify Partners","0.000804359466146",Early-stage
+"Artiman Ventures","0.000803249164522",Mid-stage
+"Active Venture Partners","0.000799405715365",Mid-stage
+"Catapult Venture Managers","0.000797257918323",Mid-stage
+"Cultivian Ventures","0.000788363383972",Mid-stage
+"Four Rivers Group","0.000777706824006",Mid-stage
+"Kodiak Venture Partners","0.000777522917864",Mid-stage
+"Ascension Ventures","0.000774047650909",Mid-stage
+"Yaletown Venture Partners","0.000770824736633",Early-stage
+"Creathor Venture Management","0.000767577339695",Mid-stage
+"Scout Ventures","0.000762851987404",Early-stage
+"Valar Ventures","0.000754054742948",Early-stage
+"SeventySix Captial","0.000752395959651",Late-stage
+"Illuminate Ventures","0.000752264787859",Mid-stage
+"Trestle Ventures","0.000751087006843",Early-stage
+"MK Capital","0.000747475492328",Mid-stage
+"KEC Ventures","0.000746416098936",Early-stage
+"Ribbit Capital","0.000736266715915",Mid-stage
+"Passion Capital","0.000734560120457",Early-stage
+"Easton Capital","0.000730654708729",Mid-stage
+"TA Associates","0.000727797448304",Mid-stage
+"Enterprise Equity Limited","0.00072708909502",Mid-stage
+"Hyde Park Venture Partners","0.000723116363031",Early-stage
+"Seven Spires Investment","0.000706738182494",Early-stage
+"Deutsche Telekom","0.000705470695531",Mid-stage
+"Fountain Healthcare Partners","0.00070449231798",Mid-stage
+"Wellington Financial","0.00070376516079",Mid-stage
+"Version One Ventures","0.000701032251884",Early-stage
+"Acton Capital Partners","0.000698151579008",Mid-stage
+"Inventus Capital Partners","0.000696986526578",Early-stage
+"Summerhill Venture Partners","0.000696735542873",Mid-stage
+"Finance Wales","0.00068595222325",Mid-stage
+"Capricorn Investment Group","0.000685751855219",Mid-stage
+"Cue Ball","0.000683260343298",Mid-stage
+"HV Holtzbrinck Ventures","0.00068306875254",Mid-stage
+"Subtraction Capital","0.000676923416903",Early-stage
+"Pangaea Ventures","0.000672820427412",Mid-stage
+"Birchmere Ventures","0.000672058848542",Mid-stage
+"Imlay Investments","0.000665765326579",Mid-stage
+"Idealab","0.000662403225302",Mid-stage
+"Alfred Wieder AG","0.000661217510161",Mid-stage
+"Highway 12 Ventures","0.000658636596873",Mid-stage
+"NewSpring Capital","0.000654717313682",Mid-stage
+"New Markets Venture Partners","0.000652218316069",Mid-stage
+"Brooklyn Bridge Ventures","0.000650683773934",Early-stage
+"Osage Venture Partners","0.000649335426026",Mid-stage
+"IQ Capital Partners","0.000649285888671",Mid-stage
+"Kepha Partners","0.00064430684514",Early-stage
+"Initialized Capital","0.000636780930727",Early-stage
+"TenOneTen Ventures","0.000633698022823",Early-stage
+"Synergis Technologies","0.000630578997717",Mid-stage
+"Ysios Capital","0.00062883270721",Mid-stage
+"KPCB Holdings","0.000627544786416",Mid-stage
+"Solon Ventures","0.000623628672976",Mid-stage
+"Frazier Technology Ventures","0.000620240611791",Mid-stage
+"Covera Ventures","0.000616648500503",Mid-stage
+"Spectrum Equity","0.000609983421771",Mid-stage
+"Rocket Internet","0.000606944183671",Mid-stage
+"TechOperators","0.000598776058359",Early-stage
+"Raptor Ventures","0.000596359820446",Early-stage
+"NBGI Ventures","0.000593777749039",Mid-stage
+"SJF Ventures","0.000592597491826",Mid-stage
+"Dace Ventures","0.000591511620735",Mid-stage
+"Edison Ventures","0.000591035807376",Mid-stage
+"Rogers Ventures","0.00058849142088",Mid-stage
+"Starfish Ventures","0.000585513012466",Mid-stage
+"Alven Capital","0.000584270696427",Mid-stage
+"Vanedge Capital","0.000582410892359",Early-stage
+"Georgian Partners","0.000582113715507",Mid-stage
+"Sigma West","0.000575274937718",Mid-stage
+"Fenox Venture Capital","0.000570368145313",Early-stage
+"Inventages Venture Capital Investment Inc.","0.000567163818537",Mid-stage
+"EMBL Ventures","0.000567163818537",Mid-stage
+"Fung Capital USA","0.000563830468994",Mid-stage
+"Advantage Capital Partners","0.000558951565703",Mid-stage
+"TLcom Capital Partners","0.00055409032662",Mid-stage
+"Apposite Capital","0.000540451993534",Mid-stage
+"Clean Energy Venture Group","0.000540233421299",Early-stage
+"Innovation Capital","0.00052234361063",Mid-stage
+"Plus Capital","0.000517881827798",Early-stage
+"Romulus Capital","0.00050785954569",Early-stage
+"Canyon Creek Capital","0.000507065230761",Early-stage
+"Seaya Ventures","0.000506636487476",Mid-stage
+"Okapi Venture Capital","0.000497522036028",Mid-stage
+"Crosspoint Venture Partners","0.000495502471779",Mid-stage
+"ARC Financial","0.00049294618667",Mid-stage
+"Data Point Capital","0.000491391240375",Early-stage
+"Bloomberg Beta","0.000486401322759",Early-stage
+"Coatue Management","0.000479893690635",Mid-stage
+"CM Capital Investments","0.000476935118363",Mid-stage
+"Ted Meisel","0.000475258186304",Early-stage
+"Arts Alliance Ventures","0.00047421533474",Mid-stage
+"Zouk Capital","0.000473417208051",Mid-stage
+"Fidelity Growth Partners Europe","0.000472240457086",Mid-stage
+"Prism VentureWorks","0.000471140696705",Mid-stage
+"European Equity Partners","0.000467397031251",Mid-stage
+"Volition Capital","0.000465850009922",Early-stage
+"3M New Ventures","0.000461676005515",Mid-stage
+"Prolog Ventures","0.000461151914654",Mid-stage
+"Howzat Partners","0.000460331543298",Mid-stage
+"North Hill Ventures","0.000457592518625",Mid-stage
+"Innovacorp","0.000455611113453",Early-stage
+"CAA Ventures","0.000454450888527",Early-stage
+"Credo Ventures","0.000451207724221",Early-stage
+"OurCrowd","0.000450697841666",Early-stage
+"Golden Gate Ventures","0.000450593866675",Early-stage
+"Global Life Science Ventures","0.000450249810959",Mid-stage
+"b-to-v Partners AG","0.000445906064476",Early-stage
+"Global Founders Capital","0.000445429561948",Mid-stage
+"Clearpoint Ventures","0.00044445762378",Early-stage
+"Dumont Venture","0.000441610367527",Mid-stage
+"Virgin Green Fund","0.000441126966964",Mid-stage
+"Lumira Capital","0.000437939201427",Mid-stage
+"Middleland Capital","0.000437702033665",Early-stage
+"Klass Capital","0.00043517888939",Early-stage
+"Augmentum Capital","0.000434964208293",Mid-stage
+"Adobe Ventures","0.000434896853212",Mid-stage
+"Sigma Prime Ventures","0.000426750726269",Early-stage
+"California Technology Ventures","0.000426249194687",Mid-stage
+"Foresite Capital","0.000423099530169",Mid-stage
+"Brightspark Ventures","0.000421465912551",Early-stage
+"Chicago Growth Partners","0.000421347965294",Mid-stage
+"The Entrepreneurs' Fund III","0.000420587265978",Mid-stage
+"InnoCal Venture Capital","0.000417800915762",Mid-stage
+"Chart Venture Partners","0.000416083587518",Mid-stage
+"Trailblazer Capital","0.00041398336334",Early-stage
+"Acacia Capital Partners","0.000412901788515",Mid-stage
+"Strive Capital","0.000407000755623",Early-stage
+"Anthos Capital","0.000398361851089",Early-stage
+"Hudson Ventures","0.000396791571191",Mid-stage
+"Vista Equity Partners","0.000393510365626",Late-stage
+"XPV Capital","0.000392346828684",Mid-stage
+"Genesys Capital","0.000385547323607",Mid-stage
+"EchoVC Partners","0.000383557029708",Early-stage
+"Vicente Capital Partners","0.000383523528022",Mid-stage
+"Capnamic Ventures","0.000382731166443",Mid-stage
+"Conduit Ventures","0.000382731166443",Mid-stage
+"Bayview Capital","0.000381323344634",Early-stage
+"MissionOG","0.000379473138744",Early-stage
+"Rough Draft Ventures","0.000379445024197",Early-stage
+"Azini Capital Partners","0.000379069031391",Mid-stage
+"Tate & Lyle Ventures","0.000375868040932",Mid-stage
+"Finaves S.C.R.","0.000369961160635",Mid-stage
+"DoubleRock","0.000369448494774",Mid-stage
+"Fuel Capital","0.000368165012766",Early-stage
+"IDG Ventures USA","0.000367488171979",Mid-stage
+"Long Ridge Equity Partners","0.000363916201973",Late-stage
+"EVP Capital Management","0.000361693293816",Mid-stage
+"Drive Capital","0.000360473650101",Early-stage
+"Revolution Ventures","0.000359378591805",Mid-stage
+"Bioventures Investors","0.000358648542337",Mid-stage
+"Augment Investments","0.000355854621629",Mid-stage
+"Blackbird Ventures (Australia)","0.000354521975493",Early-stage
+"Staley Capital Advisors","0.000354310470705",Mid-stage
+"Coyote Ridge Ventures","0.000352747164726",Early-stage
+"Environmental Technologies Fund","0.00035223315127",Mid-stage
+"Columbia Partners Private Capital","0.000349042828422",Mid-stage
+"Blume Ventures","0.000344129761957",Early-stage
+"Amgen Ventures","0.000340651724791",Mid-stage
+"Cycle Capital","0.000336624794961",Mid-stage
+"Meridian Venture Partners","0.000335757588607",Early-stage
+"ESB Novusmodus","0.00033390220355",Mid-stage
+"Social Venture Fund","0.000330627325234",Mid-stage
+"Medicis Capital","0.000327685447061",Mid-stage
+"CFH","0.000325180017639",Mid-stage
+"SeedRocket","0.000321848588178",Early-stage
+"Arsenal Venture Partners","0.00031972048575",Early-stage
+"Connect Ventures","0.00031750298988",Early-stage
+"Wing VC","0.000317479814556",Mid-stage
+"Munich Venture Partners","0.000317086569324",Mid-stage
+"Covington Funds","0.000316295446149",Mid-stage
+"Priveq Investment","0.00031575171839",Mid-stage
+"Avlar BioVentures","0.000310875137491",Mid-stage
+"Wasabi Ventures","0.000310845458454",Early-stage
+"Dell Ventures","0.00031031592028",Mid-stage
+"Hamilton BioVentures","0.000309767657247",Mid-stage
+"EC1 Capital Ltd","0.000307100674766",Early-stage
+"Austral Capital","0.000305151237662",Mid-stage
+"PALgenesis","0.00030429578034",Early-stage
+"TechnoStart","0.00030301486695",Mid-stage
+"TTP Ventures","0.000302508269486",Mid-stage
+"Fir Capital","0.000300572949002",Early-stage
+"Sierra Maya Ventures","0.000298812634755",Early-stage
+"Red Sea Venture Partners","0.000298228396467",Early-stage
+"INTEC IT Capital","0.000280138201513",Early-stage
+"CentreStone Ventures","0.000280138201513",Mid-stage
+"Imperious Group","0.000280138201513",Early-stage
+"Quorum Group","0.000280138201513",Mid-stage
+"Burch Creative Capital","0.000280138201513",Early-stage
+"Aurelia Private Equity","0.000280138201513",Mid-stage
+"Linseed Capital","0.000280138201513",Early-stage
+"San Francisco Equity Partners","0.000280138201513",Mid-stage
+"Silas Capital","0.000280138201513",Late-stage
+"Serra Ventures","0.000280138201513",Early-stage
+"TowerBrook Capital Partners","0.000280138201513",Mid-stage
+"Rivers Capital Partners","0.000280138201513",Early-stage
+"Confrapar","0.000280138201513",Early-stage
+"Highgrowth Partners","0.000280138201513",Mid-stage
+"Mobility Ventures","0.000280138201513",Early-stage
+"Lyceum Capital","0.000280138201513",Mid-stage
+"NVM Private Equity","0.000280138201513",Mid-stage
+"T2 Venture Capital","0.000280138201513",Early-stage
+"New Brunswick Innovation Foundation","0.000280138201513",Early-stage
+"Sirius Venture Partners","0.000280138201513",Mid-stage
+"Leonardo Venture","0.000280138201513",Mid-stage
+"YJ Capital","0.000280138201513",Mid-stage
+"Advantage Creative Fund","0.000280138201513",Mid-stage
+"Adventure Capital","0.000280138201513",Early-stage
+"Extremadura Avante","0.000280138201513",Mid-stage
+"Bestport Ventures","0.000280138201513",Mid-stage
+"SODENA","0.000280138201513",Mid-stage
+"Actis","0.000280138201513",Mid-stage
+"Ariadne Capital","0.000280138201513",Early-stage
+"SocialStarts","0.000280138201513",Early-stage
+"Earthrise Capital Partners","0.000280138201513",Mid-stage
+"Cleantech Ventures","0.000280138201513",Early-stage
+"Epiphany Ventures","0.000280138201513",Mid-stage
+"Longbow Capital","0.000280138201513",Mid-stage
+"India Quotient","0.000280138201513",Early-stage
+"AXM Venture Capital Limited","0.000280138201513",Early-stage
+"Clave Mayor","0.000280138201513",Early-stage
+"Core VC","0.000280138201513",Mid-stage
+"GENIUS Venture Capital","0.000280138201513",Mid-stage
+"Speedinvest","0.000280138201513",Early-stage
+"Seed Capital de Bizkaia","0.000280138201513",Mid-stage
+"Talde venture capital","0.000280138201513",Mid-stage
+"Genwealth Venture Partners","0.000280138201513",Early-stage
+"Yuuwa Capital","0.000280138201513",Early-stage
+"Gamma Capital Partners","0.000280138201513",Mid-stage
+"NorthEdge Capital","0.000280138201513",Late-stage
+"Marlin Equity Partners","0.000280138201513",Late-stage
+"TriStar Technology Ventures","0.000280138201513",Mid-stage
+"ECI Partners","0.000280138201513",Mid-stage
+"Elevate Ventures","0.000280138201513",Early-stage
+"CVC Capital Partners","0.000280138201513",Mid-stage
+"Shackleton Ventures","0.000280138201513",Mid-stage
+"Nazca Capital","0.000280138201513",Early-stage
+"BEST Funds","0.000280138201513",Mid-stage
+"Mobeus Equity Partners","0.000280138201513",Mid-stage
+"Aleph","0.000280138201513",Mid-stage
+"Intelligent Venture Capital","0.000280138201513",Early-stage
+"Investor AB","0.000280138201513",Mid-stage
+"Oasis 500","0.000280138201513",Early-stage
+"Axon Partners Group","0.000280138201513",Mid-stage
+"Neo Technology Ventures","0.000280138201513",Mid-stage
+"NCT Ventures","0.000280138201513",Mid-stage
+"e.Bricks Digital","0.000280138201513",Early-stage

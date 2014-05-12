@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Co-investor Graph</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS -->
+    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      /*@media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }*/
+
+      .table {
+        font-size: 9px;
+      }
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      /*.container {
+        width: auto;
+        max-width: 680px;
+      }*/
+      .container .credit {
+        margin: 20px 0;
+      }
+
+      div.tooltip {   
+        position: absolute;           
+        text-align: left;           
+        width: 200px;                  
+        height: 28px;                 
+        padding: 2px;             
+        font: 12px sans-serif;        
+        /*background: lightsteelblue;   */
+        border: 0px;      
+        border-radius: 8px;           
+        pointer-events: none;         
+      }
+
+    </style>
+    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://getbootstrap.com/2.3.2/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://getbootstrap.com/2.3.2/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://getbootstrap.com/2.3.2/assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+
+    <!-- Part 1: Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          <h1>VCPredict</h1>
+        </div>
+        <p class="lead">Explore the network of venture capital firm co-investments in the Crunchbase data set. </p>
+        <p>VC firms are represented as nodes (colored by cluster), and edges are drawn between VC firms with weights proportional to the number of companies they have invested in together. Try various edge thresholds to view the graph at looser or stricter criteria for connectivity. Zoom in/out and move around with your mouse to get a better view of the graph. Searching for a specific VC firm will highlight its node in the graph</p>
+        <!--<p>Powered by <a href="http://d3js.org/">d3</a> and <a href="http://www.r-project.org/">R</a></p>-->
+        <p class="lead">Search for VC firm: <input type="text" class="span4" id="squery" value="New Atlantic Ventures" style="margin: 0 auto;" data-provide="typeahead">
+        <br>
+        <input type="text" class="form-control" value="0.1" style="width: 50%;" id="cor-thresh" placeholder="Enter edge threshold">
+        <button type="button" class="btn btn-primary btn-small" id="run-btn">Run</button>
+        <div id="graph"></div>
+        <div id="graph-tb"></div>
+        <div id="push"></div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">Akilesh Potti and Siddharth Reddy</p>
+      </div>
+    </div>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://getbootstrap.com/2.3.2/assets/js/jquery.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-transition.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-alert.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-modal.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-dropdown.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-tab.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-tooltip.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-popover.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-button.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-collapse.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-carousel.js"></script>
+    <script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-typeahead.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="graph.js"></script>
+    <script>
+      $("#run-btn").click( function() {
+        drawGraph();
+      });
+      //writeTable();
+      writeTypeAheads();
+      drawGraph();
+    </script>
+
+  </body>
+</html>
